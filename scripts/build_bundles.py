@@ -37,21 +37,30 @@ def build_bundle(target_dir: Path, include_tier1: bool, include_tier2: bool, tie
 
     # 1. Copy Tier 1 if included
     if include_tier1:
-        shutil.copytree(VAULT_DIR / "tier1", vault_target / "tier1")
-        print(f"  ✅ Copied tier1/ ({len(list((vault_target / 'tier1').rglob('*.md')))} files)")
+        if (VAULT_DIR / "tier1").exists():
+            shutil.copytree(VAULT_DIR / "tier1", vault_target / "tier1")
+            print(f"  ✅ Copied tier1/ ({len(list((vault_target / 'tier1').rglob('*.md')))} files)")
+        if (VAULT_DIR / "wiki").exists():
+            shutil.copytree(VAULT_DIR / "wiki", vault_target / "wiki")
+            print(f"  ✅ Copied wiki/ ({len(list((vault_target / 'wiki').rglob('*.md')))} files)")
+        if (VAULT_DIR / "raw").exists():
+            shutil.copytree(VAULT_DIR / "raw", vault_target / "raw")
+            print(f"  ✅ Copied raw/ ({len(list((vault_target / 'raw').rglob('*.md')))} files)")
     else:
-        print("  🔒 Excluded tier1/ (PHYSICALLY ABSENT)")
+        print("  🔒 Excluded tier1/, wiki/, and raw/ (PHYSICALLY ABSENT)")
 
     # 2. Copy Tier 2 if included
     if include_tier2:
-        shutil.copytree(VAULT_DIR / "tier2", vault_target / "tier2")
-        print(f"  ✅ Copied tier2/ ({len(list((vault_target / 'tier2').rglob('*.md')))} files)")
+        if (VAULT_DIR / "tier2").exists():
+            shutil.copytree(VAULT_DIR / "tier2", vault_target / "tier2")
+            print(f"  ✅ Copied tier2/ ({len(list((vault_target / 'tier2').rglob('*.md')))} files)")
     else:
         print("  🔒 Excluded tier2/ (PHYSICALLY ABSENT)")
 
     # 3. Always copy Tier 3
-    shutil.copytree(VAULT_DIR / "tier3", vault_target / "tier3")
-    print(f"  ✅ Copied tier3/ ({len(list((vault_target / 'tier3').rglob('*.md')))} files)")
+    if (VAULT_DIR / "tier3").exists():
+        shutil.copytree(VAULT_DIR / "tier3", vault_target / "tier3")
+        print(f"  ✅ Copied tier3/ ({len(list((vault_target / 'tier3').rglob('*.md')))} files)")
 
     # 4. Generate bundle-specific index.md
     index_lines = [f"# Formula 1 Knowledge Vault ({tier_label})\n"]

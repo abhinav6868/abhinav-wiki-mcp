@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
 """
 mcp_server.py — Formula 1 Tiered Knowledge Vault MCP Server
-Parameterized by DATA_ROOT environment variable.
-
-Exposes standard MCP Tools:
-- list_pages(directory: str = "")
-- read_page(path: str)
-- search(query: str, limit: int = 10)
-
-Supports both MCP JSON-RPC over SSE/HTTP (Claude Desktop, Cursor, MCP Clients)
-and REST inspection endpoints.
+Features:
+- FIX 1: Complete project isolation (strictly self-contained to local /vault directory)
+- FIX 2: Strict physical tier boundary enforcement (MCP1 > MCP2 > MCP3)
+- FIX 3: No placeholder values (all missing fields serialize as real null/None)
+- FIX 4: Remote Streamable HTTP/SSE transport with zero OAuth/Google account dependency
+- FIX 5: Robust JSON-RPC 2.0 error handling with structured payloads
 """
 
 import os
@@ -19,32 +16,41 @@ import re
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 import uvicorn
-from fastapi import FastAPI, Request, Response, HTTPException
+from fastapi import FastAPI, Request, Response, HTTPException, Header, Query
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse, PlainTextResponse, StreamingResponse
+from fastapi.responses import JSONResponse, PlainTextResponse
 from sse_starlette.sse import EventSourceResponse
 import asyncio
 
-# Resolve DATA_ROOT
-DATA_ROOT_ENV = os.getenv("DATA_ROOT", "")
-if DATA_ROOT_ENV:
-    DATA_ROOT = Path(DATA_ROOT_ENV).resolve()
-else:
-    # Default to local vault directory
-    DATA_ROOT = (Path(__file__).resolve().parent / "vault").resolve()
+# ═════════════════════════════════════════════════════════════════════
+# 📁 FIX 1 & 2: RESOLVE ISOLATED DATA_ROOT
+# ═════════════════════════════════════════════════════════════════════
 
-TIER_NAME = os.getenv("TIER_NAME", "Formula 1 Knowledge Vault Server")
+BASE_DIR = Path(__file__).resolve().parent
+DATA_ROOT = (BASE_DIR / "vault").resolve()
 
-print(f"🏎️  Starting MCP Server: {TIER_NAME}")
-print(f"📁 DATA_ROOT configured to: {DATA_ROOT}")
+# Fallback if running from root repo
 if not DATA_ROOT.exists():
-    print(f"⚠️ Warning: DATA_ROOT {DATA_ROOT} does not exist yet. Creating...")
+    DATA_ROOT_ALT = (BASE_DIR / "f1-wiki" / "vault").resolve()
+    if DATA_ROOT_ALT.exists():
+        DATA_ROOT = DATA_ROOT_ALT
+
+TIER_NAME = os.getenv("TIER_NAME", f"F1 Vault Server ({BASE_DIR.name})")
+API_KEY = os.getenv("API_KEY", "")  # Optional server-issued API Key
+
+print("=" * 70)
+print(f"🏎️  STARTING MCP SERVER: {TIER_NAME}")
+print(f"📁 DATA_ROOT (Strictly Isolated): {DATA_ROOT}")
+print("=" * 70)
+
+if not DATA_ROOT.exists():
+    print(f"⚠️ Initializing empty DATA_ROOT at {DATA_ROOT}")
     DATA_ROOT.mkdir(parents=True, exist_ok=True)
 
 app = FastAPI(
     title=f"F1 Knowledge Vault MCP — {TIER_NAME}",
-    description="Karpathy-style tiered LLM knowledge wiki MCP server for Formula 1 history & telemetry.",
-    version="1.0.0"
+    description="Streamable HTTP MCP Server for Formula 1 Knowledge Vault with per-connection API key auth.",
+    version="2.0.0"
 )
 
 app.add_middleware(
@@ -56,7 +62,35 @@ app.add_middleware(
 )
 
 # ═════════════════════════════════════════════════════════════════════
-# 🛠️ CORE TOOL IMPLEMENTATIONS
+# 🔐 FIX 4: CROSS-ACCOUNT AUTHENTICATION (NO OAUTH / NO ACCOUNT MISMATCH)
+# ═════════════════════════════════════════════════════════════════════
+
+def verify_auth(request: Request) -> bool:
+    """Verify request authentication via Header or Query param with zero OAuth redirects."""
+    if not API_KEY:
+        return True  # Open access mode if no API_KEY configured
+
+    # 1. Check Authorization header: Bearer <key>
+    auth_header = request.headers.get("Authorization", "")
+    if auth_header.startswith("Bearer "):
+        token = auth_header.split("Bearer ")[1].strip()
+        if token == API_KEY:
+            return True
+
+    # 2. Check X-API-Key header
+    x_api_key = request.headers.get("X-API-Key", "")
+    if x_api_key == API_KEY:
+        return True
+
+    # 3. Check query param: ?token=... or ?apiKey=...
+    token_param = request.query_params.get("token") or request.query_params.get("apiKey")
+    if token_param == API_KEY:
+        return True
+
+    return False
+
+# ═════════════════════════════════════════════════════════════════════
+# 🛠️ CORE TOOL IMPLEMENTATIONS (FIX 1, 2, 3)
 # ═════════════════════════════════════════════════════════════════════
 
 def list_pages_impl(directory: str = "") -> Dict[str, Any]:
@@ -75,14 +109,14 @@ def list_pages_impl(directory: str = "") -> Dict[str, Any]:
         rel_path = p.relative_to(DATA_ROOT).as_posix()
         size_bytes = p.stat().st_size
         
-        # Determine tier classification from path
-        tier_label = "Unclassified"
+        # Tier classification (no placeholder values — real null if not applicable)
+        tier_label = None
         if "tier1" in rel_path:
-            tier_label = "Tier 1 (Public Results, Bios & Standings)"
+            tier_label = "tier1"
         elif "tier2" in rel_path:
-            tier_label = "Tier 2 (Telemetry, Pit Strategy & Qualifying Gaps)"
+            tier_label = "tier2"
         elif "tier3" in rel_path:
-            tier_label = "Tier 3 (Derived Analysis & ML Models)"
+            tier_label = "tier3"
 
         pages.append({
             "path": rel_path,
@@ -96,13 +130,16 @@ def list_pages_impl(directory: str = "") -> Dict[str, Any]:
 
     return {
         "tier_scope": TIER_NAME,
-        "data_root": str(DATA_ROOT.name),
+        "file_count": len(pages),
         "total_pages": len(pages),
         "pages": pages
     }
 
 def read_page_impl(path: str) -> Dict[str, Any]:
     """Return content of a specific page under DATA_ROOT."""
+    if not path or not isinstance(path, str):
+        return {"error": "Invalid path parameter.", "found": False}
+
     clean_path = path.strip("/\\")
     if not clean_path.endswith(".md"):
         clean_path += ".md"
@@ -111,20 +148,20 @@ def read_page_impl(path: str) -> Dict[str, Any]:
 
     # Search fallback if exact relative path wasn't given
     if not target_file.exists():
-        # Try finding by filename across subdirectories
         matches = list(DATA_ROOT.rglob(Path(clean_path).name))
         if matches:
             target_file = matches[0]
 
     # Path traversal security check
     if not str(target_file).startswith(str(DATA_ROOT)):
-        return {"error": "Access denied: Path outside DATA_ROOT.", "path": path}
+        return {"error": "Access denied: Path outside DATA_ROOT.", "found": False}
 
     if not target_file.exists() or not target_file.is_file():
         return {
             "error": f"Page '{path}' not found in this access tier.",
-            "data_root_tier": TIER_NAME,
-            "hint": "The requested entity may belong to a higher or different security tier physically absent from this bundle."
+            "found": False,
+            "requested_path": path,
+            "tier_scope": TIER_NAME
         }
 
     try:
@@ -133,15 +170,16 @@ def read_page_impl(path: str) -> Dict[str, Any]:
         return {
             "path": rel_path,
             "filename": target_file.name,
+            "found": True,
             "size_bytes": len(content),
             "content": content
         }
     except Exception as e:
-        return {"error": f"Error reading page: {str(e)}"}
+        return {"error": f"Error reading page: {str(e)}", "found": False}
 
 def search_impl(query: str, limit: int = 10) -> Dict[str, Any]:
     """Full-text keyword / BM25 search over all markdown documents in DATA_ROOT."""
-    clean_q = query.strip().lower()
+    clean_q = query.strip().lower() if query else ""
     tokens = [t for t in re.split(r'\W+', clean_q) if t]
     
     if not tokens:
@@ -174,17 +212,15 @@ def search_impl(query: str, limit: int = 10) -> Dict[str, Any]:
                     score += 10.0
 
             # 3. Content occurrences
-            token_count = 0
-            for t in tokens:
-                cnt = content_lower.count(t)
-                if cnt > 0:
-                    token_count += 1
-                    score += min(cnt * 2.0, 20.0)
+            # For multi-token queries, require all tokens or exact phrase match
+            if len(tokens) > 1:
+                matched_all = all(t in content_lower for t in tokens)
+                if not (clean_q in content_lower or matched_all):
+                    continue
 
-            # Require at least one token match
+            # Require positive score
             if score > 0:
-                # Generate snippet
-                snippet = ""
+                snippet = None
                 pos = content_lower.find(tokens[0])
                 if pos != -1:
                     start = max(0, pos - 80)
@@ -194,8 +230,6 @@ def search_impl(query: str, limit: int = 10) -> Dict[str, Any]:
                         snippet = "..." + snippet
                     if end < len(content):
                         snippet = snippet + "..."
-                else:
-                    snippet = content[:200].replace("\n", " ") + "..."
 
                 scored_results.append({
                     "path": rel_path,
@@ -224,7 +258,7 @@ def search_impl(query: str, limit: int = 10) -> Dict[str, Any]:
 TOOLS_MANIFEST = [
     {
         "name": "list_pages",
-        "description": "List available Formula 1 knowledge pages under the active tier DATA_ROOT. Returns relative filepaths and security tiers.",
+        "description": "List available Formula 1 knowledge pages under the active tier DATA_ROOT. Returns relative filepaths and file counts.",
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -251,7 +285,7 @@ TOOLS_MANIFEST = [
     },
     {
         "name": "search",
-        "description": "Perform full-text keyword search and BM25 index matching across all available documents in the active knowledge tier.",
+        "description": "Perform full-text keyword search across all available documents in the active knowledge tier.",
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -270,29 +304,39 @@ TOOLS_MANIFEST = [
 ]
 
 # ═════════════════════════════════════════════════════════════════════
-# 🌐 FASTAPI HTTP & SSE ROUTES
+# 🌐 FASTAPI HTTP & SSE ROUTES (FIX 4 & 5)
 # ═════════════════════════════════════════════════════════════════════
 
 @app.get("/")
 @app.get("/health")
-def health():
+def health(request: Request):
     pages_count = len(list(DATA_ROOT.rglob("*.md")))
     return {
         "status": "healthy",
         "service": "Formula 1 Tiered Knowledge Vault MCP Server",
         "tier_name": TIER_NAME,
-        "data_root": str(DATA_ROOT),
+        "file_count": pages_count,
         "total_markdown_pages": pages_count,
+        "auth_required": bool(API_KEY),
         "tools_available": [t["name"] for t in TOOLS_MANIFEST]
     }
 
 @app.get("/tools")
-def get_tools():
+def get_tools(request: Request):
+    if not verify_auth(request):
+        raise HTTPException(status_code=401, detail="Unauthorized: Invalid API Key")
     return {"tools": TOOLS_MANIFEST}
 
 @app.post("/call")
 async def call_tool_rest(request: Request):
-    body = await request.json()
+    if not verify_auth(request):
+        raise HTTPException(status_code=401, detail="Unauthorized: Invalid API Key")
+
+    try:
+        body = await request.json()
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid JSON body")
+
     name = body.get("name")
     args = body.get("arguments", {})
 
@@ -307,11 +351,18 @@ async def call_tool_rest(request: Request):
 
 @app.post("/rpc")
 async def handle_json_rpc(request: Request):
-    """Handle standard JSON-RPC 2.0 MCP protocol requests."""
+    """Handle standard JSON-RPC 2.0 MCP protocol requests with clean structured errors."""
+    if not verify_auth(request):
+        return JSONResponse({
+            "jsonrpc": "2.0",
+            "error": {"code": -32000, "message": "Unauthorized: Invalid or missing API Key"},
+            "id": None
+        }, status_code=401)
+
     try:
         body = await request.json()
     except Exception:
-        return JSONResponse({"jsonrpc": "2.0", "error": {"code": -32700, "message": "Parse error"}, "id": None})
+        return JSONResponse({"jsonrpc": "2.0", "error": {"code": -32700, "message": "Parse error: Invalid JSON"}, "id": None})
 
     req_id = body.get("id")
     method = body.get("method")
@@ -330,7 +381,7 @@ async def handle_json_rpc(request: Request):
                 },
                 "serverInfo": {
                     "name": f"f1-vault-{TIER_NAME.lower().replace(' ', '-')}",
-                    "version": "1.0.0"
+                    "version": "2.0.0"
                 }
             }
         })
@@ -356,10 +407,9 @@ async def handle_json_rpc(request: Request):
             return JSONResponse({
                 "jsonrpc": "2.0",
                 "id": req_id,
-                "error": {"code": -32601, "message": f"Unknown tool '{tool_name}'"}
+                "error": {"code": -32601, "message": f"Method not found: Unknown tool '{tool_name}'"}
             })
 
-        # Format output text block
         text_content = json.dumps(res, indent=2) if isinstance(res, dict) else str(res)
         return JSONResponse({
             "jsonrpc": "2.0",
@@ -380,14 +430,15 @@ async def handle_json_rpc(request: Request):
         "error": {"code": -32601, "message": f"Method '{method}' not implemented."}
     })
 
-# ── MCP SSE Transport Endpoints ──
+# ── MCP Streamable HTTP / SSE Transport Endpoints ──
 @app.get("/sse")
 async def handle_sse(request: Request):
-    """Server-Sent Events endpoint for MCP protocol connection."""
+    """Server-Sent Events endpoint for remote MCP connection."""
+    if not verify_auth(request):
+        raise HTTPException(status_code=401, detail="Unauthorized: Invalid API Key")
+
     async def event_generator():
-        # Initial endpoint event pointing to messages URI
-        endpoint_data = "/messages"
-        yield {"event": "endpoint", "data": endpoint_data}
+        yield {"event": "endpoint", "data": "/messages"}
         while True:
             if await request.is_disconnected():
                 break
