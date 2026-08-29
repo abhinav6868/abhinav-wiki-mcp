@@ -1,0 +1,28 @@
+# Ed Elisian
+
+**Nationality:** American | **Born:** 1926-12-09 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+
+---
+
+## 🏆 Career Summary
+- **World Championships:** 0
+- **Total Grand Prix Entries:** 5
+- **Victories:** 0 (0.0%)
+- **Podiums:** 0
+- **Pole Positions:** 0
+- **Career Points:** 0.0
+
+---
+
+## 🏎️ Constructors & Teams
+- [[kurtis_kraft]] (1955–1957, 3 entries)
+- [[stevens]] (1954, 1 entries)
+- [[watson]] (1958, 1 entries)
+
+---
+
+## 🏁 Selected Victories & Milestones
+- No Grand Prix wins
+
+---
+*Classification: Tier 1 (Public Career Statistics & Bio)*

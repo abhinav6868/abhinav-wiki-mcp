@@ -1,0 +1,39 @@
+services:
+  - type: web
+    name: f1-vault-mcp1-master
+    runtime: python
+    plan: free
+    rootDir: mcp1
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn mcp_server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATA_ROOT
+        value: vault
+      - key: TIER_NAME
+        value: MCP 1 (Master Tier — Tier 1 + 2 + 3)
+
+  - type: web
+    name: f1-vault-mcp2-telemetry
+    runtime: python
+    plan: free
+    rootDir: mcp2
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn mcp_server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATA_ROOT
+        value: vault
+      - key: TIER_NAME
+        value: MCP 2 (Telemetry Tier — Tier 2 + 3)
+
+  - type: web
+    name: f1-vault-mcp3-analysis
+    runtime: python
+    plan: free
+    rootDir: mcp3
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn mcp_server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATA_ROOT
+        value: vault
+      - key: TIER_NAME
+        value: MCP 3 (Analysis Tier — Tier 3 Only)
