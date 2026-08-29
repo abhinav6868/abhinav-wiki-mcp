@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "f1-vault-mcp1-master": {
+      "url": "https://resource-greensboro-internal-continent.trycloudflare.com/sse"
+    },
+    "f1-vault-mcp2-telemetry": {
+      "url": "https://resource-greensboro-internal-continent.trycloudflare.com/mcp2/sse"
+    },
+    "f1-vault-mcp3-analysis": {
+      "url": "https://resource-greensboro-internal-continent.trycloudflare.com/mcp3/sse"
+    }
+  }
+}
