@@ -1,28 +1,30 @@
+| constructor_ref | coloni |
+| :--- | :--- |
+| **team_name** | Coloni |
+| **nationality** | Italian |
+| **active_era** | 1987–1991 |
+| **total_starts** | 65 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Coloni
 
-**Nationality:** Italian | **First Entry:** 1987 | **Latest Entry:** 1991
+**Role:** Formula 1 Constructor and Racing Team (Italian).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **65**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **0.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 65
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 0.0
+**Notable Drivers & Winners:**
+- **[[gachot]]:** 16 starts, **0 wins**, 0 podiums
+- **[[moreno]]:** 16 starts, **0 wins**, 0 podiums
+- **[[tarquini]]:** 16 starts, **0 wins**, 0 podiums
+- **[[chaves]]:** 13 starts, **0 wins**, 0 podiums
+- **[[raphanel]]:** 10 starts, **0 wins**, 0 podiums
+- **[[bertaggia]]:** 6 starts, **0 wins**, 0 podiums
+- **[[hattori]]:** 2 starts, **0 wins**, 0 podiums
+- **[[larini]]:** 2 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[gachot]]: 16 races, 0 wins, 0 podiums
-- [[moreno]]: 16 races, 0 wins, 0 podiums
-- [[tarquini]]: 16 races, 0 wins, 0 podiums
-- [[chaves]]: 13 races, 0 wins, 0 podiums
-- [[raphanel]]: 10 races, 0 wins, 0 podiums
-- [[bertaggia]]: 6 races, 0 wins, 0 podiums
-- [[hattori]]: 2 races, 0 wins, 0 podiums
-- [[larini]]: 2 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[coloni]] (`vault/tier1/constructors/coloni.md`)

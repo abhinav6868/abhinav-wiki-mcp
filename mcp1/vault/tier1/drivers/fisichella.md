@@ -1,34 +1,35 @@
+| driver_ref | fisichella |
+| :--- | :--- |
+| **full_name** | Giancarlo Fisichella |
+| **nationality** | Italian |
+| **driver_code** | FIS |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1973-01-14 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Giancarlo Fisichella
 
-**Nationality:** Italian | **Born:** 1973-01-14 | **Driver Code:** `FIS` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Italian). Career active span: 1996–2009.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **231**
+- **Race Victories:** **3** (1.3% win rate)
+- **Podium Finishes:** **19** (8.2% podium rate)
+- **Pole Positions:** **4**
+- **Total Career Points:** **275.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 231
-- **Victories:** 3 (1.3%)
-- **Podiums:** 19
-- **Pole Positions:** 4
-- **Career Points:** 275.0
+**Constructors & Teams Driven For:**
+- **[[benetton]]:** Active 1998–2001 (66 Grand Prix starts)
+- **[[ferrari]]:** Active 2009 (5 Grand Prix starts)
+- **[[force_india]]:** Active 2008–2009 (30 Grand Prix starts)
+- **[[jordan]]:** Active 1997–2003 (50 Grand Prix starts)
+- **[[minardi]]:** Active 1996 (8 Grand Prix starts)
+- **[[renault]]:** Active 2005–2007 (54 Grand Prix starts)
+- **[[sauber]]:** Active 2004 (18 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[2003-03]]:** 2003 Brazilian Grand Prix with [[jordan]]
+- **[[2005-01]]:** 2005 Australian Grand Prix with [[renault]]
+- **[[2006-02]]:** 2006 Malaysian Grand Prix with [[renault]]
 
-## 🏎️ Constructors & Teams
-- [[benetton]] (1998–2001, 66 entries)
-- [[ferrari]] (2009, 5 entries)
-- [[force_india]] (2008–2009, 30 entries)
-- [[jordan]] (1997–2003, 50 entries)
-- [[minardi]] (1996, 8 entries)
-- [[renault]] (2005–2007, 54 entries)
-- [[sauber]] (2004, 18 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[2003-03]] (2003 Brazilian Grand Prix) with [[jordan]]
-- [[2005-01]] (2005 Australian Grand Prix) with [[renault]]
-- [[2006-02]] (2006 Malaysian Grand Prix) with [[renault]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[fisichella]] (`vault/tier1/drivers/fisichella.md`)

@@ -1,436 +1,61 @@
-# Formula 1 Knowledge Vault Index
+| index_type | master_vault_moc |
+| :--- | :--- |
+| **vault_name** | Formula 1 Knowledge Vault & LLM Wiki |
+| **total_documents** | 3,600+ Markdown Files |
+| **architecture** | Karpathy LLM Wiki Pattern |
+| **last_updated** | 2026-08-29 |
 
-A tiered personal knowledge wiki from historical Formula 1 data (1950–2024), built following Andrej Karpathy's 'LLM Wiki' architecture.
+# 🏎️ Formula 1 Knowledge Vault — Master Map of Content (MOC)
 
----
-
-## 📊 Tier 3: Derived Analysis & Predictive Models
-- [[driver_consistency]]: Driver consistency score & career variance index
-- [[pit_strategy]]: Undercut vs. overcut win rates across F1 eras
-- [[win_probability_model]]: ML model predicting race win probability from grid position and form
-- [[style_clusters]]: K-Means clustering of driving styles and team performance profiles
-
----
-
-## 🏎️ Tier 1: Drivers (865 Profiles)
-- [[hamilton]]: Lewis Hamilton (British) — **7** (2008, 2014, 2015, 2017, 2018, 2019, 2020) Championships, 106 Wins, 207 Podiums
-- [[heidfeld]]: Nick Heidfeld (German) — 0 Championships, 0 Wins, 13 Podiums
-- [[rosberg]]: Nico Rosberg (German) — **1** (2016) Championships, 23 Wins, 57 Podiums
-- [[alonso]]: Fernando Alonso (Spanish) — **2** (2005, 2006) Championships, 32 Wins, 106 Podiums
-- [[kovalainen]]: Heikki Kovalainen (Finnish) — 0 Championships, 1 Wins, 4 Podiums
-- [[nakajima]]: Kazuki Nakajima (Japanese) — 0 Championships, 0 Wins, 0 Podiums
-- [[bourdais]]: Sébastien Bourdais (French) — 0 Championships, 0 Wins, 0 Podiums
-- [[raikkonen]]: Kimi Räikkönen (Finnish) — **1** (2007) Championships, 21 Wins, 103 Podiums
-- [[kubica]]: Robert Kubica (Polish) — 0 Championships, 1 Wins, 12 Podiums
-- [[glock]]: Timo Glock (German) — 0 Championships, 0 Wins, 3 Podiums
-- [[sato]]: Takuma Sato (Japanese) — 0 Championships, 0 Wins, 1 Podiums
-- [[piquet_jr]]: Nelson Piquet Jr. (Brazilian) — 0 Championships, 0 Wins, 1 Podiums
-- [[massa]]: Felipe Massa (Brazilian) — 0 Championships, 11 Wins, 41 Podiums
-- [[coulthard]]: David Coulthard (British) — 0 Championships, 13 Wins, 62 Podiums
-- [[trulli]]: Jarno Trulli (Italian) — 0 Championships, 1 Wins, 11 Podiums
-- [[sutil]]: Adrian Sutil (German) — 0 Championships, 0 Wins, 0 Podiums
-- [[webber]]: Mark Webber (Australian) — 0 Championships, 9 Wins, 42 Podiums
-- [[button]]: Jenson Button (British) — **1** (2009) Championships, 15 Wins, 50 Podiums
-- [[davidson]]: Anthony Davidson (British) — 0 Championships, 0 Wins, 0 Podiums
-- [[vettel]]: Sebastian Vettel (German) — **4** (2010, 2011, 2012, 2013) Championships, 53 Wins, 122 Podiums
-- [[fisichella]]: Giancarlo Fisichella (Italian) — 0 Championships, 3 Wins, 19 Podiums
-- [[barrichello]]: Rubens Barrichello (Brazilian) — 0 Championships, 11 Wins, 68 Podiums
-- [[ralf_schumacher]]: Ralf Schumacher (German) — 0 Championships, 6 Wins, 27 Podiums
-- [[liuzzi]]: Vitantonio Liuzzi (Italian) — 0 Championships, 0 Wins, 0 Podiums
-- [[wurz]]: Alexander Wurz (Austrian) — 0 Championships, 0 Wins, 3 Podiums
-- [[speed]]: Scott Speed (American) — 0 Championships, 0 Wins, 0 Podiums
-- [[albers]]: Christijan Albers (Dutch) — 0 Championships, 0 Wins, 0 Podiums
-- [[markus_winkelhock]]: Markus Winkelhock (German) — 0 Championships, 0 Wins, 0 Podiums
-- [[yamamoto]]: Sakon Yamamoto (Japanese) — 0 Championships, 0 Wins, 0 Podiums
-- [[michael_schumacher]]: Michael Schumacher (German) — **7** (1994, 1995, 2000, 2001, 2002, 2003, 2004) Championships, 91 Wins, 155 Podiums
-- [[montoya]]: Juan Pablo Montoya (Colombian) — 0 Championships, 7 Wins, 30 Podiums
-- [[klien]]: Christian Klien (Austrian) — 0 Championships, 0 Wins, 0 Podiums
-- [[monteiro]]: Tiago Monteiro (Portuguese) — 0 Championships, 0 Wins, 1 Podiums
-- [[ide]]: Yuji Ide (Japanese) — 0 Championships, 0 Wins, 0 Podiums
-- [[villeneuve]]: Jacques Villeneuve (Canadian) — **1** (1997) Championships, 11 Wins, 23 Podiums
-- [[montagny]]: Franck Montagny (French) — 0 Championships, 0 Wins, 0 Podiums
-- [[rosa]]: Pedro de la Rosa (Spanish) — 0 Championships, 0 Wins, 1 Podiums
-- [[doornbos]]: Robert Doornbos (Dutch) — 0 Championships, 0 Wins, 0 Podiums
-- [[karthikeyan]]: Narain Karthikeyan (Indian) — 0 Championships, 0 Wins, 0 Podiums
-- [[friesacher]]: Patrick Friesacher (Austrian) — 0 Championships, 0 Wins, 0 Podiums
-- [[zonta]]: Ricardo Zonta (Brazilian) — 0 Championships, 0 Wins, 0 Podiums
-- [[pizzonia]]: Antônio Pizzonia (Brazilian) — 0 Championships, 0 Wins, 0 Podiums
-- [[matta]]: Cristiano da Matta (Brazilian) — 0 Championships, 0 Wins, 0 Podiums
-- [[panis]]: Olivier Panis (French) — 0 Championships, 1 Wins, 5 Podiums
-- [[pantano]]: Giorgio Pantano (Italian) — 0 Championships, 0 Wins, 0 Podiums
-- [[bruni]]: Gianmaria Bruni (Italian) — 0 Championships, 0 Wins, 0 Podiums
-- [[baumgartner]]: Zsolt Baumgartner (Hungarian) — 0 Championships, 0 Wins, 0 Podiums
-- [[gene]]: Marc Gené (Spanish) — 0 Championships, 0 Wins, 0 Podiums
-- [[frentzen]]: Heinz-Harald Frentzen (German) — 0 Championships, 3 Wins, 18 Podiums
-- [[verstappen]]: Jos Verstappen (Dutch) — 0 Championships, 0 Wins, 2 Podiums
-... *(and 815 more driver profiles)*
+Welcome to the **Formula 1 Knowledge Vault**, a structured, tiered personal knowledge wiki built from 74 years of Formula 1 World Championship history (1950–2024), organized with dedicated **Concept Files**, **Entity Directories**, and **Claude Query Archives**.
 
 ---
 
-## 🏭 Tier 1: Constructors (214 Teams)
-- [[mclaren]]: McLaren (British) — **10** (1974, 1984, 1985, 1988, 1989, 1990, 1991, 1998, 2024, 2025) Titles, 201 Wins, 965 Starts
-- [[bmw_sauber]]: BMW Sauber (German) — 0 Titles, 1 Wins, 70 Starts
-- [[williams]]: Williams (British) — **9** (1980, 1981, 1986, 1987, 1992, 1993, 1994, 1996, 1997) Titles, 114 Wins, 879 Starts
-- [[renault]]: Renault (French) — **2** (2005, 2006) Titles, 35 Wins, 403 Starts
-- [[toro_rosso]]: Toro Rosso (Italian) — 0 Titles, 1 Wins, 268 Starts
-- [[ferrari]]: Ferrari (Italian) — **16** (1961, 1964, 1975, 1976, 1977, 1979, 1982, 1983, 1999, 2000, 2001, 2002, 2003, 2004, 2007, 2008) Titles, 251 Wins, 1136 Starts
-- [[toyota]]: Toyota (Japanese) — 0 Titles, 0 Wins, 140 Starts
-- [[super_aguri]]: Super Aguri (Japanese) — 0 Titles, 0 Wins, 39 Starts
-- [[red_bull]]: Red Bull (Austrian) — **6** (2010, 2011, 2012, 2013, 2022, 2023) Titles, 130 Wins, 430 Starts
-- [[force_india]]: Force India (Indian) — 0 Titles, 0 Wins, 212 Starts
-- [[honda]]: Honda (Japanese) — 0 Titles, 3 Wins, 88 Starts
-- [[spyker]]: Spyker (Dutch) — 0 Titles, 0 Wins, 17 Starts
-- [[mf1]]: MF1 (Russian) — 0 Titles, 0 Wins, 14 Starts
-- [[spyker_mf1]]: Spyker MF1 (Dutch) — 0 Titles, 0 Wins, 4 Starts
-- [[sauber]]: Sauber (Swiss) — 0 Titles, 0 Wins, 443 Starts
-- [[bar]]: BAR (British) — 0 Titles, 0 Wins, 118 Starts
-- [[jordan]]: Jordan (Irish) — 0 Titles, 4 Wins, 250 Starts
-- [[minardi]]: Minardi (Italian) — 0 Titles, 0 Wins, 345 Starts
-- [[jaguar]]: Jaguar (British) — 0 Titles, 0 Wins, 85 Starts
-- [[prost]]: Prost (French) — 0 Titles, 0 Wins, 83 Starts
-- [[arrows]]: Arrows (British) — 0 Titles, 0 Wins, 296 Starts
-- [[benetton]]: Benetton (Italian) — **1** (1995) Titles, 27 Wins, 260 Starts
-- [[brawn]]: Brawn (British) — **1** (2009) Titles, 8 Wins, 17 Starts
-- [[stewart]]: Stewart (British) — 0 Titles, 1 Wins, 49 Starts
-- [[tyrrell]]: Tyrrell (British) — **1** (1971) Titles, 23 Wins, 433 Starts
-- [[lola]]: Lola (British) — 0 Titles, 0 Wins, 88 Starts
-- [[ligier]]: Ligier (French) — 0 Titles, 9 Wins, 330 Starts
-- [[forti]]: Forti (Italian) — 0 Titles, 0 Wins, 27 Starts
-- [[footwork]]: Footwork (British) — 0 Titles, 0 Wins, 97 Starts
-- [[pacific]]: Pacific (British) — 0 Titles, 0 Wins, 33 Starts
-- [[simtek]]: Simtek (British) — 0 Titles, 0 Wins, 21 Starts
-- [[team_lotus]]: Team Lotus (British) — **4** (1970, 1972, 1973, 1978) Titles, 45 Wins, 395 Starts
-- [[larrousse]]: Larrousse (French) — 0 Titles, 0 Wins, 114 Starts
-- [[brabham]]: Brabham (British) — 0 Titles, 23 Wins, 308 Starts
-- [[dallara]]: Dallara (Italian) — 0 Titles, 0 Wins, 80 Starts
-- [[fondmetal]]: Fondmetal (Italian) — 0 Titles, 0 Wins, 29 Starts
-- [[march]]: March (British) — 0 Titles, 3 Wins, 196 Starts
-- [[moda]]: Andrea Moda (Italian) — 0 Titles, 0 Wins, 8 Starts
-- [[ags]]: AGS (French) — 0 Titles, 0 Wins, 78 Starts
-- [[lambo]]: Lambo (Italian) — 0 Titles, 0 Wins, 16 Starts
-- [[leyton]]: Leyton House (British) — 0 Titles, 0 Wins, 32 Starts
-- [[coloni]]: Coloni (Italian) — 0 Titles, 0 Wins, 65 Starts
-- [[eurobrun]]: Euro Brun (Italian) — 0 Titles, 0 Wins, 46 Starts
-- [[osella]]: Osella (Italian) — 0 Titles, 0 Wins, 171 Starts
-- [[onyx]]: Onyx (British) — 0 Titles, 0 Wins, 26 Starts
-- [[life]]: Life (Italian) — 0 Titles, 0 Wins, 14 Starts
-- [[rial]]: Rial (German) — 0 Titles, 0 Wins, 32 Starts
-- [[zakspeed]]: Zakspeed (German) — 0 Titles, 0 Wins, 74 Starts
-- [[ram]]: RAM (British) — 0 Titles, 0 Wins, 44 Starts
-- [[alfa]]: Alfa Romeo (Swiss) — 0 Titles, 11 Wins, 216 Starts
-- [[spirit]]: Spirit (British) — 0 Titles, 0 Wins, 25 Starts
-- [[toleman]]: Toleman (British) — 0 Titles, 0 Wins, 70 Starts
-- [[ats]]: ATS (Italian) — 0 Titles, 0 Wins, 116 Starts
-- [[theodore]]: Theodore (Hong Kong) — 0 Titles, 0 Wins, 51 Starts
-- [[fittipaldi]]: Fittipaldi (Brazilian) — 0 Titles, 0 Wins, 119 Starts
-- [[ensign]]: Ensign (British) — 0 Titles, 0 Wins, 133 Starts
-- [[shadow]]: Shadow (British) — 0 Titles, 1 Wins, 98 Starts
-- [[wolf]]: Wolf (Canadian) — 0 Titles, 3 Wins, 64 Starts
-- [[merzario]]: Merzario (Italian) — 0 Titles, 0 Wins, 31 Starts
-- [[kauhsen]]: Kauhsen (German) — 0 Titles, 0 Wins, 2 Starts
-- [[rebaque]]: Rebaque (Mexican) — 0 Titles, 0 Wins, 3 Starts
-- [[surtees]]: Surtees (British) — 0 Titles, 0 Wins, 119 Starts
-- [[hesketh]]: Hesketh (British) — 0 Titles, 1 Wins, 60 Starts
-- [[martini]]: Martini (French) — 0 Titles, 0 Wins, 8 Starts
-- [[brm]]: BRM (British) — **1** (1962) Titles, 17 Wins, 208 Starts
-- [[penske]]: Penske (American) — 0 Titles, 1 Wins, 41 Starts
-- [[lec]]: LEC (British) — 0 Titles, 0 Wins, 5 Starts
-- [[mcguire]]: McGuire (Australian) — 0 Titles, 0 Wins, 1 Starts
-- [[boro]]: Boro (Dutch) — 0 Titles, 0 Wins, 8 Starts
-- [[apollon]]: Apollon (Swiss) — 0 Titles, 0 Wins, 1 Starts
-- [[kojima]]: Kojima (Japanese) — 0 Titles, 0 Wins, 2 Starts
-- [[parnelli]]: Parnelli (American) — 0 Titles, 0 Wins, 16 Starts
-- [[maki]]: Maki (Japanese) — 0 Titles, 0 Wins, 8 Starts
-- [[hill]]: Embassy Hill (British) — 0 Titles, 0 Wins, 11 Starts
-- [[lyncar]]: Lyncar (British) — 0 Titles, 0 Wins, 2 Starts
-- [[trojan]]: Trojan (British) — 0 Titles, 0 Wins, 8 Starts
-- [[amon]]: Amon (New Zealander) — 0 Titles, 0 Wins, 4 Starts
-- [[token]]: Token (British) — 0 Titles, 0 Wins, 4 Starts
-- [[iso_marlboro]]: Iso Marlboro (British) — 0 Titles, 0 Wins, 30 Starts
-- [[tecno]]: Tecno (Italian) — 0 Titles, 0 Wins, 10 Starts
-- [[matra]]: Matra (French) — 0 Titles, 0 Wins, 47 Starts
-- [[politoys]]: Politoys (British) — 0 Titles, 0 Wins, 1 Starts
-- [[connew]]: Connew (British) — 0 Titles, 0 Wins, 1 Starts
-- [[bellasi]]: Bellasi (Swiss) — 0 Titles, 0 Wins, 6 Starts
-- [[tomaso]]: De Tomaso (Italian) — 0 Titles, 0 Wins, 14 Starts
-- [[cooper]]: Cooper (British) — 0 Titles, 2 Wins, 33 Starts
-- [[eagle]]: Eagle (American) — 0 Titles, 0 Wins, 0 Starts
-- [[lds]]: LDS (South African) — 0 Titles, 0 Wins, 3 Starts
-- [[protos]]: Protos (British) — 0 Titles, 0 Wins, 1 Starts
-- [[shannon]]: Shannon (British) — 0 Titles, 0 Wins, 1 Starts
-- [[scirocco]]: Scirocco (British) — 0 Titles, 0 Wins, 10 Starts
-- [[re]]: RE (Rhodesian) — 0 Titles, 0 Wins, 1 Starts
-- [[brp]]: BRP (British) — 0 Titles, 0 Wins, 13 Starts
-- [[porsche]]: Porsche (German) — 0 Titles, 1 Wins, 34 Starts
-- [[derrington]]: Derrington (British) — 0 Titles, 0 Wins, 1 Starts
-- [[gilby]]: Gilby (British) — 0 Titles, 0 Wins, 7 Starts
-- [[stebro]]: Stebro (Canadian) — 0 Titles, 0 Wins, 1 Starts
-- [[emeryson]]: Emeryson (British) — 0 Titles, 0 Wins, 9 Starts
-- [[enb]]: ENB (Belgian) — 0 Titles, 0 Wins, 1 Starts
-- [[jbw]]: JBW (British) — 0 Titles, 0 Wins, 6 Starts
-- [[ferguson]]: Ferguson (British) — 0 Titles, 0 Wins, 1 Starts
-- [[mbm]]: MBM (Swiss) — 0 Titles, 0 Wins, 1 Starts
-- [[behra-porsche]]: Behra-Porsche (Italian) — 0 Titles, 0 Wins, 2 Starts
-- [[maserati]]: Maserati (Italian) — 0 Titles, 9 Wins, 73 Starts
-- [[scarab]]: Scarab (American) — 0 Titles, 0 Wins, 5 Starts
-- [[watson]]: Watson (American) — 0 Titles, 3 Wins, 9 Starts
-- [[epperly]]: Epperly (American) — 0 Titles, 2 Wins, 5 Starts
-- [[phillips]]: Phillips (American) — 0 Titles, 0 Wins, 7 Starts
-- [[lesovsky]]: Lesovsky (American) — 0 Titles, 0 Wins, 9 Starts
-- [[trevis]]: Trevis (American) — 0 Titles, 0 Wins, 4 Starts
-- [[meskowski]]: Meskowski (American) — 0 Titles, 0 Wins, 1 Starts
-- [[kurtis_kraft]]: Kurtis Kraft (American) — 0 Titles, 5 Wins, 12 Starts
-- [[kuzma]]: Kuzma (American) — 0 Titles, 1 Wins, 10 Starts
-- [[vhristensen]]: Christensen (American) — 0 Titles, 0 Wins, 2 Starts
-- [[ewing]]: Ewing (American) — 0 Titles, 0 Wins, 2 Starts
-- [[aston_martin]]: Aston Martin (British) — 0 Titles, 0 Wins, 132 Starts
-- [[vanwall]]: Vanwall (British) — **1** (1958) Titles, 10 Wins, 29 Starts
-- [[moore]]: Moore (American) — 0 Titles, 0 Wins, 3 Starts
-- [[dunn]]: Dunn (American) — 0 Titles, 0 Wins, 3 Starts
-- [[elder]]: Elder (American) — 0 Titles, 0 Wins, 1 Starts
-- [[sutton]]: Sutton (American) — 0 Titles, 0 Wins, 1 Starts
-- [[fry]]: Fry (British) — 0 Titles, 0 Wins, 1 Starts
-- [[tec-mec]]: Tec-Mec (Italian) — 0 Titles, 0 Wins, 1 Starts
-- [[connaught]]: Connaught (British) — 0 Titles, 0 Wins, 18 Starts
-- [[alta]]: Alta (British) — 0 Titles, 0 Wins, 5 Starts
-- [[osca]]: OSCA (Italian) — 0 Titles, 0 Wins, 5 Starts
-- [[gordini]]: Gordini (French) — 0 Titles, 0 Wins, 33 Starts
-- [[stevens]]: Stevens (American) — 0 Titles, 0 Wins, 6 Starts
-- [[bugatti]]: Bugatti (French) — 0 Titles, 0 Wins, 1 Starts
-- [[mercedes]]: Mercedes (German) — **9** (2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2026) Titles, 139 Wins, 353 Starts
-- [[lancia]]: Lancia (Italian) — 0 Titles, 0 Wins, 4 Starts
-- [[hwm]]: HWM (British) — 0 Titles, 0 Wins, 16 Starts
-- [[schroeder]]: Schroeder (American) — 0 Titles, 0 Wins, 4 Starts
-- [[pawl]]: Pawl (American) — 0 Titles, 0 Wins, 3 Starts
-- [[pankratz]]: Pankratz (American) — 0 Titles, 0 Wins, 2 Starts
-- [[arzani-volpini]]: Arzani-Volpini (Italian) — 0 Titles, 0 Wins, 1 Starts
-- [[nichels]]: Nichels (American) — 0 Titles, 0 Wins, 2 Starts
-- [[bromme]]: Bromme (American) — 0 Titles, 0 Wins, 4 Starts
-- [[klenk]]: Klenk (German) — 0 Titles, 0 Wins, 1 Starts
-- [[simca]]: Simca (French) — 0 Titles, 0 Wins, 15 Starts
-- [[turner]]: Turner (American) — 0 Titles, 0 Wins, 1 Starts
-- [[del_roy]]: Del Roy (American) — 0 Titles, 0 Wins, 1 Starts
-- [[veritas]]: Veritas (German) — 0 Titles, 0 Wins, 6 Starts
-- [[bmw]]: BMW (German) — 0 Titles, 0 Wins, 2 Starts
-- [[emw]]: EMW (East German) — 0 Titles, 0 Wins, 1 Starts
-- [[afm]]: AFM (German) — 0 Titles, 0 Wins, 4 Starts
-- [[frazer_nash]]: Frazer Nash (British) — 0 Titles, 0 Wins, 4 Starts
-- [[sherman]]: Sherman (American) — 0 Titles, 0 Wins, 2 Starts
-- [[deidt]]: Deidt (American) — 0 Titles, 0 Wins, 3 Starts
-- [[era]]: ERA (British) — 0 Titles, 0 Wins, 7 Starts
-- [[butterworth]]: Aston Butterworth (British) — 0 Titles, 0 Wins, 4 Starts
-- [[cisitalia]]: Cisitalia (Italian) — 0 Titles, 0 Wins, 1 Starts
-- [[lago]]: Talbot-Lago (French) — 0 Titles, 0 Wins, 13 Starts
-- [[hall]]: Hall (American) — 0 Titles, 0 Wins, 1 Starts
-- [[marchese]]: Marchese (American) — 0 Titles, 0 Wins, 2 Starts
-- [[langley]]: Langley (American) — 0 Titles, 0 Wins, 1 Starts
-- [[rae]]: Rae (American) — 0 Titles, 0 Wins, 1 Starts
-- [[olson]]: Olson (American) — 0 Titles, 0 Wins, 1 Starts
-- [[wetteroth]]: Wetteroth (American) — 0 Titles, 0 Wins, 1 Starts
-- [[adams]]: Adams (American) — 0 Titles, 0 Wins, 1 Starts
-- [[snowberger]]: Snowberger (American) — 0 Titles, 0 Wins, 1 Starts
-- [[milano]]: Milano (Italian) — 0 Titles, 0 Wins, 1 Starts
-- [[hrt]]: HRT (Spanish) — 0 Titles, 0 Wins, 58 Starts
-- [[cooper-maserati]]: Cooper-Maserati (British) — 0 Titles, 2 Wins, 46 Starts
-- [[virgin]]: Virgin (British) — 0 Titles, 0 Wins, 38 Starts
-- [[cooper-osca]]: Cooper-OSCA (British) — 0 Titles, 0 Wins, 1 Starts
-- [[cooper-borgward]]: Cooper-Borgward (British) — 0 Titles, 0 Wins, 2 Starts
-- [[cooper-climax]]: Cooper-Climax (British) — **2** (1959, 1960) Titles, 12 Wins, 67 Starts
-- [[cooper-castellotti]]: Cooper-Castellotti (British) — 0 Titles, 0 Wins, 5 Starts
-- [[lotus-climax]]: Lotus-Climax (British) — **2** (1963, 1965) Titles, 22 Wins, 56 Starts
-- [[lotus-maserati]]: Lotus-Maserati (British) — 0 Titles, 0 Wins, 2 Starts
-- [[de_tomaso-osca]]: De Tomaso-Osca (Italian) — 0 Titles, 0 Wins, 3 Starts
-- [[de_tomaso-alfa_romeo]]: De Tomaso-Alfa Romeo (Italian) — 0 Titles, 0 Wins, 2 Starts
-- [[lotus-brm]]: Lotus-BRM (British) — 0 Titles, 1 Wins, 51 Starts
-- [[lotus-borgward]]: Lotus-Borgward (British) — 0 Titles, 0 Wins, 2 Starts
-- [[cooper-alfa_romeo]]: Cooper-Alfa Romeo (British) — 0 Titles, 0 Wins, 1 Starts
-- [[de_tomaso-ferrari]]: De Tomaso-Ferrari (Italian) — 0 Titles, 0 Wins, 1 Starts
-- [[lotus-ford]]: Lotus-Ford (British) — **1** (1968) Titles, 11 Wins, 44 Starts
-- [[brabham-brm]]: Brabham-BRM (British) — 0 Titles, 0 Wins, 24 Starts
-- [[brabham-ford]]: Brabham-Ford (British) — 0 Titles, 2 Wins, 23 Starts
-- [[brabham-climax]]: Brabham-Climax (British) — 0 Titles, 2 Wins, 35 Starts
-- [[lds-climax]]: LDS-Climax (South African) — 0 Titles, 0 Wins, 2 Starts
-- [[lds-alfa_romeo]]: LDS-Alfa Romeo (South African) — 0 Titles, 0 Wins, 1 Starts
-- [[cooper-ford]]: Cooper-Ford (British) — 0 Titles, 0 Wins, 2 Starts
-- [[mclaren-ford]]: McLaren-Ford (British) — 0 Titles, 4 Wins, 39 Starts
-- [[mclaren-seren]]: McLaren-Serenissima (British) — 0 Titles, 0 Wins, 2 Starts
-- [[eagle-climax]]: Eagle-Climax (American) — 0 Titles, 0 Wins, 13 Starts
-- [[eagle-weslake]]: Eagle-Weslake (American) — 0 Titles, 1 Wins, 17 Starts
-- [[brabham-repco]]: Brabham-Repco (British) — **2** (1966, 1967) Titles, 8 Wins, 33 Starts
-- [[cooper-ferrari]]: Cooper-Ferrari (British) — 0 Titles, 0 Wins, 2 Starts
-- [[cooper-ats]]: Cooper-ATS (British) — 0 Titles, 0 Wins, 1 Starts
-- [[mclaren-brm]]: McLaren-BRM (British) — 0 Titles, 0 Wins, 14 Starts
-- [[cooper-brm]]: Cooper-BRM (British) — 0 Titles, 0 Wins, 12 Starts
-- [[matra-ford]]: Matra-Ford (French) — **1** (1969) Titles, 9 Wins, 23 Starts
-- [[brm-ford]]: BRM-Ford (British) — 0 Titles, 0 Wins, 1 Starts
-- [[mclaren-alfa_romeo]]: McLaren-Alfa Romeo (British) — 0 Titles, 0 Wins, 10 Starts
-- [[march-alfa_romeo]]: March-Alfa Romeo (British) — 0 Titles, 0 Wins, 8 Starts
-- [[march-ford]]: March-Ford (British) — 0 Titles, 0 Wins, 11 Starts
-- [[lotus-pw]]: Lotus-Pratt &amp; Whitney (British) — 0 Titles, 0 Wins, 3 Starts
-- [[shadow-ford]]: Shadow-Ford (British) — 0 Titles, 0 Wins, 14 Starts
-- [[shadow-matra]]: Shadow-Matra (British) — 0 Titles, 0 Wins, 2 Starts
-- [[brabham-alfa_romeo]]: Brabham-Alfa Romeo (British) — 0 Titles, 0 Wins, 29 Starts
-- [[lotus_racing]]: Lotus (Malaysian) — 0 Titles, 0 Wins, 38 Starts
-- [[marussia]]: Marussia (Russian) — 0 Titles, 0 Wins, 55 Starts
-- [[caterham]]: Caterham (Malaysian) — 0 Titles, 0 Wins, 56 Starts
-- [[lotus_f1]]: Lotus F1 (British) — 0 Titles, 2 Wins, 77 Starts
-- [[manor]]: Manor Marussia (British) — 0 Titles, 0 Wins, 39 Starts
-- [[haas]]: Haas F1 Team (American) — 0 Titles, 0 Wins, 226 Starts
-- [[racing_point]]: Racing Point (British) — 0 Titles, 1 Wins, 38 Starts
-- [[alphatauri]]: AlphaTauri (Italian) — 0 Titles, 1 Wins, 83 Starts
-- [[alpine]]: Alpine F1 Team (French) — 0 Titles, 1 Wins, 126 Starts
-- [[rb]]: RB F1 Team (Italian) — 0 Titles, 0 Wins, 60 Starts
-- [[cadillac]]: Cadillac (American) — 0 Titles, 0 Wins, 12 Starts
-- [[audi]]: Audi (German) — 0 Titles, 0 Wins, 12 Starts
+## 🧭 Master Navigation Portals
+
+| Portal | Description | Link |
+| :--- | :--- | :---: |
+| **🧠 Concepts Hub** | Aerodynamics, Ground Effect, Undercut, Turbo-Hybrids, DRS | [[concepts-index]] |
+| **👥 Entities Hub** | Drivers, Constructors, Technical Directors, Team Principals | [[entities-index]] |
+| **💬 Chat Queries Archive** | Archived High-Level Q&A Threads (Claude Notes Format) | [[queries-index]] |
+| **📊 Tier 3 Data Science** | ML Win Probability Model, Driver Consistency, K-Means Clusters | [[win_probability_model]] |
+| **🔍 Tier 2 Telemetry** | 1,172 Detailed Race Pit Stops & Qualifying Gaps | [[2021-22-detail]] |
+| **📅 Seasons Calendar** | Chronological Grand Prix Hubs from 1950 to 2024 | [[season-2021]] |
 
 ---
 
-## 🛣️ Tier 1: Circuits (78 Tracks)
-- [[albert_park]]: Albert Park Grand Prix Circuit (Melbourne, Australia) — 29 Grands Prix Hosted
-- [[sepang]]: Sepang International Circuit (Kuala Lumpur, Malaysia) — 20 Grands Prix Hosted
-- [[bahrain]]: Bahrain International Circuit (Sakhir, Bahrain) — 22 Grands Prix Hosted
-- [[catalunya]]: Circuit de Barcelona-Catalunya (Montmeló, Spain) — 36 Grands Prix Hosted
-- [[istanbul]]: Istanbul Park (Istanbul, Turkey) — 9 Grands Prix Hosted
-- [[monaco]]: Circuit de Monaco (Monte-Carlo, Monaco) — 72 Grands Prix Hosted
-- [[villeneuve]]: Circuit Gilles Villeneuve (Montreal, Canada) — 45 Grands Prix Hosted
-- [[magny_cours]]: Circuit de Nevers Magny-Cours (Magny Cours, France) — 18 Grands Prix Hosted
-- [[silverstone]]: Silverstone Circuit (Silverstone, UK) — 61 Grands Prix Hosted
-- [[hockenheimring]]: Hockenheimring (Hockenheim, Germany) — 37 Grands Prix Hosted
-- [[hungaroring]]: Hungaroring (Budapest, Hungary) — 41 Grands Prix Hosted
-- [[valencia]]: Valencia Street Circuit (Valencia, Spain) — 5 Grands Prix Hosted
-- [[spa]]: Circuit de Spa-Francorchamps (Spa, Belgium) — 59 Grands Prix Hosted
-- [[monza]]: Autodromo Nazionale di Monza (Monza, Italy) — 76 Grands Prix Hosted
-- [[marina_bay]]: Marina Bay Street Circuit (Marina Bay, Singapore) — 17 Grands Prix Hosted
-- [[fuji]]: Fuji Speedway (Oyama, Japan) — 4 Grands Prix Hosted
-- [[shanghai]]: Shanghai International Circuit (Shanghai, China) — 19 Grands Prix Hosted
-- [[interlagos]]: Autódromo José Carlos Pace (São Paulo, Brazil) — 43 Grands Prix Hosted
-- [[indianapolis]]: Indianapolis Motor Speedway (Indianapolis, USA) — 19 Grands Prix Hosted
-- [[nurburgring]]: Nürburgring (Nürburg, Germany) — 41 Grands Prix Hosted
-- [[imola]]: Autodromo Enzo e Dino Ferrari (Imola, Italy) — 32 Grands Prix Hosted
-- [[suzuka]]: Suzuka Circuit (Suzuka, Japan) — 36 Grands Prix Hosted
-- [[yas_marina]]: Yas Marina Circuit (Abu Dhabi, UAE) — 18 Grands Prix Hosted
-- [[galvez]]: Autódromo Juan y Oscar Gálvez (Buenos Aires, Argentina) — 20 Grands Prix Hosted
-- [[jerez]]: Circuito de Jerez (Jerez de la Frontera, Spain) — 7 Grands Prix Hosted
-- [[estoril]]: Autódromo do Estoril (Estoril, Portugal) — 13 Grands Prix Hosted
-- [[okayama]]: Okayama International Circuit (Okayama, Japan) — 2 Grands Prix Hosted
-- [[adelaide]]: Adelaide Street Circuit (Adelaide, Australia) — 11 Grands Prix Hosted
-- [[kyalami]]: Kyalami (Midrand, South Africa) — 20 Grands Prix Hosted
-- [[donington]]: Donington Park (Castle Donington, UK) — 1 Grands Prix Hosted
-- [[rodriguez]]: Autódromo Hermanos Rodríguez (Mexico City, Mexico) — 26 Grands Prix Hosted
-- [[phoenix]]: Phoenix street circuit (Phoenix, USA) — 3 Grands Prix Hosted
-- [[ricard]]: Circuit Paul Ricard (Le Castellet, France) — 18 Grands Prix Hosted
-- [[yeongam]]: Korean International Circuit (Yeongam County, Korea) — 4 Grands Prix Hosted
-- [[jacarepagua]]: Autódromo Internacional Nelson Piquet (Rio de Janeiro, Brazil) — 10 Grands Prix Hosted
-- [[detroit]]: Detroit Street Circuit (Detroit, USA) — 7 Grands Prix Hosted
-- [[brands_hatch]]: Brands Hatch (Kent, UK) — 14 Grands Prix Hosted
-- [[zandvoort]]: Circuit Park Zandvoort (Zandvoort, Netherlands) — 36 Grands Prix Hosted
-- [[zolder]]: Zolder (Heusden-Zolder, Belgium) — 10 Grands Prix Hosted
-- [[dijon]]: Dijon-Prenois (Dijon, France) — 6 Grands Prix Hosted
-- [[dallas]]: Fair Park (Dallas, USA) — 1 Grands Prix Hosted
-- [[long_beach]]: Long Beach (California, USA) — 8 Grands Prix Hosted
-- [[las_vegas]]: Las Vegas Street Circuit (Nevada, USA) — 2 Grands Prix Hosted
-- [[jarama]]: Jarama (Madrid, Spain) — 9 Grands Prix Hosted
-- [[watkins_glen]]: Watkins Glen (New York State, USA) — 20 Grands Prix Hosted
-- [[anderstorp]]: Scandinavian Raceway (Anderstorp, Sweden) — 6 Grands Prix Hosted
-- [[mosport]]: Mosport International Raceway (Ontario, Canada) — 8 Grands Prix Hosted
-- [[montjuic]]: Montjuïc (Barcelona, Spain) — 4 Grands Prix Hosted
-- [[nivelles]]: Nivelles-Baulers (Brussels, Belgium) — 2 Grands Prix Hosted
-- [[charade]]: Charade Circuit (Clermont-Ferrand, France) — 4 Grands Prix Hosted
-- [[tremblant]]: Circuit Mont-Tremblant (Quebec, Canada) — 2 Grands Prix Hosted
-- [[essarts]]: Rouen-Les-Essarts (Rouen, France) — 5 Grands Prix Hosted
-- [[lemans]]: Le Mans (Le Mans, France) — 1 Grands Prix Hosted
-- [[reims]]: Reims-Gueux (Reims, France) — 11 Grands Prix Hosted
-- [[george]]: Prince George Circuit (Eastern Cape Province, South Africa) — 3 Grands Prix Hosted
-- [[zeltweg]]: Zeltweg (Styria, Austria) — 1 Grands Prix Hosted
-- [[aintree]]: Aintree (Liverpool, UK) — 5 Grands Prix Hosted
-- [[boavista]]: Circuito da Boavista (Oporto, Portugal) — 2 Grands Prix Hosted
-- [[riverside]]: Riverside International Raceway (California, USA) — 1 Grands Prix Hosted
-- [[avus]]: AVUS (Berlin, Germany) — 1 Grands Prix Hosted
-- [[monsanto]]: Monsanto Park Circuit (Lisbon, Portugal) — 1 Grands Prix Hosted
-- [[sebring]]: Sebring International Raceway (Florida, USA) — 1 Grands Prix Hosted
-- [[ain-diab]]: Ain Diab (Casablanca, Morocco) — 1 Grands Prix Hosted
-- [[pescara]]: Pescara Circuit (Pescara, Italy) — 1 Grands Prix Hosted
-- [[bremgarten]]: Circuit Bremgarten (Bern, Switzerland) — 5 Grands Prix Hosted
-- [[pedralbes]]: Circuit de Pedralbes (Barcelona, Spain) — 2 Grands Prix Hosted
-- [[buddh]]: Buddh International Circuit (Uttar Pradesh, India) — 3 Grands Prix Hosted
-- [[americas]]: Circuit of the Americas (Austin, USA) — 14 Grands Prix Hosted
-- [[red_bull_ring]]: Red Bull Ring (Spielberg, Austria) — 40 Grands Prix Hosted
-- [[sochi]]: Sochi Autodrom (Sochi, Russia) — 8 Grands Prix Hosted
-- [[baku]]: Baku City Circuit (Baku, Azerbaijan) — 10 Grands Prix Hosted
-- [[portimao]]: Autódromo Internacional do Algarve (Portimão, Portugal) — 2 Grands Prix Hosted
-- [[mugello]]: Autodromo Internazionale del Mugello (Mugello, Italy) — 1 Grands Prix Hosted
-- [[jeddah]]: Jeddah Corniche Circuit (Jeddah, Saudi Arabia) — 5 Grands Prix Hosted
-- [[losail]]: Losail International Circuit (Al Daayen, Qatar) — 5 Grands Prix Hosted
-- [[miami]]: Miami International Autodrome (Miami, USA) — 5 Grands Prix Hosted
-- [[vegas]]: Las Vegas Strip Street Circuit (Las Vegas, United States) — 4 Grands Prix Hosted
-- [[madring]]: Madring (Madrid, Spain) — 1 Grands Prix Hosted
+## 📊 Tier 3: Quantitative Analytics & Scikit-Learn Models
+- [[win_probability_model]]: Scikit-Learn GBDT predictive model for race victory (**95.71% accuracy, 0.9394 ROC-AUC**).
+- [[driver_consistency]]: Statistical finish variance and points regularity index across all drivers.
+- [[pit_strategy]]: Undercut vs. overcut tactical conversion across technical eras.
+- [[style_clusters]]: Unsupervised K-Means clustering ($k=4$) of driver typologies and styles.
 
 ---
 
-## 🏁 Tier 1: Grand Prix Races (1172 Events)
-- [[2025-18]]: 2025 Singapore Grand Prix (Round 18) — Won by [[russell]] at [[marina_bay]]
-- [[2025-19]]: 2025 United States Grand Prix (Round 19) — Won by [[max_verstappen]] at [[americas]]
-- [[2025-20]]: 2025 Mexico City Grand Prix (Round 20) — Won by [[norris]] at [[rodriguez]]
-- [[2025-21]]: 2025 São Paulo Grand Prix (Round 21) — Won by [[norris]] at [[interlagos]]
-- [[2025-22]]: 2025 Las Vegas Grand Prix (Round 22) — Won by [[max_verstappen]] at [[vegas]]
-- [[2025-23]]: 2025 Qatar Grand Prix (Round 23) — Won by [[max_verstappen]] at [[losail]]
-- [[2025-24]]: 2025 Abu Dhabi Grand Prix (Round 24) — Won by [[max_verstappen]] at [[yas_marina]]
-- [[2026-01]]: 2026 Australian Grand Prix (Round 1) — Won by [[russell]] at [[albert_park]]
-- [[2026-02]]: 2026 Chinese Grand Prix (Round 2) — Won by [[antonelli]] at [[shanghai]]
-- [[2026-03]]: 2026 Japanese Grand Prix (Round 3) — Won by [[antonelli]] at [[suzuka]]
-- [[2026-04]]: 2026 Miami Grand Prix (Round 4) — Won by [[antonelli]] at [[miami]]
-- [[2026-05]]: 2026 Canadian Grand Prix (Round 5) — Won by [[antonelli]] at [[villeneuve]]
-- [[2026-06]]: 2026 Monaco Grand Prix (Round 6) — Won by [[antonelli]] at [[monaco]]
-- [[2026-07]]: 2026 Barcelona-Catalunya Grand Prix (Round 7) — Won by [[hamilton]] at [[catalunya]]
-- [[2026-08]]: 2026 Austrian Grand Prix (Round 8) — Won by [[russell]] at [[red_bull_ring]]
-- [[2026-09]]: 2026 British Grand Prix (Round 9) — Won by [[leclerc]] at [[silverstone]]
-- [[2026-10]]: 2026 Belgian Grand Prix (Round 10) — Won by [[antonelli]] at [[spa]]
-- [[2026-11]]: 2026 Hungarian Grand Prix (Round 11) — Won by [[norris]] at [[hungaroring]]
-- [[2026-12]]: 2026 Dutch Grand Prix (Round 12) — Won by [[norris]] at [[zandvoort]]
-- [[2026-13]]: 2026 Italian Grand Prix (Round 13) — Won by [[N/A]] at [[monza]]
-- [[2026-14]]: 2026 Spanish Grand Prix (Round 14) — Won by [[N/A]] at [[madring]]
-- [[2026-15]]: 2026 Azerbaijan Grand Prix (Round 15) — Won by [[N/A]] at [[baku]]
-- [[2026-16]]: 2026 Bahrain Grand Prix in Malaysia (Round 16) — Won by [[N/A]] at [[sepang]]
-- [[2026-17]]: 2026 Singapore Grand Prix (Round 17) — Won by [[N/A]] at [[marina_bay]]
-- [[2026-18]]: 2026 United States Grand Prix (Round 18) — Won by [[N/A]] at [[americas]]
-- [[2026-19]]: 2026 Mexico City Grand Prix (Round 19) — Won by [[N/A]] at [[rodriguez]]
-- [[2026-20]]: 2026 Brazilian Grand Prix (Round 20) — Won by [[N/A]] at [[interlagos]]
-- [[2026-21]]: 2026 Las Vegas Grand Prix (Round 21) — Won by [[N/A]] at [[vegas]]
-- [[2026-22]]: 2026 Qatar Grand Prix (Round 22) — Won by [[N/A]] at [[losail]]
-- [[2026-23]]: 2026 Abu Dhabi Grand Prix (Round 23) — Won by [[N/A]] at [[yas_marina]]
-... *(and 1142 earlier Grand Prix entries)*
+## 🧠 Core Engineering & Strategy Concepts
+- [[drs-drag-reduction-system]]: **Drs Drag Reduction System** (`wiki/concepts/drs-drag-reduction-system.md`)
+- [[ground-effect-aerodynamics]]: **Ground Effect Aerodynamics** (`wiki/concepts/ground-effect-aerodynamics.md`)
+- [[tire-degradation-and-thermal-management]]: **Tire Degradation And Thermal Management** (`wiki/concepts/tire-degradation-and-thermal-management.md`)
+- [[undercut-vs-overcut]]: **Undercut Vs Overcut** (`wiki/concepts/undercut-vs-overcut.md`)
+- [[v6-turbo-hybrid-powertrain]]: **V6 Turbo Hybrid Powertrain** (`wiki/concepts/v6-turbo-hybrid-powertrain.md`)
+*(See [[concepts-index]] for complete concept library)*
 
 ---
 
-## 🔍 Tier 2: Detailed Race Telemetry & Pit Stops (1172 Detailed Files)
-- [[2025-18-detail]]: Telemetry & Strategy breakdown for 2025 Singapore Grand Prix
-- [[2025-19-detail]]: Telemetry & Strategy breakdown for 2025 United States Grand Prix
-- [[2025-20-detail]]: Telemetry & Strategy breakdown for 2025 Mexico City Grand Prix
-- [[2025-21-detail]]: Telemetry & Strategy breakdown for 2025 São Paulo Grand Prix
-- [[2025-22-detail]]: Telemetry & Strategy breakdown for 2025 Las Vegas Grand Prix
-- [[2025-23-detail]]: Telemetry & Strategy breakdown for 2025 Qatar Grand Prix
-- [[2025-24-detail]]: Telemetry & Strategy breakdown for 2025 Abu Dhabi Grand Prix
-- [[2026-01-detail]]: Telemetry & Strategy breakdown for 2026 Australian Grand Prix
-- [[2026-02-detail]]: Telemetry & Strategy breakdown for 2026 Chinese Grand Prix
-- [[2026-03-detail]]: Telemetry & Strategy breakdown for 2026 Japanese Grand Prix
-- [[2026-04-detail]]: Telemetry & Strategy breakdown for 2026 Miami Grand Prix
-- [[2026-05-detail]]: Telemetry & Strategy breakdown for 2026 Canadian Grand Prix
-- [[2026-06-detail]]: Telemetry & Strategy breakdown for 2026 Monaco Grand Prix
-- [[2026-07-detail]]: Telemetry & Strategy breakdown for 2026 Barcelona-Catalunya Grand Prix
-- [[2026-08-detail]]: Telemetry & Strategy breakdown for 2026 Austrian Grand Prix
-- [[2026-09-detail]]: Telemetry & Strategy breakdown for 2026 British Grand Prix
-- [[2026-10-detail]]: Telemetry & Strategy breakdown for 2026 Belgian Grand Prix
-- [[2026-11-detail]]: Telemetry & Strategy breakdown for 2026 Hungarian Grand Prix
-- [[2026-12-detail]]: Telemetry & Strategy breakdown for 2026 Dutch Grand Prix
-- [[2026-13-detail]]: Telemetry & Strategy breakdown for 2026 Italian Grand Prix
-- [[2026-14-detail]]: Telemetry & Strategy breakdown for 2026 Spanish Grand Prix
-- [[2026-15-detail]]: Telemetry & Strategy breakdown for 2026 Azerbaijan Grand Prix
-- [[2026-16-detail]]: Telemetry & Strategy breakdown for 2026 Bahrain Grand Prix in Malaysia
-- [[2026-17-detail]]: Telemetry & Strategy breakdown for 2026 Singapore Grand Prix
-- [[2026-18-detail]]: Telemetry & Strategy breakdown for 2026 United States Grand Prix
-- [[2026-19-detail]]: Telemetry & Strategy breakdown for 2026 Mexico City Grand Prix
-- [[2026-20-detail]]: Telemetry & Strategy breakdown for 2026 Brazilian Grand Prix
-- [[2026-21-detail]]: Telemetry & Strategy breakdown for 2026 Las Vegas Grand Prix
-- [[2026-22-detail]]: Telemetry & Strategy breakdown for 2026 Qatar Grand Prix
-- [[2026-23-detail]]: Telemetry & Strategy breakdown for 2026 Abu Dhabi Grand Prix
-... *(and 1142 earlier telemetry records)*
+## 👔 Key Technical Leaders & Legends
+- [[adrian-newey]]: **Adrian Newey** (Key Industry Figure)
+- [[christian-horner]]: **Christian Horner** (Key Industry Figure)
+- [[colin-chapman]]: **Colin Chapman** (Key Industry Figure)
+- [[enzo-ferrari]]: **Enzo Ferrari** (Key Industry Figure)
+- [[ross-brawn]]: **Ross Brawn** (Key Industry Figure)
+- [[toto-wolff]]: **Toto Wolff** (Key Industry Figure)
+*(See [[entities-index]] for complete entity directory)*
+
+---
+
+## 💬 Recent Claude Chat Query Threads
+- [[ayan_2026-08-29_hamilton-verstappen-2021-deep-dive]]: `ayan_2026-08-29_hamilton-verstappen-2021-deep-dive.md`
+- [[danish_2026-08-29_undercut-pit-strategy-telemetry]]: `danish_2026-08-29_undercut-pit-strategy-telemetry.md`
+
+---
+*Press `Cmd + G` in Obsidian to explore the 3,600+ interconnected nodes in the Graph View.*

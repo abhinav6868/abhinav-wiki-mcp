@@ -1,27 +1,28 @@
+| driver_ref | ericsson |
+| :--- | :--- |
+| **full_name** | Marcus Ericsson |
+| **nationality** | Swedish |
+| **driver_code** | ERI |
+| **permanent_number** | 9 |
+| **date_of_birth** | 1990-09-02 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Marcus Ericsson
 
-**Nationality:** Swedish | **Born:** 1990-09-02 | **Driver Code:** `ERI` | **Permanent #:** `9`
+**Role:** Formula 1 World Championship Driver (Swedish). Career active span: 2014–2018.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **97**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **18.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 97
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 18.0
+**Constructors & Teams Driven For:**
+- **[[caterham]]:** Active 2014 (16 Grand Prix starts)
+- **[[sauber]]:** Active 2015–2018 (81 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[caterham]] (2014, 16 entries)
-- [[sauber]] (2015–2018, 81 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[ericsson]] (`vault/tier1/drivers/ericsson.md`)

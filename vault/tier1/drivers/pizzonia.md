@@ -1,27 +1,28 @@
+| driver_ref | pizzonia |
+| :--- | :--- |
+| **full_name** | Antônio Pizzonia |
+| **nationality** | Brazilian |
+| **driver_code** | PIZ |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1980-09-11 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Antônio Pizzonia
 
-**Nationality:** Brazilian | **Born:** 1980-09-11 | **Driver Code:** `PIZ` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Brazilian). Career active span: 2003–2005.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **20**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **8.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 20
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 8.0
+**Constructors & Teams Driven For:**
+- **[[jaguar]]:** Active 2003 (11 Grand Prix starts)
+- **[[williams]]:** Active 2004–2005 (9 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[jaguar]] (2003, 11 entries)
-- [[williams]] (2004–2005, 9 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[pizzonia]] (`vault/tier1/drivers/pizzonia.md`)

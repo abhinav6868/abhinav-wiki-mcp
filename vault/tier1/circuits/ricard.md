@@ -1,17 +1,36 @@
+---
+type: circuit
+tier: tier1
+name: "Circuit Paul Ricard"
+location: "Le Castellet"
+country: "France"
+coordinates: "43.2506, 5.79167"
+total_gps: 18
+first_gp: 1971
+latest_gp: 2022
+tags:
+  - f1/circuit
+  - f1/tier1
+---
+
 # Circuit Paul Ricard
 
-**Location:** Le Castellet, France | **Coordinates:** `43.2506, 5.79167` | **Altitude:** `432m`
+> [!example] Circuit Dossier
+> **Location:** Le Castellet, France | **Coordinates:** `43.2506, 5.79167` | **Altitude:** `432m`
+> **Total Championship Grands Prix Hosted:** **18**
 
 ---
 
-## 📊 Circuit Details
-- **Total Grands Prix Hosted:** 18
+## 📊 Venue Specifications
 - **First Championship Race:** 1971
 - **Most Recent Grand Prix:** 2022
+- **Track Status:** Active Modern Grand Prix Circuit
 
 ---
 
-## 🏁 Recent & Notable Grands Prix
+## 🏁 Recent & Landmark Grands Prix Hosted
+- [[1985-07]]: 1985 French Grand Prix
+- [[1986-08]]: 1986 French Grand Prix
 - [[1987-06]]: 1987 French Grand Prix
 - [[1988-07]]: 1988 French Grand Prix
 - [[1989-07]]: 1989 French Grand Prix

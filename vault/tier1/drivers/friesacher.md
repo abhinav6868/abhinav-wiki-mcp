@@ -1,26 +1,27 @@
+| driver_ref | friesacher |
+| :--- | :--- |
+| **full_name** | Patrick Friesacher |
+| **nationality** | Austrian |
+| **driver_code** | FRI |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1980-09-26 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Patrick Friesacher
 
-**Nationality:** Austrian | **Born:** 1980-09-26 | **Driver Code:** `FRI` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Austrian). Career active span: 2005–2005.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **11**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **3.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 11
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 3.0
+**Constructors & Teams Driven For:**
+- **[[minardi]]:** Active 2005 (11 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[minardi]] (2005, 11 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[friesacher]] (`vault/tier1/drivers/friesacher.md`)

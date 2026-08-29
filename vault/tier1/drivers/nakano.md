@@ -1,27 +1,28 @@
+| driver_ref | nakano |
+| :--- | :--- |
+| **full_name** | Shinji Nakano |
+| **nationality** | Japanese |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1971-04-01 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Shinji Nakano
 
-**Nationality:** Japanese | **Born:** 1971-04-01 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Japanese). Career active span: 1997–1998.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **33**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **2.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 33
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 2.0
+**Constructors & Teams Driven For:**
+- **[[minardi]]:** Active 1998 (16 Grand Prix starts)
+- **[[prost]]:** Active 1997 (17 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[minardi]] (1998, 16 entries)
-- [[prost]] (1997, 17 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[nakano]] (`vault/tier1/drivers/nakano.md`)

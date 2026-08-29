@@ -1,26 +1,27 @@
+| driver_ref | chaboud |
+| :--- | :--- |
+| **full_name** | Eugène Chaboud |
+| **nationality** | French |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1907-04-12 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Eugène Chaboud
 
-**Nationality:** French | **Born:** 1907-04-12 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (French). Career active span: 1950–1951.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **3**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **1.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 3
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 1.0
+**Constructors & Teams Driven For:**
+- **[[lago]]:** Active 1950–1951 (3 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[lago]] (1950–1951, 3 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[chaboud]] (`vault/tier1/drivers/chaboud.md`)

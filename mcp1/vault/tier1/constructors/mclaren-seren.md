@@ -1,21 +1,23 @@
+| constructor_ref | mclaren-seren |
+| :--- | :--- |
+| **team_name** | McLaren-Serenissima |
+| **nationality** | British |
+| **active_era** | 1966–1966 |
+| **total_starts** | 2 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # McLaren-Serenissima
 
-**Nationality:** British | **First Entry:** 1966 | **Latest Entry:** 1966
+**Role:** Formula 1 Constructor and Racing Team (British).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **2**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **1.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 2
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 1.0
+**Notable Drivers & Winners:**
+- **[[mclaren]]:** 2 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[mclaren]]: 2 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[mclaren-seren]] (`vault/tier1/constructors/mclaren-seren.md`)

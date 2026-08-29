@@ -1,29 +1,30 @@
+| driver_ref | reece |
+| :--- | :--- |
+| **full_name** | Jimmy Reece |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1929-11-17 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Jimmy Reece
 
-**Nationality:** American | **Born:** 1929-11-17 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1952–1958.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **6**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 6
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[kurtis_kraft]]:** Active 1952–1957 (2 Grand Prix starts)
+- **[[lesovsky]]:** Active 1956 (1 Grand Prix starts)
+- **[[pankratz]]:** Active 1954–1955 (2 Grand Prix starts)
+- **[[watson]]:** Active 1958 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[kurtis_kraft]] (1952–1957, 2 entries)
-- [[lesovsky]] (1956, 1 entries)
-- [[pankratz]] (1954–1955, 2 entries)
-- [[watson]] (1958, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[reece]] (`vault/tier1/drivers/reece.md`)

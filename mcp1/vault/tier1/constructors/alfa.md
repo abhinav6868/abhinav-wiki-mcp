@@ -1,28 +1,30 @@
+| constructor_ref | alfa |
+| :--- | :--- |
+| **team_name** | Alfa Romeo |
+| **nationality** | Swiss |
+| **active_era** | 1950–2023 |
+| **total_starts** | 216 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Alfa Romeo
 
-**Nationality:** Swiss | **First Entry:** 1950 | **Latest Entry:** 2023
+**Role:** Formula 1 Constructor and Racing Team (Swiss).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **216**
+- **Grand Prix Victories:** **11** (5.1% win rate)
+- **Podium Finishes:** **28**
+- **Pole Positions:** **13**
+- **All-Time Constructor Points:** **361.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 216
-- **Grand Prix Victories:** 11
-- **Podiums:** 28
-- **Pole Positions:** 13
-- **Total Points:** 361.0
+**Notable Drivers & Winners:**
+- **[[fangio]]:** 13 starts, **6 wins**, 8 podiums
+- **[[farina]]:** 13 starts, **4 wins**, 7 podiums
+- **[[fagioli]]:** 7 starts, **1 wins**, 6 podiums
+- **[[giovinazzi]]:** 60 starts, **0 wins**, 0 podiums
+- **[[raikkonen]]:** 58 starts, **0 wins**, 0 podiums
+- **[[giacomelli]]:** 49 starts, **0 wins**, 1 podiums
+- **[[bottas]]:** 44 starts, **0 wins**, 0 podiums
+- **[[zhou]]:** 44 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[fangio]]: 13 races, 6 wins, 8 podiums
-- [[farina]]: 13 races, 4 wins, 7 podiums
-- [[fagioli]]: 7 races, 1 wins, 6 podiums
-- [[giovinazzi]]: 60 races, 0 wins, 0 podiums
-- [[raikkonen]]: 58 races, 0 wins, 0 podiums
-- [[giacomelli]]: 49 races, 0 wins, 1 podiums
-- [[bottas]]: 44 races, 0 wins, 0 podiums
-- [[zhou]]: 44 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[alfa]] (`vault/tier1/constructors/alfa.md`)

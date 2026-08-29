@@ -1,26 +1,27 @@
+| driver_ref | joachim_winkelhock |
+| :--- | :--- |
+| **full_name** | Joachim Winkelhock |
+| **nationality** | German |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1960-10-24 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Joachim Winkelhock
 
-**Nationality:** German | **Born:** 1960-10-24 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (German). Career active span: 1989–1989.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **7**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 7
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[ags]]:** Active 1989 (7 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[ags]] (1989, 7 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[joachim_winkelhock]] (`vault/tier1/drivers/joachim_winkelhock.md`)

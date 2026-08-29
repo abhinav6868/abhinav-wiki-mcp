@@ -1,29 +1,30 @@
+| driver_ref | bryan |
+| :--- | :--- |
+| **full_name** | Jimmy Bryan |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1926-01-28 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Jimmy Bryan
 
-**Nationality:** American | **Born:** 1926-01-28 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1952–1960.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **9**
+- **Race Victories:** **1** (11.1% win rate)
+- **Podium Finishes:** **3** (33.3% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **18.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 9
-- **Victories:** 1 (11.1%)
-- **Podiums:** 3
-- **Pole Positions:** 0
-- **Career Points:** 18.0
+**Constructors & Teams Driven For:**
+- **[[epperly]]:** Active 1958–1960 (3 Grand Prix starts)
+- **[[kurtis_kraft]]:** Active 1952 (1 Grand Prix starts)
+- **[[kuzma]]:** Active 1954–1957 (4 Grand Prix starts)
+- **[[schroeder]]:** Active 1953 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[1958-04]]:** 1958 Indianapolis 500 with [[epperly]]
 
-## 🏎️ Constructors & Teams
-- [[epperly]] (1958–1960, 3 entries)
-- [[kurtis_kraft]] (1952, 1 entries)
-- [[kuzma]] (1954–1957, 4 entries)
-- [[schroeder]] (1953, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[1958-04]] (1958 Indianapolis 500) with [[epperly]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[bryan]] (`vault/tier1/drivers/bryan.md`)

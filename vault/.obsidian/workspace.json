@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "9e8518aa789f7fc2",
+    "type": "split",
+    "children": [
+      {
+        "id": "a51a2f63cc435855",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03ba6c437ae38479",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8f94eb96c3a56a1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fe5b4978ca21545",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67c9b4e3b5df834b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a4c1fd86d0cc4535",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a4322baeb86ee3d2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f880fffb47cef8ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a190a8f7c515e7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e78e6932c3446bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "623a21c8a4437b8f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "90ad9c0b15c2e826",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "96a9ac98482cea23",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "db0e85afb0c4dc44",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "03ba6c437ae38479",
+  "lastOpenFiles": [
+    "queries-index.md",
+    "entities-index.md",
+    "concepts-index.md",
+    "raw/claude-chat-queries/danish_2026-08-29_undercut-pit-strategy-telemetry.md",
+    "raw/claude-chat-queries/ayan_2026-08-29_hamilton-verstappen-2021-deep-dive.md",
+    "raw/claude-chat-queries",
+    "wiki/entities/key-people/toto-wolff.md",
+    "wiki/entities/key-people/ross-brawn.md",
+    "wiki/entities/key-people/enzo-ferrari.md",
+    "wiki/entities/key-people/colin-chapman.md",
+    "wiki/entities/key-people/christian-horner.md",
+    "wiki/entities/key-people/adrian-newey.md",
+    "wiki/entities/key-people",
+    "wiki/concepts/v6-turbo-hybrid-powertrain.md",
+    "wiki/concepts/undercut-vs-overcut.md",
+    "wiki/concepts/tire-degradation-and-thermal-management.md",
+    "wiki/concepts/drs-drag-reduction-system.md",
+    "wiki/concepts/ground-effect-aerodynamics.md",
+    "wiki/entities",
+    "wiki/concepts",
+    "wiki",
+    "raw/chat-queries/2021_hamilton_verstappen_championship_overview.md",
+    "raw/chat-queries/ferrari_technical_strategy_overview.md",
+    "raw/chat-queries",
+    "raw",
+    "tier1/seasons/season-2026.md",
+    "tier1/seasons/season-2025.md",
+    "tier1/seasons/season-2024.md",
+    "tier1/seasons/season-2023.md",
+    "tier1/seasons/season-2022.md",
+    "tier1/seasons/season-2021.md",
+    "tier1/seasons/season-2020.md",
+    "tier1/seasons/season-2019.md",
+    "tier1/seasons"
+  ]
+}

@@ -1,30 +1,31 @@
+| driver_ref | campbell-jones |
+| :--- | :--- |
+| **full_name** | John Campbell-Jones |
+| **nationality** | British |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1930-01-21 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # John Campbell-Jones
 
-**Nationality:** British | **Born:** 1930-01-21 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 1961–1963.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **5**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 5
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[cooper-climax]]:** Active 1961 (1 Grand Prix starts)
+- **[[emeryson]]:** Active 1962 (1 Grand Prix starts)
+- **[[lola]]:** Active 1963 (1 Grand Prix starts)
+- **[[lotus-brm]]:** Active 1963 (1 Grand Prix starts)
+- **[[lotus-climax]]:** Active 1962 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[cooper-climax]] (1961, 1 entries)
-- [[emeryson]] (1962, 1 entries)
-- [[lola]] (1963, 1 entries)
-- [[lotus-brm]] (1963, 1 entries)
-- [[lotus-climax]] (1962, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[campbell-jones]] (`vault/tier1/drivers/campbell-jones.md`)

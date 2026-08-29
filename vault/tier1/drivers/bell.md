@@ -1,30 +1,31 @@
+| driver_ref | bell |
+| :--- | :--- |
+| **full_name** | Derek Bell |
+| **nationality** | British |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1941-10-31 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Derek Bell
 
-**Nationality:** British | **Born:** 1941-10-31 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 1968–1974.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **14**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **1.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 14
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 1.0
+**Constructors & Teams Driven For:**
+- **[[brabham]]:** Active 1970 (1 Grand Prix starts)
+- **[[ferrari]]:** Active 1968 (2 Grand Prix starts)
+- **[[mclaren-ford]]:** Active 1969 (1 Grand Prix starts)
+- **[[surtees]]:** Active 1970–1974 (7 Grand Prix starts)
+- **[[tecno]]:** Active 1972 (3 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[brabham]] (1970, 1 entries)
-- [[ferrari]] (1968, 2 entries)
-- [[mclaren-ford]] (1969, 1 entries)
-- [[surtees]] (1970–1974, 7 entries)
-- [[tecno]] (1972, 3 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[bell]] (`vault/tier1/drivers/bell.md`)

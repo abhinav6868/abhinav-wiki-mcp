@@ -1,27 +1,28 @@
+| driver_ref | giovinazzi |
+| :--- | :--- |
+| **full_name** | Antonio Giovinazzi |
+| **nationality** | Italian |
+| **driver_code** | GIO |
+| **permanent_number** | 99 |
+| **date_of_birth** | 1993-12-14 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Antonio Giovinazzi
 
-**Nationality:** Italian | **Born:** 1993-12-14 | **Driver Code:** `GIO` | **Permanent #:** `99`
+**Role:** Formula 1 World Championship Driver (Italian). Career active span: 2017–2021.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **62**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **21.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 62
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 21.0
+**Constructors & Teams Driven For:**
+- **[[alfa]]:** Active 2019–2021 (60 Grand Prix starts)
+- **[[sauber]]:** Active 2017 (2 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[alfa]] (2019–2021, 60 entries)
-- [[sauber]] (2017, 2 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[giovinazzi]] (`vault/tier1/drivers/giovinazzi.md`)

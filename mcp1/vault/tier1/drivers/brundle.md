@@ -1,33 +1,34 @@
+| driver_ref | brundle |
+| :--- | :--- |
+| **full_name** | Martin Brundle |
+| **nationality** | British |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1959-06-01 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Martin Brundle
 
-**Nationality:** British | **Born:** 1959-06-01 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 1984–1996.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **165**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **9** (5.5% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **98.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 165
-- **Victories:** 0 (0.0%)
-- **Podiums:** 9
-- **Pole Positions:** 0
-- **Career Points:** 98.0
+**Constructors & Teams Driven For:**
+- **[[benetton]]:** Active 1992 (16 Grand Prix starts)
+- **[[brabham]]:** Active 1989–1991 (32 Grand Prix starts)
+- **[[jordan]]:** Active 1996 (16 Grand Prix starts)
+- **[[ligier]]:** Active 1993–1995 (27 Grand Prix starts)
+- **[[mclaren]]:** Active 1994 (16 Grand Prix starts)
+- **[[tyrrell]]:** Active 1984–1986 (41 Grand Prix starts)
+- **[[williams]]:** Active 1988 (1 Grand Prix starts)
+- **[[zakspeed]]:** Active 1987 (16 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[benetton]] (1992, 16 entries)
-- [[brabham]] (1989–1991, 32 entries)
-- [[jordan]] (1996, 16 entries)
-- [[ligier]] (1993–1995, 27 entries)
-- [[mclaren]] (1994, 16 entries)
-- [[tyrrell]] (1984–1986, 41 entries)
-- [[williams]] (1988, 1 entries)
-- [[zakspeed]] (1987, 16 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[brundle]] (`vault/tier1/drivers/brundle.md`)

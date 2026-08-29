@@ -1,28 +1,29 @@
+| driver_ref | neve |
+| :--- | :--- |
+| **full_name** | Patrick Nève |
+| **nationality** | Belgian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1949-10-13 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Patrick Nève
 
-**Nationality:** Belgian | **Born:** 1949-10-13 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Belgian). Career active span: 1976–1977.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **13**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 13
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[brabham-ford]]:** Active 1976 (1 Grand Prix starts)
+- **[[ensign]]:** Active 1976 (1 Grand Prix starts)
+- **[[march]]:** Active 1977 (11 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[brabham-ford]] (1976, 1 entries)
-- [[ensign]] (1976, 1 entries)
-- [[march]] (1977, 11 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[neve]] (`vault/tier1/drivers/neve.md`)

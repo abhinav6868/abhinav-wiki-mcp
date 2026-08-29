@@ -1,24 +1,26 @@
+| constructor_ref | nichels |
+| :--- | :--- |
+| **team_name** | Nichels |
+| **nationality** | American |
+| **active_era** | 1950–1954 |
+| **total_starts** | 2 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Nichels
 
-**Nationality:** American | **First Entry:** 1950 | **Latest Entry:** 1954
+**Role:** Formula 1 Constructor and Racing Team (American).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **2**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **0.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 2
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 0.0
+**Notable Drivers & Winners:**
+- **[[daywalt]]:** 1 starts, **0 wins**, 0 podiums
+- **[[linden]]:** 1 starts, **0 wins**, 0 podiums
+- **[[paul_russo]]:** 1 starts, **0 wins**, 0 podiums
+- **[[thomson]]:** 1 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[daywalt]]: 1 races, 0 wins, 0 podiums
-- [[linden]]: 1 races, 0 wins, 0 podiums
-- [[paul_russo]]: 1 races, 0 wins, 0 podiums
-- [[thomson]]: 1 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[nichels]] (`vault/tier1/constructors/nichels.md`)

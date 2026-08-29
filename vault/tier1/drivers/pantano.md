@@ -1,26 +1,27 @@
+| driver_ref | pantano |
+| :--- | :--- |
+| **full_name** | Giorgio Pantano |
+| **nationality** | Italian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1979-02-04 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Giorgio Pantano
 
-**Nationality:** Italian | **Born:** 1979-02-04 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Italian). Career active span: 2004–2004.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **14**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 14
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[jordan]]:** Active 2004 (14 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[jordan]] (2004, 14 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[pantano]] (`vault/tier1/drivers/pantano.md`)

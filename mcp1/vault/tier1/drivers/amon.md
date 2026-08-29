@@ -1,39 +1,40 @@
+| driver_ref | amon |
+| :--- | :--- |
+| **full_name** | Chris Amon |
+| **nationality** | New Zealander |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1943-07-20 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Chris Amon
 
-**Nationality:** New Zealander | **Born:** 1943-07-20 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (New Zealander). Career active span: 1963–1976.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **106**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **11** (10.4% podium rate)
+- **Pole Positions:** **5**
+- **Total Career Points:** **83.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 106
-- **Victories:** 0 (0.0%)
-- **Podiums:** 11
-- **Pole Positions:** 5
-- **Career Points:** 83.0
+**Constructors & Teams Driven For:**
+- **[[amon]]:** Active 1974 (4 Grand Prix starts)
+- **[[brabham-brm]]:** Active 1966 (1 Grand Prix starts)
+- **[[brm]]:** Active 1974 (2 Grand Prix starts)
+- **[[cooper-maserati]]:** Active 1966 (1 Grand Prix starts)
+- **[[ensign]]:** Active 1975–1976 (10 Grand Prix starts)
+- **[[ferrari]]:** Active 1967–1969 (27 Grand Prix starts)
+- **[[lola]]:** Active 1963 (7 Grand Prix starts)
+- **[[lotus-brm]]:** Active 1963–1965 (11 Grand Prix starts)
+- **[[lotus-climax]]:** Active 1964 (1 Grand Prix starts)
+- **[[march]]:** Active 1970 (13 Grand Prix starts)
+- **[[matra]]:** Active 1971–1972 (22 Grand Prix starts)
+- **[[tecno]]:** Active 1973 (4 Grand Prix starts)
+- **[[tyrrell]]:** Active 1973 (2 Grand Prix starts)
+- **[[wolf]]:** Active 1976 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[amon]] (1974, 4 entries)
-- [[brabham-brm]] (1966, 1 entries)
-- [[brm]] (1974, 2 entries)
-- [[cooper-maserati]] (1966, 1 entries)
-- [[ensign]] (1975–1976, 10 entries)
-- [[ferrari]] (1967–1969, 27 entries)
-- [[lola]] (1963, 7 entries)
-- [[lotus-brm]] (1963–1965, 11 entries)
-- [[lotus-climax]] (1964, 1 entries)
-- [[march]] (1970, 13 entries)
-- [[matra]] (1971–1972, 22 entries)
-- [[tecno]] (1973, 4 entries)
-- [[tyrrell]] (1973, 2 entries)
-- [[wolf]] (1976, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[amon]] (`vault/tier1/drivers/amon.md`)

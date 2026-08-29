@@ -1,26 +1,27 @@
+| driver_ref | parsons |
+| :--- | :--- |
+| **full_name** | Johnnie Parsons |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1918-07-04 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Johnnie Parsons
 
-**Nationality:** American | **Born:** 1918-07-04 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1950–1958.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **10**
+- **Race Victories:** **1** (10.0% win rate)
+- **Podium Finishes:** **1** (10.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **12.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 10
-- **Victories:** 1 (10.0%)
-- **Podiums:** 1
-- **Pole Positions:** 0
-- **Career Points:** 12.0
+**Constructors & Teams Driven For:**
+- **[[kurtis_kraft]]:** Active 1950–1958 (10 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[1950-03]]:** 1950 Indianapolis 500 with [[kurtis_kraft]]
 
-## 🏎️ Constructors & Teams
-- [[kurtis_kraft]] (1950–1958, 10 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[1950-03]] (1950 Indianapolis 500) with [[kurtis_kraft]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[parsons]] (`vault/tier1/drivers/parsons.md`)

@@ -1,30 +1,31 @@
+| driver_ref | baghetti |
+| :--- | :--- |
+| **full_name** | Giancarlo Baghetti |
+| **nationality** | Italian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1934-12-25 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Giancarlo Baghetti
 
-**Nationality:** Italian | **Born:** 1934-12-25 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Italian). Career active span: 1961–1967.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **26**
+- **Race Victories:** **1** (3.8% win rate)
+- **Podium Finishes:** **1** (3.8% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **14.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 26
-- **Victories:** 1 (3.8%)
-- **Podiums:** 1
-- **Pole Positions:** 0
-- **Career Points:** 14.0
+**Constructors & Teams Driven For:**
+- **[[ats]]:** Active 1963 (9 Grand Prix starts)
+- **[[brabham-climax]]:** Active 1965 (1 Grand Prix starts)
+- **[[brm]]:** Active 1964 (7 Grand Prix starts)
+- **[[ferrari]]:** Active 1961–1966 (8 Grand Prix starts)
+- **[[lotus-ford]]:** Active 1967 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[1961-04]]:** 1961 French Grand Prix with [[ferrari]]
 
-## 🏎️ Constructors & Teams
-- [[ats]] (1963, 9 entries)
-- [[brabham-climax]] (1965, 1 entries)
-- [[brm]] (1964, 7 entries)
-- [[ferrari]] (1961–1966, 8 entries)
-- [[lotus-ford]] (1967, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[1961-04]] (1961 French Grand Prix) with [[ferrari]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[baghetti]] (`vault/tier1/drivers/baghetti.md`)

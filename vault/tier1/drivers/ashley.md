@@ -1,30 +1,31 @@
+| driver_ref | ashley |
+| :--- | :--- |
+| **full_name** | Ian Ashley |
+| **nationality** | British |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1947-10-26 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Ian Ashley
 
-**Nationality:** British | **Born:** 1947-10-26 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 1974–1977.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **11**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 11
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[brabham]]:** Active 1974 (2 Grand Prix starts)
+- **[[brm]]:** Active 1976 (1 Grand Prix starts)
+- **[[hesketh]]:** Active 1977 (5 Grand Prix starts)
+- **[[token]]:** Active 1974 (2 Grand Prix starts)
+- **[[williams]]:** Active 1975 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[brabham]] (1974, 2 entries)
-- [[brm]] (1976, 1 entries)
-- [[hesketh]] (1977, 5 entries)
-- [[token]] (1974, 2 entries)
-- [[williams]] (1975, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[ashley]] (`vault/tier1/drivers/ashley.md`)

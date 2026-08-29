@@ -1,30 +1,31 @@
+| driver_ref | burgess |
+| :--- | :--- |
+| **full_name** | Ian Burgess |
+| **nationality** | British |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1930-07-06 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Ian Burgess
 
-**Nationality:** British | **Born:** 1930-07-06 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 1958–1963.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **26**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 26
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[cooper]]:** Active 1958 (2 Grand Prix starts)
+- **[[cooper-climax]]:** Active 1961–1962 (5 Grand Prix starts)
+- **[[cooper-maserati]]:** Active 1959–1960 (8 Grand Prix starts)
+- **[[lotus-climax]]:** Active 1961 (4 Grand Prix starts)
+- **[[scirocco]]:** Active 1963 (7 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[cooper]] (1958, 2 entries)
-- [[cooper-climax]] (1961–1962, 5 entries)
-- [[cooper-maserati]] (1959–1960, 8 entries)
-- [[lotus-climax]] (1961, 4 entries)
-- [[scirocco]] (1963, 7 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[burgess]] (`vault/tier1/drivers/burgess.md`)

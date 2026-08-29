@@ -1,27 +1,28 @@
+| driver_ref | serra |
+| :--- | :--- |
+| **full_name** | Chico Serra |
+| **nationality** | Brazilian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1957-02-03 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Chico Serra
 
-**Nationality:** Brazilian | **Born:** 1957-02-03 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Brazilian). Career active span: 1981–1983.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **32**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **1.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 32
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 1.0
+**Constructors & Teams Driven For:**
+- **[[arrows]]:** Active 1983 (4 Grand Prix starts)
+- **[[fittipaldi]]:** Active 1981–1982 (28 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[arrows]] (1983, 4 entries)
-- [[fittipaldi]] (1981–1982, 28 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[serra]] (`vault/tier1/drivers/serra.md`)

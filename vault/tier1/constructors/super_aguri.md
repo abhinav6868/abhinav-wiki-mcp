@@ -1,25 +1,27 @@
+| constructor_ref | super_aguri |
+| :--- | :--- |
+| **team_name** | Super Aguri |
+| **nationality** | Japanese |
+| **active_era** | 2006–2008 |
+| **total_starts** | 39 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Super Aguri
 
-**Nationality:** Japanese | **First Entry:** 2006 | **Latest Entry:** 2008
+**Role:** Formula 1 Constructor and Racing Team (Japanese).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **39**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **4.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 39
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 4.0
+**Notable Drivers & Winners:**
+- **[[sato]]:** 39 starts, **0 wins**, 0 podiums
+- **[[davidson]]:** 21 starts, **0 wins**, 0 podiums
+- **[[montagny]]:** 7 starts, **0 wins**, 0 podiums
+- **[[yamamoto]]:** 7 starts, **0 wins**, 0 podiums
+- **[[ide]]:** 4 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[sato]]: 39 races, 0 wins, 0 podiums
-- [[davidson]]: 21 races, 0 wins, 0 podiums
-- [[montagny]]: 7 races, 0 wins, 0 podiums
-- [[yamamoto]]: 7 races, 0 wins, 0 podiums
-- [[ide]]: 4 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[super_aguri]] (`vault/tier1/constructors/super_aguri.md`)

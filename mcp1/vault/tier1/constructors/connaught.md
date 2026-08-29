@@ -1,28 +1,30 @@
+| constructor_ref | connaught |
+| :--- | :--- |
+| **team_name** | Connaught |
+| **nationality** | British |
+| **active_era** | 1952–1959 |
+| **total_starts** | 18 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Connaught
 
-**Nationality:** British | **First Entry:** 1952 | **Latest Entry:** 1959
+**Role:** Formula 1 Constructor and Racing Team (British).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **18**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **1**
+- **Pole Positions:** **1**
+- **All-Time Constructor Points:** **17.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 18
-- **Grand Prix Victories:** 0
-- **Podiums:** 1
-- **Pole Positions:** 1
-- **Total Points:** 17.0
+**Notable Drivers & Winners:**
+- **[[mcalpine]]:** 7 starts, **0 wins**, 0 podiums
+- **[[fairman]]:** 5 starts, **0 wins**, 0 podiums
+- **[[salvadori]]:** 5 starts, **0 wins**, 0 podiums
+- **[[claes]]:** 4 starts, **0 wins**, 0 podiums
+- **[[bira]]:** 3 starts, **0 wins**, 0 podiums
+- **[[bueb]]:** 2 starts, **0 wins**, 0 podiums
+- **[[downing]]:** 2 starts, **0 wins**, 0 podiums
+- **[[marr]]:** 2 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[mcalpine]]: 7 races, 0 wins, 0 podiums
-- [[fairman]]: 5 races, 0 wins, 0 podiums
-- [[salvadori]]: 5 races, 0 wins, 0 podiums
-- [[claes]]: 4 races, 0 wins, 0 podiums
-- [[bira]]: 3 races, 0 wins, 0 podiums
-- [[bueb]]: 2 races, 0 wins, 0 podiums
-- [[downing]]: 2 races, 0 wins, 0 podiums
-- [[marr]]: 2 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[connaught]] (`vault/tier1/constructors/connaught.md`)

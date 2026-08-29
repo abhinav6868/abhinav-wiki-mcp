@@ -1,27 +1,28 @@
+| driver_ref | stevens |
+| :--- | :--- |
+| **full_name** | Will Stevens |
+| **nationality** | British |
+| **driver_code** | STE |
+| **permanent_number** | 28 |
+| **date_of_birth** | 1991-06-28 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Will Stevens
 
-**Nationality:** British | **Born:** 1991-06-28 | **Driver Code:** `STE` | **Permanent #:** `28`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 2014–2015.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **19**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 19
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[caterham]]:** Active 2014 (1 Grand Prix starts)
+- **[[manor]]:** Active 2015 (18 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[caterham]] (2014, 1 entries)
-- [[manor]] (2015, 18 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[stevens]] (`vault/tier1/drivers/stevens.md`)

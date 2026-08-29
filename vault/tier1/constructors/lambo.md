@@ -1,22 +1,24 @@
+| constructor_ref | lambo |
+| :--- | :--- |
+| **team_name** | Lambo |
+| **nationality** | Italian |
+| **active_era** | 1991–1991 |
+| **total_starts** | 16 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Lambo
 
-**Nationality:** Italian | **First Entry:** 1991 | **Latest Entry:** 1991
+**Role:** Formula 1 Constructor and Racing Team (Italian).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **16**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **0.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 16
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 0.0
+**Notable Drivers & Winners:**
+- **[[larini]]:** 16 starts, **0 wins**, 0 podiums
+- **[[poele]]:** 16 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[larini]]: 16 races, 0 wins, 0 podiums
-- [[poele]]: 16 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[lambo]] (`vault/tier1/constructors/lambo.md`)

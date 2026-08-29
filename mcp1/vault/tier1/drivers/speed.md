@@ -1,26 +1,27 @@
+| driver_ref | speed |
+| :--- | :--- |
+| **full_name** | Scott Speed |
+| **nationality** | American |
+| **driver_code** | SPE |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1983-01-24 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Scott Speed
 
-**Nationality:** American | **Born:** 1983-01-24 | **Driver Code:** `SPE` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 2006–2007.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **28**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 28
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[toro_rosso]]:** Active 2006–2007 (28 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[toro_rosso]] (2006–2007, 28 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[speed]] (`vault/tier1/drivers/speed.md`)

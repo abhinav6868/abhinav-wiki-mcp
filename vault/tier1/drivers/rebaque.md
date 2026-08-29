@@ -1,29 +1,30 @@
+| driver_ref | rebaque |
+| :--- | :--- |
+| **full_name** | Hector Rebaque |
+| **nationality** | Mexican |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1956-02-05 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Hector Rebaque
 
-**Nationality:** Mexican | **Born:** 1956-02-05 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Mexican). Career active span: 1977–1981.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **58**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **13.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 58
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 13.0
+**Constructors & Teams Driven For:**
+- **[[brabham]]:** Active 1980–1981 (22 Grand Prix starts)
+- **[[hesketh]]:** Active 1977 (6 Grand Prix starts)
+- **[[rebaque]]:** Active 1979 (3 Grand Prix starts)
+- **[[team_lotus]]:** Active 1978–1979 (27 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[brabham]] (1980–1981, 22 entries)
-- [[hesketh]] (1977, 6 entries)
-- [[rebaque]] (1979, 3 entries)
-- [[team_lotus]] (1978–1979, 27 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[rebaque]] (`vault/tier1/drivers/rebaque.md`)

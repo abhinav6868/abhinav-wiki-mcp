@@ -1,17 +1,34 @@
+---
+type: circuit
+tier: tier1
+name: "Autodromo Internazionale del Mugello"
+location: "Mugello"
+country: "Italy"
+coordinates: "43.9975, 11.3719"
+total_gps: 1
+first_gp: 2020
+latest_gp: 2020
+tags:
+  - f1/circuit
+  - f1/tier1
+---
+
 # Autodromo Internazionale del Mugello
 
-**Location:** Mugello, Italy | **Coordinates:** `43.9975, 11.3719` | **Altitude:** `255m`
+> [!example] Circuit Dossier
+> **Location:** Mugello, Italy | **Coordinates:** `43.9975, 11.3719` | **Altitude:** `255m`
+> **Total Championship Grands Prix Hosted:** **1**
 
 ---
 
-## 📊 Circuit Details
-- **Total Grands Prix Hosted:** 1
+## 📊 Venue Specifications
 - **First Championship Race:** 2020
 - **Most Recent Grand Prix:** 2020
+- **Track Status:** Active Modern Grand Prix Circuit
 
 ---
 
-## 🏁 Recent & Notable Grands Prix
+## 🏁 Recent & Landmark Grands Prix Hosted
 - [[2020-09]]: 2020 Tuscan Grand Prix
 
 ---

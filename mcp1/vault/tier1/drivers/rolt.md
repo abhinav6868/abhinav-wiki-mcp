@@ -1,27 +1,28 @@
+| driver_ref | rolt |
+| :--- | :--- |
+| **full_name** | Tony Rolt |
+| **nationality** | British |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1918-10-16 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Tony Rolt
 
-**Nationality:** British | **Born:** 1918-10-16 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 1950–1955.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **3**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 3
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[connaught]]:** Active 1953–1955 (2 Grand Prix starts)
+- **[[era]]:** Active 1950 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[connaught]] (1953–1955, 2 entries)
-- [[era]] (1950, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[rolt]] (`vault/tier1/drivers/rolt.md`)

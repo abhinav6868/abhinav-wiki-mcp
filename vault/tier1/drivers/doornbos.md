@@ -1,27 +1,28 @@
+| driver_ref | doornbos |
+| :--- | :--- |
+| **full_name** | Robert Doornbos |
+| **nationality** | Dutch |
+| **driver_code** | DOO |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1981-09-23 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Robert Doornbos
 
-**Nationality:** Dutch | **Born:** 1981-09-23 | **Driver Code:** `DOO` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Dutch). Career active span: 2005–2006.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **11**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 11
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[minardi]]:** Active 2005 (8 Grand Prix starts)
+- **[[red_bull]]:** Active 2006 (3 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[minardi]] (2005, 8 entries)
-- [[red_bull]] (2006, 3 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[doornbos]] (`vault/tier1/drivers/doornbos.md`)

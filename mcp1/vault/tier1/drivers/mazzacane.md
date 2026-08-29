@@ -1,27 +1,28 @@
+| driver_ref | mazzacane |
+| :--- | :--- |
+| **full_name** | Gastón Mazzacane |
+| **nationality** | Argentine |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1975-05-08 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Gastón Mazzacane
 
-**Nationality:** Argentine | **Born:** 1975-05-08 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Argentine). Career active span: 2000–2001.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **21**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 21
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[minardi]]:** Active 2000 (17 Grand Prix starts)
+- **[[prost]]:** Active 2001 (4 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[minardi]] (2000, 17 entries)
-- [[prost]] (2001, 4 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[mazzacane]] (`vault/tier1/drivers/mazzacane.md`)

@@ -1,26 +1,27 @@
+| driver_ref | mick_schumacher |
+| :--- | :--- |
+| **full_name** | Mick Schumacher |
+| **nationality** | German |
+| **driver_code** | MSC |
+| **permanent_number** | 47 |
+| **date_of_birth** | 1999-03-22 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Mick Schumacher
 
-**Nationality:** German | **Born:** 1999-03-22 | **Driver Code:** `MSC` | **Permanent #:** `47`
+**Role:** Formula 1 World Championship Driver (German). Career active span: 2021–2022.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **44**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **12.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 44
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 12.0
+**Constructors & Teams Driven For:**
+- **[[haas]]:** Active 2021–2022 (44 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[haas]] (2021–2022, 44 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[mick_schumacher]] (`vault/tier1/drivers/mick_schumacher.md`)

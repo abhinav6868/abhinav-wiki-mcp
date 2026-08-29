@@ -1,32 +1,33 @@
+| driver_ref | verstappen |
+| :--- | :--- |
+| **full_name** | Jos Verstappen |
+| **nationality** | Dutch |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1972-03-04 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Jos Verstappen
 
-**Nationality:** Dutch | **Born:** 1972-03-04 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Dutch). Career active span: 1994–2003.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **107**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **2** (1.9% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **17.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 107
-- **Victories:** 0 (0.0%)
-- **Podiums:** 2
-- **Pole Positions:** 0
-- **Career Points:** 17.0
+**Constructors & Teams Driven For:**
+- **[[arrows]]:** Active 2000–2001 (34 Grand Prix starts)
+- **[[benetton]]:** Active 1994 (10 Grand Prix starts)
+- **[[footwork]]:** Active 1996 (16 Grand Prix starts)
+- **[[minardi]]:** Active 2003 (16 Grand Prix starts)
+- **[[simtek]]:** Active 1995 (5 Grand Prix starts)
+- **[[stewart]]:** Active 1998 (9 Grand Prix starts)
+- **[[tyrrell]]:** Active 1997 (17 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[arrows]] (2000–2001, 34 entries)
-- [[benetton]] (1994, 10 entries)
-- [[footwork]] (1996, 16 entries)
-- [[minardi]] (2003, 16 entries)
-- [[simtek]] (1995, 5 entries)
-- [[stewart]] (1998, 9 entries)
-- [[tyrrell]] (1997, 17 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[verstappen]] (`vault/tier1/drivers/verstappen.md`)

@@ -29,7 +29,7 @@
 - [[2026-23-detail]]: 2026-23-detail
 ... (and earlier race telemetry files)
 
-## 🏎️ Tier 1: Public Results & Entities (2329 Files)
+## 🏎️ Tier 1: Public Results & Entities (2406 Files)
 - [[Cannoc]]: Driver Profile
 - [[Changy]]: Driver Profile
 - [[abate]]: Driver Profile

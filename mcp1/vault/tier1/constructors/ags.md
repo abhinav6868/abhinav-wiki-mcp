@@ -1,28 +1,30 @@
+| constructor_ref | ags |
+| :--- | :--- |
+| **team_name** | AGS |
+| **nationality** | French |
+| **active_era** | 1986–1991 |
+| **total_starts** | 78 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # AGS
 
-**Nationality:** French | **First Entry:** 1986 | **Latest Entry:** 1991
+**Role:** Formula 1 Constructor and Racing Team (French).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **78**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **2.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 78
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 2.0
+**Notable Drivers & Winners:**
+- **[[tarquini]]:** 44 starts, **0 wins**, 0 podiums
+- **[[dalmas]]:** 25 starts, **0 wins**, 0 podiums
+- **[[streiff]]:** 16 starts, **0 wins**, 0 podiums
+- **[[barbazza]]:** 12 starts, **0 wins**, 0 podiums
+- **[[fabre]]:** 12 starts, **0 wins**, 0 podiums
+- **[[joachim_winkelhock]]:** 7 starts, **0 wins**, 0 podiums
+- **[[capelli]]:** 2 starts, **0 wins**, 0 podiums
+- **[[johansson]]:** 2 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[tarquini]]: 44 races, 0 wins, 0 podiums
-- [[dalmas]]: 25 races, 0 wins, 0 podiums
-- [[streiff]]: 16 races, 0 wins, 0 podiums
-- [[barbazza]]: 12 races, 0 wins, 0 podiums
-- [[fabre]]: 12 races, 0 wins, 0 podiums
-- [[joachim_winkelhock]]: 7 races, 0 wins, 0 podiums
-- [[capelli]]: 2 races, 0 wins, 0 podiums
-- [[johansson]]: 2 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[ags]] (`vault/tier1/constructors/ags.md`)

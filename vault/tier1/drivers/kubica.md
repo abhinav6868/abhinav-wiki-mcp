@@ -1,29 +1,30 @@
+| driver_ref | kubica |
+| :--- | :--- |
+| **full_name** | Robert Kubica |
+| **nationality** | Polish |
+| **driver_code** | KUB |
+| **permanent_number** | 88 |
+| **date_of_birth** | 1984-12-07 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Robert Kubica
 
-**Nationality:** Polish | **Born:** 1984-12-07 | **Driver Code:** `KUB` | **Permanent #:** `88`
+**Role:** Formula 1 World Championship Driver (Polish). Career active span: 2006–2021.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **99**
+- **Race Victories:** **1** (1.0% win rate)
+- **Podium Finishes:** **12** (12.1% podium rate)
+- **Pole Positions:** **1**
+- **Total Career Points:** **274.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 99
-- **Victories:** 1 (1.0%)
-- **Podiums:** 12
-- **Pole Positions:** 1
-- **Career Points:** 274.0
+**Constructors & Teams Driven For:**
+- **[[alfa]]:** Active 2021 (2 Grand Prix starts)
+- **[[bmw_sauber]]:** Active 2006–2009 (57 Grand Prix starts)
+- **[[renault]]:** Active 2010 (19 Grand Prix starts)
+- **[[williams]]:** Active 2019 (21 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[2008-07]]:** 2008 Canadian Grand Prix with [[bmw_sauber]]
 
-## 🏎️ Constructors & Teams
-- [[alfa]] (2021, 2 entries)
-- [[bmw_sauber]] (2006–2009, 57 entries)
-- [[renault]] (2010, 19 entries)
-- [[williams]] (2019, 21 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[2008-07]] (2008 Canadian Grand Prix) with [[bmw_sauber]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[kubica]] (`vault/tier1/drivers/kubica.md`)

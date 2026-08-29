@@ -1,27 +1,29 @@
+| constructor_ref | emeryson |
+| :--- | :--- |
+| **team_name** | Emeryson |
+| **nationality** | British |
+| **active_era** | 1956–1962 |
+| **total_starts** | 9 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Emeryson
 
-**Nationality:** British | **First Entry:** 1956 | **Latest Entry:** 1962
+**Role:** Formula 1 Constructor and Racing Team (British).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **9**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **0.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 9
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 0.0
+**Notable Drivers & Winners:**
+- **[[gendebien]]:** 3 starts, **0 wins**, 0 podiums
+- **[[settember]]:** 3 starts, **0 wins**, 0 podiums
+- **[[andre_pilette]]:** 1 starts, **0 wins**, 0 podiums
+- **[[bianchi]]:** 1 starts, **0 wins**, 0 podiums
+- **[[campbell-jones]]:** 1 starts, **0 wins**, 0 podiums
+- **[[emery]]:** 1 starts, **0 wins**, 0 podiums
+- **[[seidel]]:** 1 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[gendebien]]: 3 races, 0 wins, 0 podiums
-- [[settember]]: 3 races, 0 wins, 0 podiums
-- [[andre_pilette]]: 1 races, 0 wins, 0 podiums
-- [[bianchi]]: 1 races, 0 wins, 0 podiums
-- [[campbell-jones]]: 1 races, 0 wins, 0 podiums
-- [[emery]]: 1 races, 0 wins, 0 podiums
-- [[seidel]]: 1 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[emeryson]] (`vault/tier1/constructors/emeryson.md`)

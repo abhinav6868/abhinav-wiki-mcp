@@ -1,27 +1,28 @@
+| driver_ref | koinigg |
+| :--- | :--- |
+| **full_name** | Helmuth Koinigg |
+| **nationality** | Austrian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1948-11-03 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Helmuth Koinigg
 
-**Nationality:** Austrian | **Born:** 1948-11-03 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Austrian). Career active span: 1974–1974.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **3**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 3
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[brabham]]:** Active 1974 (1 Grand Prix starts)
+- **[[surtees]]:** Active 1974 (2 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[brabham]] (1974, 1 entries)
-- [[surtees]] (1974, 2 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[koinigg]] (`vault/tier1/drivers/koinigg.md`)

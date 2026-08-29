@@ -1,26 +1,27 @@
+| driver_ref | matta |
+| :--- | :--- |
+| **full_name** | Cristiano da Matta |
+| **nationality** | Brazilian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1973-09-19 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Cristiano da Matta
 
-**Nationality:** Brazilian | **Born:** 1973-09-19 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Brazilian). Career active span: 2003–2004.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **28**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **13.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 28
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 13.0
+**Constructors & Teams Driven For:**
+- **[[toyota]]:** Active 2003–2004 (28 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[toyota]] (2003–2004, 28 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[matta]] (`vault/tier1/drivers/matta.md`)

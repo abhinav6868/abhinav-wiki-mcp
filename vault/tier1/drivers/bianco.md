@@ -1,26 +1,27 @@
+| driver_ref | bianco |
+| :--- | :--- |
+| **full_name** | Gino Bianco |
+| **nationality** | Brazilian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1916-07-22 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Gino Bianco
 
-**Nationality:** Brazilian | **Born:** 1916-07-22 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Brazilian). Career active span: 1952–1952.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **4**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 4
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[maserati]]:** Active 1952 (4 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[maserati]] (1952, 4 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[bianco]] (`vault/tier1/drivers/bianco.md`)

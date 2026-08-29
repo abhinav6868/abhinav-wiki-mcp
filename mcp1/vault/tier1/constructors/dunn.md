@@ -1,22 +1,24 @@
+| constructor_ref | dunn |
+| :--- | :--- |
+| **team_name** | Dunn |
+| **nationality** | American |
+| **active_era** | 1957–1959 |
+| **total_starts** | 3 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Dunn
 
-**Nationality:** American | **First Entry:** 1957 | **Latest Entry:** 1959
+**Role:** Formula 1 Constructor and Racing Team (American).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **3**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **0.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 3
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 0.0
+**Notable Drivers & Winners:**
+- **[[herman]]:** 2 starts, **0 wins**, 0 podiums
+- **[[weyant]]:** 1 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[herman]]: 2 races, 0 wins, 0 podiums
-- [[weyant]]: 1 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[dunn]] (`vault/tier1/constructors/dunn.md`)

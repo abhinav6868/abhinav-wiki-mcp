@@ -1,0 +1,275 @@
+| index_type | entities_index |
+| :--- | :--- |
+| **total_entities** | 250+ |
+| **category** | People, Drivers, Constructors, Circuits |
+| **last_updated** | 2026-08-29 |
+
+# 👥 Formula 1 Entities Directory
+
+Complete catalog of historical drivers, team principals, technical directors, and racing constructors.
+
+---
+
+## 👔 Key Technical Directors & Team Principals (6 Figures)
+- [[adrian-newey]]: **Adrian Newey** (Key Industry Figure)
+- [[christian-horner]]: **Christian Horner** (Key Industry Figure)
+- [[colin-chapman]]: **Colin Chapman** (Key Industry Figure)
+- [[enzo-ferrari]]: **Enzo Ferrari** (Key Industry Figure)
+- [[ross-brawn]]: **Ross Brawn** (Key Industry Figure)
+- [[toto-wolff]]: **Toto Wolff** (Key Industry Figure)
+
+---
+
+## 🏭 Racing Constructors & Teams (214 Teams)
+- [[adams]]: Constructor Dossier
+- [[afm]]: Constructor Dossier
+- [[ags]]: Constructor Dossier
+- [[alfa]]: Constructor Dossier
+- [[alphatauri]]: Constructor Dossier
+- [[alpine]]: Constructor Dossier
+- [[alta]]: Constructor Dossier
+- [[amon]]: Constructor Dossier
+- [[apollon]]: Constructor Dossier
+- [[arrows]]: Constructor Dossier
+- [[arzani-volpini]]: Constructor Dossier
+- [[aston_martin]]: Constructor Dossier
+- [[ats]]: Constructor Dossier
+- [[audi]]: Constructor Dossier
+- [[bar]]: Constructor Dossier
+- [[behra-porsche]]: Constructor Dossier
+- [[bellasi]]: Constructor Dossier
+- [[benetton]]: Constructor Dossier
+- [[bmw]]: Constructor Dossier
+- [[bmw_sauber]]: Constructor Dossier
+- [[boro]]: Constructor Dossier
+- [[brabham-alfa_romeo]]: Constructor Dossier
+- [[brabham-brm]]: Constructor Dossier
+- [[brabham-climax]]: Constructor Dossier
+- [[brabham-ford]]: Constructor Dossier
+- [[brabham-repco]]: Constructor Dossier
+- [[brabham]]: Constructor Dossier
+- [[brawn]]: Constructor Dossier
+- [[brm-ford]]: Constructor Dossier
+- [[brm]]: Constructor Dossier
+- [[bromme]]: Constructor Dossier
+- [[brp]]: Constructor Dossier
+- [[bugatti]]: Constructor Dossier
+- [[butterworth]]: Constructor Dossier
+- [[cadillac]]: Constructor Dossier
+- [[caterham]]: Constructor Dossier
+- [[cisitalia]]: Constructor Dossier
+- [[coloni]]: Constructor Dossier
+- [[connaught]]: Constructor Dossier
+- [[connew]]: Constructor Dossier
+- [[cooper-alfa_romeo]]: Constructor Dossier
+- [[cooper-ats]]: Constructor Dossier
+- [[cooper-borgward]]: Constructor Dossier
+- [[cooper-brm]]: Constructor Dossier
+- [[cooper-castellotti]]: Constructor Dossier
+- [[cooper-climax]]: Constructor Dossier
+- [[cooper-ferrari]]: Constructor Dossier
+- [[cooper-ford]]: Constructor Dossier
+- [[cooper-maserati]]: Constructor Dossier
+- [[cooper-osca]]: Constructor Dossier
+- [[cooper]]: Constructor Dossier
+- [[dallara]]: Constructor Dossier
+- [[de_tomaso-alfa_romeo]]: Constructor Dossier
+- [[de_tomaso-ferrari]]: Constructor Dossier
+- [[de_tomaso-osca]]: Constructor Dossier
+- [[deidt]]: Constructor Dossier
+- [[del_roy]]: Constructor Dossier
+- [[derrington]]: Constructor Dossier
+- [[dunn]]: Constructor Dossier
+- [[eagle-climax]]: Constructor Dossier
+- [[eagle-weslake]]: Constructor Dossier
+- [[eagle]]: Constructor Dossier
+- [[elder]]: Constructor Dossier
+- [[emeryson]]: Constructor Dossier
+- [[emw]]: Constructor Dossier
+- [[enb]]: Constructor Dossier
+- [[ensign]]: Constructor Dossier
+- [[epperly]]: Constructor Dossier
+- [[era]]: Constructor Dossier
+- [[eurobrun]]: Constructor Dossier
+- [[ewing]]: Constructor Dossier
+- [[ferguson]]: Constructor Dossier
+- [[ferrari]]: Constructor Dossier
+- [[fittipaldi]]: Constructor Dossier
+- [[fondmetal]]: Constructor Dossier
+- [[footwork]]: Constructor Dossier
+- [[force_india]]: Constructor Dossier
+- [[forti]]: Constructor Dossier
+- [[frazer_nash]]: Constructor Dossier
+- [[fry]]: Constructor Dossier
+- [[gilby]]: Constructor Dossier
+- [[gordini]]: Constructor Dossier
+- [[haas]]: Constructor Dossier
+- [[hall]]: Constructor Dossier
+- [[hesketh]]: Constructor Dossier
+- [[hill]]: Constructor Dossier
+- [[honda]]: Constructor Dossier
+- [[hrt]]: Constructor Dossier
+- [[hwm]]: Constructor Dossier
+- [[iso_marlboro]]: Constructor Dossier
+- [[jaguar]]: Constructor Dossier
+- [[jbw]]: Constructor Dossier
+- [[jordan]]: Constructor Dossier
+- [[kauhsen]]: Constructor Dossier
+- [[klenk]]: Constructor Dossier
+- [[kojima]]: Constructor Dossier
+- [[kurtis_kraft]]: Constructor Dossier
+- [[kuzma]]: Constructor Dossier
+- [[lago]]: Constructor Dossier
+- [[lambo]]: Constructor Dossier
+- [[lancia]]: Constructor Dossier
+- [[langley]]: Constructor Dossier
+- [[larrousse]]: Constructor Dossier
+- [[lds-alfa_romeo]]: Constructor Dossier
+- [[lds-climax]]: Constructor Dossier
+- [[lds]]: Constructor Dossier
+- [[lec]]: Constructor Dossier
+- [[lesovsky]]: Constructor Dossier
+- [[leyton]]: Constructor Dossier
+- [[life]]: Constructor Dossier
+- [[ligier]]: Constructor Dossier
+- [[lola]]: Constructor Dossier
+- [[lotus-borgward]]: Constructor Dossier
+- [[lotus-brm]]: Constructor Dossier
+- [[lotus-climax]]: Constructor Dossier
+- [[lotus-ford]]: Constructor Dossier
+- [[lotus-maserati]]: Constructor Dossier
+- [[lotus-pw]]: Constructor Dossier
+- [[lotus_f1]]: Constructor Dossier
+- [[lotus_racing]]: Constructor Dossier
+- [[lyncar]]: Constructor Dossier
+- [[maki]]: Constructor Dossier
+- [[manor]]: Constructor Dossier
+- [[march-alfa_romeo]]: Constructor Dossier
+- [[march-ford]]: Constructor Dossier
+- [[march]]: Constructor Dossier
+- [[marchese]]: Constructor Dossier
+- [[martini]]: Constructor Dossier
+- [[marussia]]: Constructor Dossier
+- [[maserati]]: Constructor Dossier
+- [[matra-ford]]: Constructor Dossier
+- [[matra]]: Constructor Dossier
+- [[mbm]]: Constructor Dossier
+- [[mcguire]]: Constructor Dossier
+- [[mclaren-alfa_romeo]]: Constructor Dossier
+- [[mclaren-brm]]: Constructor Dossier
+- [[mclaren-ford]]: Constructor Dossier
+- [[mclaren-seren]]: Constructor Dossier
+- [[mclaren]]: Constructor Dossier
+- [[mercedes]]: Constructor Dossier
+- [[merzario]]: Constructor Dossier
+- [[meskowski]]: Constructor Dossier
+- [[mf1]]: Constructor Dossier
+- [[milano]]: Constructor Dossier
+- [[minardi]]: Constructor Dossier
+- [[moda]]: Constructor Dossier
+- [[moore]]: Constructor Dossier
+- [[nichels]]: Constructor Dossier
+- [[olson]]: Constructor Dossier
+- [[onyx]]: Constructor Dossier
+- [[osca]]: Constructor Dossier
+- [[osella]]: Constructor Dossier
+- [[pacific]]: Constructor Dossier
+- [[pankratz]]: Constructor Dossier
+- [[parnelli]]: Constructor Dossier
+- [[pawl]]: Constructor Dossier
+- [[penske]]: Constructor Dossier
+- [[phillips]]: Constructor Dossier
+- [[politoys]]: Constructor Dossier
+- [[porsche]]: Constructor Dossier
+- [[prost]]: Constructor Dossier
+- [[protos]]: Constructor Dossier
+- [[racing_point]]: Constructor Dossier
+- [[rae]]: Constructor Dossier
+- [[ram]]: Constructor Dossier
+- [[rb]]: Constructor Dossier
+- [[re]]: Constructor Dossier
+- [[rebaque]]: Constructor Dossier
+- [[red_bull]]: Constructor Dossier
+- [[renault]]: Constructor Dossier
+- [[rial]]: Constructor Dossier
+- [[sauber]]: Constructor Dossier
+- [[scarab]]: Constructor Dossier
+- [[schroeder]]: Constructor Dossier
+- [[scirocco]]: Constructor Dossier
+- [[shadow-ford]]: Constructor Dossier
+- [[shadow-matra]]: Constructor Dossier
+- [[shadow]]: Constructor Dossier
+- [[shannon]]: Constructor Dossier
+- [[sherman]]: Constructor Dossier
+- [[simca]]: Constructor Dossier
+- [[simtek]]: Constructor Dossier
+- [[snowberger]]: Constructor Dossier
+- [[spirit]]: Constructor Dossier
+- [[spyker]]: Constructor Dossier
+- [[spyker_mf1]]: Constructor Dossier
+- [[stebro]]: Constructor Dossier
+- [[stevens]]: Constructor Dossier
+- [[stewart]]: Constructor Dossier
+- [[super_aguri]]: Constructor Dossier
+- [[surtees]]: Constructor Dossier
+- [[sutton]]: Constructor Dossier
+- [[team_lotus]]: Constructor Dossier
+- [[tec-mec]]: Constructor Dossier
+- [[tecno]]: Constructor Dossier
+- [[theodore]]: Constructor Dossier
+- [[token]]: Constructor Dossier
+- [[toleman]]: Constructor Dossier
+- [[tomaso]]: Constructor Dossier
+- [[toro_rosso]]: Constructor Dossier
+- [[toyota]]: Constructor Dossier
+- [[trevis]]: Constructor Dossier
+- [[trojan]]: Constructor Dossier
+- [[turner]]: Constructor Dossier
+- [[tyrrell]]: Constructor Dossier
+- [[vanwall]]: Constructor Dossier
+- [[veritas]]: Constructor Dossier
+- [[vhristensen]]: Constructor Dossier
+- [[virgin]]: Constructor Dossier
+- [[watson]]: Constructor Dossier
+- [[wetteroth]]: Constructor Dossier
+- [[williams]]: Constructor Dossier
+- [[wolf]]: Constructor Dossier
+- [[zakspeed]]: Constructor Dossier
+
+---
+
+## 🏎️ Featured Drivers Sample
+- [[Cannoc]]: Driver Profile
+- [[Changy]]: Driver Profile
+- [[abate]]: Driver Profile
+- [[abecassis]]: Driver Profile
+- [[acheson]]: Driver Profile
+- [[adamich]]: Driver Profile
+- [[adams]]: Driver Profile
+- [[ader]]: Driver Profile
+- [[adolff]]: Driver Profile
+- [[agabashian]]: Driver Profile
+- [[ahrens]]: Driver Profile
+- [[aitken]]: Driver Profile
+- [[alan_brown]]: Driver Profile
+- [[albers]]: Driver Profile
+- [[albon]]: Driver Profile
+- [[alboreto]]: Driver Profile
+- [[alesi]]: Driver Profile
+- [[alguersuari]]: Driver Profile
+- [[alliot]]: Driver Profile
+- [[allison]]: Driver Profile
+- [[alonso]]: Driver Profile
+- [[amati]]: Driver Profile
+- [[ambrosio]]: Driver Profile
+- [[amick]]: Driver Profile
+- [[amon]]: Driver Profile
+- [[anderson]]: Driver Profile
+- [[andersson]]: Driver Profile
+- [[andre_pilette]]: Driver Profile
+- [[andretti]]: Driver Profile
+- [[andrews]]: Driver Profile
+... *(and 835 more driver profiles in `vault/tier1/drivers/`)*
+
+---
+*Linked to: [[index|Master Vault Index]] | [[concepts-index|Concepts Index]]*

@@ -1,34 +1,35 @@
+| driver_ref | cheever |
+| :--- | :--- |
+| **full_name** | Eddie Cheever |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1958-01-10 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Eddie Cheever
 
-**Nationality:** American | **Born:** 1958-01-10 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1978–1989.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **143**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **9** (6.3% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **70.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 143
-- **Victories:** 0 (0.0%)
-- **Podiums:** 9
-- **Pole Positions:** 0
-- **Career Points:** 70.0
+**Constructors & Teams Driven For:**
+- **[[alfa]]:** Active 1984–1985 (32 Grand Prix starts)
+- **[[arrows]]:** Active 1987–1989 (48 Grand Prix starts)
+- **[[hesketh]]:** Active 1978 (1 Grand Prix starts)
+- **[[ligier]]:** Active 1982 (15 Grand Prix starts)
+- **[[lola]]:** Active 1986 (1 Grand Prix starts)
+- **[[osella]]:** Active 1980 (14 Grand Prix starts)
+- **[[renault]]:** Active 1983 (15 Grand Prix starts)
+- **[[theodore]]:** Active 1978 (2 Grand Prix starts)
+- **[[tyrrell]]:** Active 1981 (15 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[alfa]] (1984–1985, 32 entries)
-- [[arrows]] (1987–1989, 48 entries)
-- [[hesketh]] (1978, 1 entries)
-- [[ligier]] (1982, 15 entries)
-- [[lola]] (1986, 1 entries)
-- [[osella]] (1980, 14 entries)
-- [[renault]] (1983, 15 entries)
-- [[theodore]] (1978, 2 entries)
-- [[tyrrell]] (1981, 15 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[cheever]] (`vault/tier1/drivers/cheever.md`)

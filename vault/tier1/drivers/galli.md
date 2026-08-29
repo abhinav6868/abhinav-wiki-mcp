@@ -1,31 +1,32 @@
+| driver_ref | galli |
+| :--- | :--- |
+| **full_name** | Nanni Galli |
+| **nationality** | Italian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1940-10-02 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Nanni Galli
 
-**Nationality:** Italian | **Born:** 1940-10-02 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Italian). Career active span: 1970–1973.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **17**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 17
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[ferrari]]:** Active 1972 (1 Grand Prix starts)
+- **[[iso_marlboro]]:** Active 1973 (5 Grand Prix starts)
+- **[[march-alfa_romeo]]:** Active 1971 (2 Grand Prix starts)
+- **[[march-ford]]:** Active 1971 (4 Grand Prix starts)
+- **[[mclaren-alfa_romeo]]:** Active 1970 (1 Grand Prix starts)
+- **[[tecno]]:** Active 1972 (4 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[ferrari]] (1972, 1 entries)
-- [[iso_marlboro]] (1973, 5 entries)
-- [[march-alfa_romeo]] (1971, 2 entries)
-- [[march-ford]] (1971, 4 entries)
-- [[mclaren-alfa_romeo]] (1970, 1 entries)
-- [[tecno]] (1972, 4 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[galli]] (`vault/tier1/drivers/galli.md`)

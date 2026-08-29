@@ -1,27 +1,28 @@
+| driver_ref | wehrlein |
+| :--- | :--- |
+| **full_name** | Pascal Wehrlein |
+| **nationality** | German |
+| **driver_code** | WEH |
+| **permanent_number** | 94 |
+| **date_of_birth** | 1994-10-18 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Pascal Wehrlein
 
-**Nationality:** German | **Born:** 1994-10-18 | **Driver Code:** `WEH` | **Permanent #:** `94`
+**Role:** Formula 1 World Championship Driver (German). Career active span: 2016–2017.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **39**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **6.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 39
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 6.0
+**Constructors & Teams Driven For:**
+- **[[manor]]:** Active 2016 (21 Grand Prix starts)
+- **[[sauber]]:** Active 2017 (18 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[manor]] (2016, 21 entries)
-- [[sauber]] (2017, 18 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[wehrlein]] (`vault/tier1/drivers/wehrlein.md`)

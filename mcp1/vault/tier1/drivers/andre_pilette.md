@@ -1,32 +1,33 @@
+| driver_ref | andre_pilette |
+| :--- | :--- |
+| **full_name** | André Pilette |
+| **nationality** | Belgian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1918-10-06 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # André Pilette
 
-**Nationality:** Belgian | **Born:** 1918-10-06 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Belgian). Career active span: 1951–1964.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **15**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **2.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 15
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 2.0
+**Constructors & Teams Driven For:**
+- **[[connaught]]:** Active 1953 (1 Grand Prix starts)
+- **[[emeryson]]:** Active 1961 (1 Grand Prix starts)
+- **[[ferrari]]:** Active 1956 (1 Grand Prix starts)
+- **[[gordini]]:** Active 1954–1956 (6 Grand Prix starts)
+- **[[lago]]:** Active 1951 (1 Grand Prix starts)
+- **[[lotus-climax]]:** Active 1963 (2 Grand Prix starts)
+- **[[scirocco]]:** Active 1964 (3 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[connaught]] (1953, 1 entries)
-- [[emeryson]] (1961, 1 entries)
-- [[ferrari]] (1956, 1 entries)
-- [[gordini]] (1954–1956, 6 entries)
-- [[lago]] (1951, 1 entries)
-- [[lotus-climax]] (1963, 2 entries)
-- [[scirocco]] (1964, 3 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[andre_pilette]] (`vault/tier1/drivers/andre_pilette.md`)

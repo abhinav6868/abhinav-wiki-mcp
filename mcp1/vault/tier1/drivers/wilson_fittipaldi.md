@@ -1,27 +1,28 @@
+| driver_ref | wilson_fittipaldi |
+| :--- | :--- |
+| **full_name** | Wilson Fittipaldi |
+| **nationality** | Brazilian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1943-12-25 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Wilson Fittipaldi
 
-**Nationality:** Brazilian | **Born:** 1943-12-25 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Brazilian). Career active span: 1972–1975.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **38**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **3.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 38
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 3.0
+**Constructors & Teams Driven For:**
+- **[[brabham]]:** Active 1972–1973 (25 Grand Prix starts)
+- **[[fittipaldi]]:** Active 1975 (13 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[brabham]] (1972–1973, 25 entries)
-- [[fittipaldi]] (1975, 13 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[wilson_fittipaldi]] (`vault/tier1/drivers/wilson_fittipaldi.md`)

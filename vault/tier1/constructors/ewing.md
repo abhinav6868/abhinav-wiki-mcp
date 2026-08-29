@@ -1,23 +1,25 @@
+| constructor_ref | ewing |
+| :--- | :--- |
+| **team_name** | Ewing |
+| **nationality** | American |
+| **active_era** | 1950–1960 |
+| **total_starts** | 2 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Ewing
 
-**Nationality:** American | **First Entry:** 1950 | **Latest Entry:** 1960
+**Role:** Formula 1 Constructor and Racing Team (American).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **2**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **1**
+- **All-Time Constructor Points:** **0.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 2
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 1
-- **Total Points:** 0.0
+**Notable Drivers & Winners:**
+- **[[davies]]:** 1 starts, **0 wins**, 0 podiums
+- **[[herman]]:** 1 starts, **0 wins**, 0 podiums
+- **[[sachs]]:** 1 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[davies]]: 1 races, 0 wins, 0 podiums
-- [[herman]]: 1 races, 0 wins, 0 podiums
-- [[sachs]]: 1 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[ewing]] (`vault/tier1/constructors/ewing.md`)

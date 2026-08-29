@@ -1,27 +1,28 @@
+| driver_ref | wallard |
+| :--- | :--- |
+| **full_name** | Lee Wallard |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1910-09-07 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Lee Wallard
 
-**Nationality:** American | **Born:** 1910-09-07 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1950–1951.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **2**
+- **Race Victories:** **1** (50.0% win rate)
+- **Podium Finishes:** **1** (50.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **9.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 2
-- **Victories:** 1 (50.0%)
-- **Podiums:** 1
-- **Pole Positions:** 0
-- **Career Points:** 9.0
+**Constructors & Teams Driven For:**
+- **[[kurtis_kraft]]:** Active 1951 (1 Grand Prix starts)
+- **[[moore]]:** Active 1950 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[1951-02]]:** 1951 Indianapolis 500 with [[kurtis_kraft]]
 
-## 🏎️ Constructors & Teams
-- [[kurtis_kraft]] (1951, 1 entries)
-- [[moore]] (1950, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[1951-02]] (1951 Indianapolis 500) with [[kurtis_kraft]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[wallard]] (`vault/tier1/drivers/wallard.md`)

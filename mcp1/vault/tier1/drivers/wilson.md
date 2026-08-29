@@ -1,27 +1,28 @@
+| driver_ref | wilson |
+| :--- | :--- |
+| **full_name** | Justin Wilson |
+| **nationality** | British |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1978-07-31 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Justin Wilson
 
-**Nationality:** British | **Born:** 1978-07-31 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 2003–2003.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **16**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **1.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 16
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 1.0
+**Constructors & Teams Driven For:**
+- **[[jaguar]]:** Active 2003 (5 Grand Prix starts)
+- **[[minardi]]:** Active 2003 (11 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[jaguar]] (2003, 5 entries)
-- [[minardi]] (2003, 11 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[wilson]] (`vault/tier1/drivers/wilson.md`)

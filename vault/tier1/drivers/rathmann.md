@@ -1,29 +1,30 @@
+| driver_ref | rathmann |
+| :--- | :--- |
+| **full_name** | Jim Rathmann |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1928-07-16 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Jim Rathmann
 
-**Nationality:** American | **Born:** 1928-07-16 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1950–1960.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **12**
+- **Race Victories:** **1** (8.3% win rate)
+- **Podium Finishes:** **4** (33.3% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **29.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 12
-- **Victories:** 1 (8.3%)
-- **Podiums:** 4
-- **Pole Positions:** 0
-- **Career Points:** 29.0
+**Constructors & Teams Driven For:**
+- **[[epperly]]:** Active 1955–1958 (3 Grand Prix starts)
+- **[[kurtis_kraft]]:** Active 1952–1956 (6 Grand Prix starts)
+- **[[watson]]:** Active 1959–1960 (2 Grand Prix starts)
+- **[[wetteroth]]:** Active 1950 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[1960-03]]:** 1960 Indianapolis 500 with [[watson]]
 
-## 🏎️ Constructors & Teams
-- [[epperly]] (1955–1958, 3 entries)
-- [[kurtis_kraft]] (1952–1956, 6 entries)
-- [[watson]] (1959–1960, 2 entries)
-- [[wetteroth]] (1950, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[1960-03]] (1960 Indianapolis 500) with [[watson]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[rathmann]] (`vault/tier1/drivers/rathmann.md`)

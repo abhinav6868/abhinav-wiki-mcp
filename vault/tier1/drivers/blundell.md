@@ -1,29 +1,30 @@
+| driver_ref | blundell |
+| :--- | :--- |
+| **full_name** | Mark Blundell |
+| **nationality** | British |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1966-04-08 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Mark Blundell
 
-**Nationality:** British | **Born:** 1966-04-08 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 1991–1995.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **63**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **3** (4.8% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **32.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 63
-- **Victories:** 0 (0.0%)
-- **Podiums:** 3
-- **Pole Positions:** 0
-- **Career Points:** 32.0
+**Constructors & Teams Driven For:**
+- **[[brabham]]:** Active 1991 (16 Grand Prix starts)
+- **[[ligier]]:** Active 1993 (16 Grand Prix starts)
+- **[[mclaren]]:** Active 1995 (15 Grand Prix starts)
+- **[[tyrrell]]:** Active 1994 (16 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[brabham]] (1991, 16 entries)
-- [[ligier]] (1993, 16 entries)
-- [[mclaren]] (1995, 15 entries)
-- [[tyrrell]] (1994, 16 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[blundell]] (`vault/tier1/drivers/blundell.md`)

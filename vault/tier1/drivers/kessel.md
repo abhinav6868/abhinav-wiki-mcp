@@ -1,27 +1,28 @@
+| driver_ref | kessel |
+| :--- | :--- |
+| **full_name** | Loris Kessel |
+| **nationality** | Swiss |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1950-04-01 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Loris Kessel
 
-**Nationality:** Swiss | **Born:** 1950-04-01 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Swiss). Career active span: 1976–1977.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **6**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 6
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[apollon]]:** Active 1977 (1 Grand Prix starts)
+- **[[brabham-ford]]:** Active 1976 (5 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[apollon]] (1977, 1 entries)
-- [[brabham-ford]] (1976, 5 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[kessel]] (`vault/tier1/drivers/kessel.md`)

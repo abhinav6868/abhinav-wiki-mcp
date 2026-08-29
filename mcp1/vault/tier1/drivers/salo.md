@@ -1,32 +1,33 @@
+| driver_ref | salo |
+| :--- | :--- |
+| **full_name** | Mika Salo |
+| **nationality** | Finnish |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1966-11-30 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Mika Salo
 
-**Nationality:** Finnish | **Born:** 1966-11-30 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Finnish). Career active span: 1994–2002.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **111**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **2** (1.8% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **33.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 111
-- **Victories:** 0 (0.0%)
-- **Podiums:** 2
-- **Pole Positions:** 0
-- **Career Points:** 33.0
+**Constructors & Teams Driven For:**
+- **[[arrows]]:** Active 1998 (16 Grand Prix starts)
+- **[[bar]]:** Active 1999 (3 Grand Prix starts)
+- **[[ferrari]]:** Active 1999 (6 Grand Prix starts)
+- **[[sauber]]:** Active 2000 (17 Grand Prix starts)
+- **[[team_lotus]]:** Active 1994 (2 Grand Prix starts)
+- **[[toyota]]:** Active 2002 (17 Grand Prix starts)
+- **[[tyrrell]]:** Active 1995–1997 (50 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[arrows]] (1998, 16 entries)
-- [[bar]] (1999, 3 entries)
-- [[ferrari]] (1999, 6 entries)
-- [[sauber]] (2000, 17 entries)
-- [[team_lotus]] (1994, 2 entries)
-- [[toyota]] (2002, 17 entries)
-- [[tyrrell]] (1995–1997, 50 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[salo]] (`vault/tier1/drivers/salo.md`)

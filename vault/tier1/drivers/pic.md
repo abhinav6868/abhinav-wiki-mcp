@@ -1,27 +1,28 @@
+| driver_ref | pic |
+| :--- | :--- |
+| **full_name** | Charles Pic |
+| **nationality** | French |
+| **driver_code** | PIC |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1990-02-15 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Charles Pic
 
-**Nationality:** French | **Born:** 1990-02-15 | **Driver Code:** `PIC` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (French). Career active span: 2012–2013.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **39**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 39
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[caterham]]:** Active 2013 (19 Grand Prix starts)
+- **[[marussia]]:** Active 2012 (20 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[caterham]] (2013, 19 entries)
-- [[marussia]] (2012, 20 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[pic]] (`vault/tier1/drivers/pic.md`)

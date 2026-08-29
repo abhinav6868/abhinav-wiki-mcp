@@ -1,26 +1,27 @@
+| driver_ref | merhi |
+| :--- | :--- |
+| **full_name** | Roberto Merhi |
+| **nationality** | Spanish |
+| **driver_code** | MER |
+| **permanent_number** | 98 |
+| **date_of_birth** | 1991-03-22 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Roberto Merhi
 
-**Nationality:** Spanish | **Born:** 1991-03-22 | **Driver Code:** `MER` | **Permanent #:** `98`
+**Role:** Formula 1 World Championship Driver (Spanish). Career active span: 2015–2015.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **13**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 13
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[manor]]:** Active 2015 (13 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[manor]] (2015, 13 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[merhi]] (`vault/tier1/drivers/merhi.md`)

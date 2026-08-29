@@ -1,21 +1,23 @@
+| constructor_ref | pankratz |
+| :--- | :--- |
+| **team_name** | Pankratz |
+| **nationality** | American |
+| **active_era** | 1954–1955 |
+| **total_starts** | 2 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Pankratz
 
-**Nationality:** American | **First Entry:** 1954 | **Latest Entry:** 1955
+**Role:** Formula 1 Constructor and Racing Team (American).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **2**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **0.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 2
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 0.0
+**Notable Drivers & Winners:**
+- **[[reece]]:** 2 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[reece]]: 2 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[pankratz]] (`vault/tier1/constructors/pankratz.md`)

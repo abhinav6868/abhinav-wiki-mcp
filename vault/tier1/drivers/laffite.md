@@ -1,33 +1,34 @@
+| driver_ref | laffite |
+| :--- | :--- |
+| **full_name** | Jacques Laffite |
+| **nationality** | French |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1943-11-21 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Jacques Laffite
 
-**Nationality:** French | **Born:** 1943-11-21 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (French). Career active span: 1974–1986.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **180**
+- **Race Victories:** **6** (3.3% win rate)
+- **Podium Finishes:** **32** (17.8% podium rate)
+- **Pole Positions:** **7**
+- **Total Career Points:** **228.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 180
-- **Victories:** 6 (3.3%)
-- **Podiums:** 32
-- **Pole Positions:** 7
-- **Career Points:** 228.0
+**Constructors & Teams Driven For:**
+- **[[iso_marlboro]]:** Active 1974 (5 Grand Prix starts)
+- **[[ligier]]:** Active 1976–1986 (132 Grand Prix starts)
+- **[[williams]]:** Active 1975–1984 (43 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[1977-08]]:** 1977 Swedish Grand Prix with [[ligier]]
+- **[[1979-01]]:** 1979 Argentine Grand Prix with [[ligier]]
+- **[[1979-02]]:** 1979 Brazilian Grand Prix with [[ligier]]
+- **[[1980-09]]:** 1980 German Grand Prix with [[ligier]]
+- **[[1981-11]]:** 1981 Austrian Grand Prix with [[ligier]]
+- **[[1981-14]]:** 1981 Canadian Grand Prix with [[ligier]]
 
-## 🏎️ Constructors & Teams
-- [[iso_marlboro]] (1974, 5 entries)
-- [[ligier]] (1976–1986, 132 entries)
-- [[williams]] (1975–1984, 43 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[1977-08]] (1977 Swedish Grand Prix) with [[ligier]]
-- [[1979-01]] (1979 Argentine Grand Prix) with [[ligier]]
-- [[1979-02]] (1979 Brazilian Grand Prix) with [[ligier]]
-- [[1980-09]] (1980 German Grand Prix) with [[ligier]]
-- [[1981-11]] (1981 Austrian Grand Prix) with [[ligier]]
-- [[1981-14]] (1981 Canadian Grand Prix) with [[ligier]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[laffite]] (`vault/tier1/drivers/laffite.md`)

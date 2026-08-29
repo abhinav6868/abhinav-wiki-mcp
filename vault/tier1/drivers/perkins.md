@@ -1,30 +1,31 @@
+| driver_ref | perkins |
+| :--- | :--- |
+| **full_name** | Larry Perkins |
+| **nationality** | Australian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1950-03-18 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Larry Perkins
 
-**Nationality:** Australian | **Born:** 1950-03-18 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Australian). Career active span: 1974–1977.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **15**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 15
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[amon]]:** Active 1974 (1 Grand Prix starts)
+- **[[boro]]:** Active 1976 (6 Grand Prix starts)
+- **[[brabham-alfa_romeo]]:** Active 1976 (3 Grand Prix starts)
+- **[[brm]]:** Active 1977 (2 Grand Prix starts)
+- **[[surtees]]:** Active 1977 (3 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[amon]] (1974, 1 entries)
-- [[boro]] (1976, 6 entries)
-- [[brabham-alfa_romeo]] (1976, 3 entries)
-- [[brm]] (1977, 2 entries)
-- [[surtees]] (1977, 3 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[perkins]] (`vault/tier1/drivers/perkins.md`)

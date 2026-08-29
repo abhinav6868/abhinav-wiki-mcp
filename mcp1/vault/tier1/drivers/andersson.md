@@ -1,27 +1,28 @@
+| driver_ref | andersson |
+| :--- | :--- |
+| **full_name** | Conny Andersson |
+| **nationality** | Swedish |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1939-12-28 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Conny Andersson
 
-**Nationality:** Swedish | **Born:** 1939-12-28 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Swedish). Career active span: 1976–1977.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **5**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 5
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[brm]]:** Active 1977 (4 Grand Prix starts)
+- **[[surtees]]:** Active 1976 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[brm]] (1977, 4 entries)
-- [[surtees]] (1976, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[andersson]] (`vault/tier1/drivers/andersson.md`)

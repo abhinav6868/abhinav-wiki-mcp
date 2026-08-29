@@ -1,29 +1,30 @@
+| driver_ref | streiff |
+| :--- | :--- |
+| **full_name** | Philippe Streiff |
+| **nationality** | French |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1955-06-26 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Philippe Streiff
 
-**Nationality:** French | **Born:** 1955-06-26 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (French). Career active span: 1984–1988.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **54**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **1** (1.9% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **11.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 54
-- **Victories:** 0 (0.0%)
-- **Podiums:** 1
-- **Pole Positions:** 0
-- **Career Points:** 11.0
+**Constructors & Teams Driven For:**
+- **[[ags]]:** Active 1988 (16 Grand Prix starts)
+- **[[ligier]]:** Active 1985 (4 Grand Prix starts)
+- **[[renault]]:** Active 1984 (1 Grand Prix starts)
+- **[[tyrrell]]:** Active 1985–1987 (33 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[ags]] (1988, 16 entries)
-- [[ligier]] (1985, 4 entries)
-- [[renault]] (1984, 1 entries)
-- [[tyrrell]] (1985–1987, 33 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[streiff]] (`vault/tier1/drivers/streiff.md`)

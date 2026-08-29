@@ -1,27 +1,28 @@
+| driver_ref | mairesse |
+| :--- | :--- |
+| **full_name** | Willy Mairesse |
+| **nationality** | Belgian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1928-10-01 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Willy Mairesse
 
-**Nationality:** Belgian | **Born:** 1928-10-01 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Belgian). Career active span: 1960–1963.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **12**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **1** (8.3% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **7.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 12
-- **Victories:** 0 (0.0%)
-- **Podiums:** 1
-- **Pole Positions:** 0
-- **Career Points:** 7.0
+**Constructors & Teams Driven For:**
+- **[[ferrari]]:** Active 1960–1963 (10 Grand Prix starts)
+- **[[lotus-climax]]:** Active 1961 (2 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[ferrari]] (1960–1963, 10 entries)
-- [[lotus-climax]] (1961, 2 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[mairesse]] (`vault/tier1/drivers/mairesse.md`)

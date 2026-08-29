@@ -1,27 +1,28 @@
+| driver_ref | gutierrez |
+| :--- | :--- |
+| **full_name** | Esteban Gutiérrez |
+| **nationality** | Mexican |
+| **driver_code** | GUT |
+| **permanent_number** | 21 |
+| **date_of_birth** | 1991-08-05 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Esteban Gutiérrez
 
-**Nationality:** Mexican | **Born:** 1991-08-05 | **Driver Code:** `GUT` | **Permanent #:** `21`
+**Role:** Formula 1 World Championship Driver (Mexican). Career active span: 2013–2016.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **59**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **6.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 59
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 6.0
+**Constructors & Teams Driven For:**
+- **[[haas]]:** Active 2016 (21 Grand Prix starts)
+- **[[sauber]]:** Active 2013–2014 (38 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[haas]] (2016, 21 entries)
-- [[sauber]] (2013–2014, 38 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[gutierrez]] (`vault/tier1/drivers/gutierrez.md`)

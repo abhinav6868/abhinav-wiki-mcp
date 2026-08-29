@@ -1,27 +1,28 @@
+| driver_ref | brack |
+| :--- | :--- |
+| **full_name** | Bill Brack |
+| **nationality** | Canadian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1935-12-26 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Bill Brack
 
-**Nationality:** Canadian | **Born:** 1935-12-26 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Canadian). Career active span: 1968–1972.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **3**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 3
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[brm]]:** Active 1969–1972 (2 Grand Prix starts)
+- **[[lotus-ford]]:** Active 1968 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[brm]] (1969–1972, 2 entries)
-- [[lotus-ford]] (1968, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[brack]] (`vault/tier1/drivers/brack.md`)

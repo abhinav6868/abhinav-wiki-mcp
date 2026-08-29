@@ -1,27 +1,28 @@
+| driver_ref | lewis-evans |
+| :--- | :--- |
+| **full_name** | Stuart Lewis-Evans |
+| **nationality** | British |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1930-04-20 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Stuart Lewis-Evans
 
-**Nationality:** British | **Born:** 1930-04-20 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 1957–1958.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **14**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **2** (14.3% podium rate)
+- **Pole Positions:** **2**
+- **Total Career Points:** **16.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 14
-- **Victories:** 0 (0.0%)
-- **Podiums:** 2
-- **Pole Positions:** 2
-- **Career Points:** 16.0
+**Constructors & Teams Driven For:**
+- **[[connaught]]:** Active 1957 (1 Grand Prix starts)
+- **[[vanwall]]:** Active 1957–1958 (13 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[connaught]] (1957, 1 entries)
-- [[vanwall]] (1957–1958, 13 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[lewis-evans]] (`vault/tier1/drivers/lewis-evans.md`)

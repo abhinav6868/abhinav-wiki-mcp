@@ -1,27 +1,28 @@
+| driver_ref | parkes |
+| :--- | :--- |
+| **full_name** | Mike Parkes |
+| **nationality** | British |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1931-09-24 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Mike Parkes
 
-**Nationality:** British | **Born:** 1931-09-24 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 1959–1967.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **7**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **2** (28.6% podium rate)
+- **Pole Positions:** **1**
+- **Total Career Points:** **14.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 7
-- **Victories:** 0 (0.0%)
-- **Podiums:** 2
-- **Pole Positions:** 1
-- **Career Points:** 14.0
+**Constructors & Teams Driven For:**
+- **[[ferrari]]:** Active 1966–1967 (6 Grand Prix starts)
+- **[[fry]]:** Active 1959 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[ferrari]] (1966–1967, 6 entries)
-- [[fry]] (1959, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[parkes]] (`vault/tier1/drivers/parkes.md`)

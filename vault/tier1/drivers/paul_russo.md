@@ -1,27 +1,28 @@
+| driver_ref | paul_russo |
+| :--- | :--- |
+| **full_name** | Paul Russo |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1914-04-10 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Paul Russo
 
-**Nationality:** American | **Born:** 1914-04-10 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1950–1959.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **9**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **1** (11.1% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **8.5**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 9
-- **Victories:** 0 (0.0%)
-- **Podiums:** 1
-- **Pole Positions:** 0
-- **Career Points:** 8.5
+**Constructors & Teams Driven For:**
+- **[[kurtis_kraft]]:** Active 1953–1959 (8 Grand Prix starts)
+- **[[nichels]]:** Active 1950 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[kurtis_kraft]] (1953–1959, 8 entries)
-- [[nichels]] (1950, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[paul_russo]] (`vault/tier1/drivers/paul_russo.md`)

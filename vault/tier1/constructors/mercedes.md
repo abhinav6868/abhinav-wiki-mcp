@@ -1,28 +1,30 @@
+| constructor_ref | mercedes |
+| :--- | :--- |
+| **team_name** | Mercedes |
+| **nationality** | German |
+| **active_era** | 1954–2026 |
+| **total_starts** | 353 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Mercedes
 
-**Nationality:** German | **First Entry:** 1954 | **Latest Entry:** 2026
+**Role:** Formula 1 Constructor and Racing Team (German).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **353**
+- **Grand Prix Victories:** **139** (39.4% win rate)
+- **Podium Finishes:** **326**
+- **Pole Positions:** **154**
+- **All-Time Constructor Points:** **8519.6**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** **9** (2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2026)
-- **Total Grand Prix Starts:** 353
-- **Grand Prix Victories:** 139
-- **Podiums:** 326
-- **Pole Positions:** 154
-- **Total Points:** 8519.6
+**Notable Drivers & Winners:**
+- **[[hamilton]]:** 246 starts, **84 wins**, 153 podiums
+- **[[rosberg]]:** 136 starts, **23 wins**, 55 podiums
+- **[[bottas]]:** 101 starts, **10 wins**, 58 podiums
+- **[[fangio]]:** 12 starts, **8 wins**, 10 podiums
+- **[[russell]]:** 105 starts, **7 wins**, 29 podiums
+- **[[antonelli]]:** 36 starts, **6 wins**, 13 podiums
+- **[[moss]]:** 6 starts, **1 wins**, 3 podiums
+- **[[michael_schumacher]]:** 58 starts, **0 wins**, 1 podiums
 
----
-
-## 👥 Notable Drivers
-- [[hamilton]]: 246 races, 84 wins, 153 podiums
-- [[rosberg]]: 136 races, 23 wins, 55 podiums
-- [[bottas]]: 101 races, 10 wins, 58 podiums
-- [[fangio]]: 12 races, 8 wins, 10 podiums
-- [[russell]]: 105 races, 7 wins, 29 podiums
-- [[antonelli]]: 36 races, 6 wins, 13 podiums
-- [[moss]]: 6 races, 1 wins, 3 podiums
-- [[michael_schumacher]]: 58 races, 0 wins, 1 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[mercedes]] (`vault/tier1/constructors/mercedes.md`)

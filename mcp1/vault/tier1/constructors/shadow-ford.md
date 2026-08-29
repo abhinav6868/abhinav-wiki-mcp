@@ -1,22 +1,24 @@
+| constructor_ref | shadow-ford |
+| :--- | :--- |
+| **team_name** | Shadow-Ford |
+| **nationality** | British |
+| **active_era** | 1975–1975 |
+| **total_starts** | 14 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Shadow-Ford
 
-**Nationality:** British | **First Entry:** 1975 | **Latest Entry:** 1975
+**Role:** Formula 1 Constructor and Racing Team (British).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **14**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **1**
+- **Pole Positions:** **3**
+- **All-Time Constructor Points:** **9.5**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 14
-- **Grand Prix Victories:** 0
-- **Podiums:** 1
-- **Pole Positions:** 3
-- **Total Points:** 9.5
+**Notable Drivers & Winners:**
+- **[[pryce]]:** 14 starts, **0 wins**, 1 podiums
+- **[[jarier]]:** 12 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[pryce]]: 14 races, 0 wins, 1 podiums
-- [[jarier]]: 12 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[shadow-ford]] (`vault/tier1/constructors/shadow-ford.md`)

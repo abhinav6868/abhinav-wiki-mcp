@@ -1,26 +1,27 @@
+| driver_ref | fushida |
+| :--- | :--- |
+| **full_name** | Hiroshi Fushida |
+| **nationality** | Japanese |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1946-03-10 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Hiroshi Fushida
 
-**Nationality:** Japanese | **Born:** 1946-03-10 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Japanese). Career active span: 1975–1975.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **2**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 2
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[maki]]:** Active 1975 (2 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[maki]] (1975, 2 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[fushida]] (`vault/tier1/drivers/fushida.md`)

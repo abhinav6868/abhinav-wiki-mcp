@@ -1,31 +1,32 @@
+| driver_ref | trulli |
+| :--- | :--- |
+| **full_name** | Jarno Trulli |
+| **nationality** | Italian |
+| **driver_code** | TRU |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1974-07-13 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Jarno Trulli
 
-**Nationality:** Italian | **Born:** 1974-07-13 | **Driver Code:** `TRU` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Italian). Career active span: 1997–2011.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **256**
+- **Race Victories:** **1** (0.4% win rate)
+- **Podium Finishes:** **11** (4.3% podium rate)
+- **Pole Positions:** **4**
+- **Total Career Points:** **246.5**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 256
-- **Victories:** 1 (0.4%)
-- **Podiums:** 11
-- **Pole Positions:** 4
-- **Career Points:** 246.5
+**Constructors & Teams Driven For:**
+- **[[jordan]]:** Active 2000–2001 (34 Grand Prix starts)
+- **[[lotus_racing]]:** Active 2010–2011 (37 Grand Prix starts)
+- **[[minardi]]:** Active 1997 (7 Grand Prix starts)
+- **[[prost]]:** Active 1997–1999 (39 Grand Prix starts)
+- **[[renault]]:** Active 2002–2004 (48 Grand Prix starts)
+- **[[toyota]]:** Active 2004–2009 (91 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[2004-06]]:** 2004 Monaco Grand Prix with [[renault]]
 
-## 🏎️ Constructors & Teams
-- [[jordan]] (2000–2001, 34 entries)
-- [[lotus_racing]] (2010–2011, 37 entries)
-- [[minardi]] (1997, 7 entries)
-- [[prost]] (1997–1999, 39 entries)
-- [[renault]] (2002–2004, 48 entries)
-- [[toyota]] (2004–2009, 91 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[2004-06]] (2004 Monaco Grand Prix) with [[renault]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[trulli]] (`vault/tier1/drivers/trulli.md`)

@@ -1,17 +1,36 @@
+---
+type: circuit
+tier: tier1
+name: "Zolder"
+location: "Heusden-Zolder"
+country: "Belgium"
+coordinates: "50.9894, 5.25694"
+total_gps: 10
+first_gp: 1973
+latest_gp: 1984
+tags:
+  - f1/circuit
+  - f1/tier1
+---
+
 # Zolder
 
-**Location:** Heusden-Zolder, Belgium | **Coordinates:** `50.9894, 5.25694` | **Altitude:** `36m`
+> [!example] Circuit Dossier
+> **Location:** Heusden-Zolder, Belgium | **Coordinates:** `50.9894, 5.25694` | **Altitude:** `36m`
+> **Total Championship Grands Prix Hosted:** **10**
 
 ---
 
-## 📊 Circuit Details
-- **Total Grands Prix Hosted:** 10
+## 📊 Venue Specifications
 - **First Championship Race:** 1973
 - **Most Recent Grand Prix:** 1984
+- **Track Status:** Historic Formula 1 Circuit
 
 ---
 
-## 🏁 Recent & Notable Grands Prix
+## 🏁 Recent & Landmark Grands Prix Hosted
+- [[1973-05]]: 1973 Belgian Grand Prix
+- [[1975-06]]: 1975 Belgian Grand Prix
 - [[1976-05]]: 1976 Belgian Grand Prix
 - [[1977-07]]: 1977 Belgian Grand Prix
 - [[1978-06]]: 1978 Belgian Grand Prix

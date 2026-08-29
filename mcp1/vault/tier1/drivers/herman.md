@@ -1,28 +1,29 @@
+| driver_ref | herman |
+| :--- | :--- |
+| **full_name** | Al Herman |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1927-03-15 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Al Herman
 
-**Nationality:** American | **Born:** 1927-03-15 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1955–1960.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **5**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 5
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[dunn]]:** Active 1957–1959 (2 Grand Prix starts)
+- **[[ewing]]:** Active 1960 (1 Grand Prix starts)
+- **[[kurtis_kraft]]:** Active 1955–1956 (2 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[dunn]] (1957–1959, 2 entries)
-- [[ewing]] (1960, 1 entries)
-- [[kurtis_kraft]] (1955–1956, 2 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[herman]] (`vault/tier1/drivers/herman.md`)

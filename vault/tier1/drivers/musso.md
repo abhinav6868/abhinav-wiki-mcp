@@ -1,27 +1,28 @@
+| driver_ref | musso |
+| :--- | :--- |
+| **full_name** | Luigi Musso |
+| **nationality** | Italian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1924-07-28 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Luigi Musso
 
-**Nationality:** Italian | **Born:** 1924-07-28 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Italian). Career active span: 1953–1958.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **26**
+- **Race Victories:** **1** (3.8% win rate)
+- **Podium Finishes:** **7** (26.9% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **44.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 26
-- **Victories:** 1 (3.8%)
-- **Podiums:** 7
-- **Pole Positions:** 0
-- **Career Points:** 44.0
+**Constructors & Teams Driven For:**
+- **[[ferrari]]:** Active 1956–1958 (15 Grand Prix starts)
+- **[[maserati]]:** Active 1953–1955 (11 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[1956-01]]:** 1956 Argentine Grand Prix with [[ferrari]]
 
-## 🏎️ Constructors & Teams
-- [[ferrari]] (1956–1958, 15 entries)
-- [[maserati]] (1953–1955, 11 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[1956-01]] (1956 Argentine Grand Prix) with [[ferrari]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[musso]] (`vault/tier1/drivers/musso.md`)

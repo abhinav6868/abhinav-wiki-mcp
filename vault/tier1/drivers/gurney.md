@@ -1,38 +1,39 @@
+| driver_ref | gurney |
+| :--- | :--- |
+| **full_name** | Dan Gurney |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1931-04-13 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Dan Gurney
 
-**Nationality:** American | **Born:** 1931-04-13 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1959–1970.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **87**
+- **Race Victories:** **4** (4.6% win rate)
+- **Podium Finishes:** **19** (21.8% podium rate)
+- **Pole Positions:** **3**
+- **Total Career Points:** **133.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 87
-- **Victories:** 4 (4.6%)
-- **Podiums:** 19
-- **Pole Positions:** 3
-- **Career Points:** 133.0
+**Constructors & Teams Driven For:**
+- **[[brabham]]:** Active 1963 (10 Grand Prix starts)
+- **[[brabham-climax]]:** Active 1964–1965 (19 Grand Prix starts)
+- **[[brabham-repco]]:** Active 1968 (1 Grand Prix starts)
+- **[[brm]]:** Active 1960 (7 Grand Prix starts)
+- **[[eagle-climax]]:** Active 1966–1967 (8 Grand Prix starts)
+- **[[eagle-weslake]]:** Active 1966–1968 (16 Grand Prix starts)
+- **[[ferrari]]:** Active 1959 (4 Grand Prix starts)
+- **[[lotus-brm]]:** Active 1962 (1 Grand Prix starts)
+- **[[mclaren-ford]]:** Active 1968–1970 (6 Grand Prix starts)
+- **[[porsche]]:** Active 1961–1962 (15 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[1962-04]]:** 1962 French Grand Prix with [[porsche]]
+- **[[1964-04]]:** 1964 French Grand Prix with [[brabham-climax]]
+- **[[1964-10]]:** 1964 Mexican Grand Prix with [[brabham-climax]]
+- **[[1967-04]]:** 1967 Belgian Grand Prix with [[eagle-weslake]]
 
-## 🏎️ Constructors & Teams
-- [[brabham]] (1963, 10 entries)
-- [[brabham-climax]] (1964–1965, 19 entries)
-- [[brabham-repco]] (1968, 1 entries)
-- [[brm]] (1960, 7 entries)
-- [[eagle-climax]] (1966–1967, 8 entries)
-- [[eagle-weslake]] (1966–1968, 16 entries)
-- [[ferrari]] (1959, 4 entries)
-- [[lotus-brm]] (1962, 1 entries)
-- [[mclaren-ford]] (1968–1970, 6 entries)
-- [[porsche]] (1961–1962, 15 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[1962-04]] (1962 French Grand Prix) with [[porsche]]
-- [[1964-04]] (1964 French Grand Prix) with [[brabham-climax]]
-- [[1964-10]] (1964 Mexican Grand Prix) with [[brabham-climax]]
-- [[1967-04]] (1967 Belgian Grand Prix) with [[eagle-weslake]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[gurney]] (`vault/tier1/drivers/gurney.md`)

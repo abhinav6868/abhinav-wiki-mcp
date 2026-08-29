@@ -1,26 +1,27 @@
+| driver_ref | andretti |
+| :--- | :--- |
+| **full_name** | Michael Andretti |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1962-10-05 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Michael Andretti
 
-**Nationality:** American | **Born:** 1962-10-05 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1993–1993.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **13**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **1** (7.7% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **7.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 13
-- **Victories:** 0 (0.0%)
-- **Podiums:** 1
-- **Pole Positions:** 0
-- **Career Points:** 7.0
+**Constructors & Teams Driven For:**
+- **[[mclaren]]:** Active 1993 (13 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[mclaren]] (1993, 13 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[andretti]] (`vault/tier1/drivers/andretti.md`)

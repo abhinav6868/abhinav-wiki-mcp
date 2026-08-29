@@ -1,26 +1,27 @@
+| driver_ref | sospiri |
+| :--- | :--- |
+| **full_name** | Vincenzo Sospiri |
+| **nationality** | Italian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1966-10-07 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Vincenzo Sospiri
 
-**Nationality:** Italian | **Born:** 1966-10-07 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Italian). Career active span: 1997–1997.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **1**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 1
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[lola]]:** Active 1997 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[lola]] (1997, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[sospiri]] (`vault/tier1/drivers/sospiri.md`)

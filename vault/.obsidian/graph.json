@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:tier3/analysis",
+      "color": {
+        "a": 1,
+        "rgb": 15478473
+      }
+    },
+    {
+      "query": "path:tier1/drivers",
+      "color": {
+        "a": 1,
+        "rgb": 16098059
+      }
+    },
+    {
+      "query": "path:tier1/constructors",
+      "color": {
+        "a": 1,
+        "rgb": 15682852
+      }
+    },
+    {
+      "query": "path:tier1/circuits",
+      "color": {
+        "a": 1,
+        "rgb": 1096065
+      }
+    },
+    {
+      "query": "path:tier1/races",
+      "color": {
+        "a": 1,
+        "rgb": 3900150
+      }
+    },
+    {
+      "query": "path:tier2/races",
+      "color": {
+        "a": 1,
+        "rgb": 9127158
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.25,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.23764439707472476,
+  "close": false
+}

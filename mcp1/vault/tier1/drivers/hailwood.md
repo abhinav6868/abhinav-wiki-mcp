@@ -1,30 +1,31 @@
+| driver_ref | hailwood |
+| :--- | :--- |
+| **full_name** | Mike Hailwood |
+| **nationality** | British |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1940-04-02 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Mike Hailwood
 
-**Nationality:** British | **Born:** 1940-04-02 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 1963–1974.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **51**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **2** (3.9% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **29.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 51
-- **Victories:** 0 (0.0%)
-- **Podiums:** 2
-- **Pole Positions:** 0
-- **Career Points:** 29.0
+**Constructors & Teams Driven For:**
+- **[[lola]]:** Active 1963 (2 Grand Prix starts)
+- **[[lotus-brm]]:** Active 1964–1965 (10 Grand Prix starts)
+- **[[lotus-climax]]:** Active 1963 (1 Grand Prix starts)
+- **[[mclaren]]:** Active 1974 (11 Grand Prix starts)
+- **[[surtees]]:** Active 1971–1973 (27 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[lola]] (1963, 2 entries)
-- [[lotus-brm]] (1964–1965, 10 entries)
-- [[lotus-climax]] (1963, 1 entries)
-- [[mclaren]] (1974, 11 entries)
-- [[surtees]] (1971–1973, 27 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[hailwood]] (`vault/tier1/drivers/hailwood.md`)

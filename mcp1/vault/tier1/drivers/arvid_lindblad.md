@@ -1,26 +1,27 @@
+| driver_ref | arvid_lindblad |
+| :--- | :--- |
+| **full_name** | Arvid Lindblad |
+| **nationality** | British |
+| **driver_code** | LIN |
+| **permanent_number** | 41 |
+| **date_of_birth** | 2007-08-08 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Arvid Lindblad
 
-**Nationality:** British | **Born:** 2007-08-08 | **Driver Code:** `LIN` | **Permanent #:** `41`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 2026–2026.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **12**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **22.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 12
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 22.0
+**Constructors & Teams Driven For:**
+- **[[rb]]:** Active 2026 (12 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[rb]] (2026, 12 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[arvid_lindblad]] (`vault/tier1/drivers/arvid_lindblad.md`)

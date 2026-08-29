@@ -1,26 +1,27 @@
+| driver_ref | mcgrath |
+| :--- | :--- |
+| **full_name** | Jack McGrath |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1919-10-08 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Jack McGrath
 
-**Nationality:** American | **Born:** 1919-10-08 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1950–1955.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **6**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **2** (33.3% podium rate)
+- **Pole Positions:** **1**
+- **Total Career Points:** **9.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 6
-- **Victories:** 0 (0.0%)
-- **Podiums:** 2
-- **Pole Positions:** 1
-- **Career Points:** 9.0
+**Constructors & Teams Driven For:**
+- **[[kurtis_kraft]]:** Active 1950–1955 (6 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[kurtis_kraft]] (1950–1955, 6 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[mcgrath]] (`vault/tier1/drivers/mcgrath.md`)

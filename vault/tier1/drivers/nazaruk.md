@@ -1,27 +1,28 @@
+| driver_ref | nazaruk |
+| :--- | :--- |
+| **full_name** | Mike Nazaruk |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1921-10-02 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Mike Nazaruk
 
-**Nationality:** American | **Born:** 1921-10-02 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1951–1954.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **3**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **1** (33.3% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **8.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 3
-- **Victories:** 0 (0.0%)
-- **Podiums:** 1
-- **Pole Positions:** 0
-- **Career Points:** 8.0
+**Constructors & Teams Driven For:**
+- **[[kurtis_kraft]]:** Active 1951–1954 (2 Grand Prix starts)
+- **[[turner]]:** Active 1953 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[kurtis_kraft]] (1951–1954, 2 entries)
-- [[turner]] (1953, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[nazaruk]] (`vault/tier1/drivers/nazaruk.md`)

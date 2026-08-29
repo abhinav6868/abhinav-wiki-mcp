@@ -1,28 +1,29 @@
+| driver_ref | zonta |
+| :--- | :--- |
+| **full_name** | Ricardo Zonta |
+| **nationality** | Brazilian |
+| **driver_code** | ZON |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1976-03-23 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Ricardo Zonta
 
-**Nationality:** Brazilian | **Born:** 1976-03-23 | **Driver Code:** `ZON` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Brazilian). Career active span: 1999–2005.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **38**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **3.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 38
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 3.0
+**Constructors & Teams Driven For:**
+- **[[bar]]:** Active 1999–2000 (30 Grand Prix starts)
+- **[[jordan]]:** Active 2001 (2 Grand Prix starts)
+- **[[toyota]]:** Active 2004–2005 (6 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[bar]] (1999–2000, 30 entries)
-- [[jordan]] (2001, 2 entries)
-- [[toyota]] (2004–2005, 6 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[zonta]] (`vault/tier1/drivers/zonta.md`)

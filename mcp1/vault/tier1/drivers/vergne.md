@@ -1,26 +1,27 @@
+| driver_ref | vergne |
+| :--- | :--- |
+| **full_name** | Jean-Éric Vergne |
+| **nationality** | French |
+| **driver_code** | VER |
+| **permanent_number** | 25 |
+| **date_of_birth** | 1990-04-25 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Jean-Éric Vergne
 
-**Nationality:** French | **Born:** 1990-04-25 | **Driver Code:** `VER` | **Permanent #:** `25`
+**Role:** Formula 1 World Championship Driver (French). Career active span: 2012–2014.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **58**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **51.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 58
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 51.0
+**Constructors & Teams Driven For:**
+- **[[toro_rosso]]:** Active 2012–2014 (58 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[toro_rosso]] (2012–2014, 58 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[vergne]] (`vault/tier1/drivers/vergne.md`)

@@ -1,28 +1,29 @@
+| driver_ref | baldi |
+| :--- | :--- |
+| **full_name** | Mauro Baldi |
+| **nationality** | Italian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1954-01-31 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Mauro Baldi
 
-**Nationality:** Italian | **Born:** 1954-01-31 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Italian). Career active span: 1982–1985.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **41**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **5.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 41
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 5.0
+**Constructors & Teams Driven For:**
+- **[[alfa]]:** Active 1983 (15 Grand Prix starts)
+- **[[arrows]]:** Active 1982 (15 Grand Prix starts)
+- **[[spirit]]:** Active 1984–1985 (11 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[alfa]] (1983, 15 entries)
-- [[arrows]] (1982, 15 entries)
-- [[spirit]] (1984–1985, 11 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[baldi]] (`vault/tier1/drivers/baldi.md`)

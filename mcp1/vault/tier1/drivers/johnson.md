@@ -1,29 +1,30 @@
+| driver_ref | johnson |
+| :--- | :--- |
+| **full_name** | Eddie Johnson |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1919-02-10 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Eddie Johnson
 
-**Nationality:** American | **Born:** 1919-02-10 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1952–1960.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **9**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **1.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 9
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 1.0
+**Constructors & Teams Driven For:**
+- **[[kurtis_kraft]]:** Active 1953–1959 (4 Grand Prix starts)
+- **[[kuzma]]:** Active 1956 (1 Grand Prix starts)
+- **[[pawl]]:** Active 1954 (1 Grand Prix starts)
+- **[[trevis]]:** Active 1952–1960 (3 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[kurtis_kraft]] (1953–1959, 4 entries)
-- [[kuzma]] (1956, 1 entries)
-- [[pawl]] (1954, 1 entries)
-- [[trevis]] (1952–1960, 3 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[johnson]] (`vault/tier1/drivers/johnson.md`)

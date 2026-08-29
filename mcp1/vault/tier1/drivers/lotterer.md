@@ -1,26 +1,27 @@
+| driver_ref | lotterer |
+| :--- | :--- |
+| **full_name** | André Lotterer |
+| **nationality** | German |
+| **driver_code** | LOT |
+| **permanent_number** | 45 |
+| **date_of_birth** | 1981-11-19 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # André Lotterer
 
-**Nationality:** German | **Born:** 1981-11-19 | **Driver Code:** `LOT` | **Permanent #:** `45`
+**Role:** Formula 1 World Championship Driver (German). Career active span: 2014–2014.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **1**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 1
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[caterham]]:** Active 2014 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[caterham]] (2014, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[lotterer]] (`vault/tier1/drivers/lotterer.md`)

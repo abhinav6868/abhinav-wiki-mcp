@@ -1,28 +1,29 @@
+| driver_ref | grosjean |
+| :--- | :--- |
+| **full_name** | Romain Grosjean |
+| **nationality** | French |
+| **driver_code** | GRO |
+| **permanent_number** | 8 |
+| **date_of_birth** | 1986-04-17 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Romain Grosjean
 
-**Nationality:** French | **Born:** 1986-04-17 | **Driver Code:** `GRO` | **Permanent #:** `8`
+**Role:** Formula 1 World Championship Driver (French). Career active span: 2009–2020.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **181**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **10** (5.5% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **391.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 181
-- **Victories:** 0 (0.0%)
-- **Podiums:** 10
-- **Pole Positions:** 0
-- **Career Points:** 391.0
+**Constructors & Teams Driven For:**
+- **[[haas]]:** Active 2016–2020 (98 Grand Prix starts)
+- **[[lotus_f1]]:** Active 2012–2015 (76 Grand Prix starts)
+- **[[renault]]:** Active 2009 (7 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[haas]] (2016–2020, 98 entries)
-- [[lotus_f1]] (2012–2015, 76 entries)
-- [[renault]] (2009, 7 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[grosjean]] (`vault/tier1/drivers/grosjean.md`)

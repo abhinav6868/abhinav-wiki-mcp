@@ -1,30 +1,31 @@
+| driver_ref | kovalainen |
+| :--- | :--- |
+| **full_name** | Heikki Kovalainen |
+| **nationality** | Finnish |
+| **driver_code** | KOV |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1981-10-19 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Heikki Kovalainen
 
-**Nationality:** Finnish | **Born:** 1981-10-19 | **Driver Code:** `KOV` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Finnish). Career active span: 2007–2013.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **112**
+- **Race Victories:** **1** (0.9% win rate)
+- **Podium Finishes:** **4** (3.6% podium rate)
+- **Pole Positions:** **1**
+- **Total Career Points:** **105.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 112
-- **Victories:** 1 (0.9%)
-- **Podiums:** 4
-- **Pole Positions:** 1
-- **Career Points:** 105.0
+**Constructors & Teams Driven For:**
+- **[[caterham]]:** Active 2012 (20 Grand Prix starts)
+- **[[lotus_f1]]:** Active 2013 (2 Grand Prix starts)
+- **[[lotus_racing]]:** Active 2010–2011 (38 Grand Prix starts)
+- **[[mclaren]]:** Active 2008–2009 (35 Grand Prix starts)
+- **[[renault]]:** Active 2007 (17 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[2008-11]]:** 2008 Hungarian Grand Prix with [[mclaren]]
 
-## 🏎️ Constructors & Teams
-- [[caterham]] (2012, 20 entries)
-- [[lotus_f1]] (2013, 2 entries)
-- [[lotus_racing]] (2010–2011, 38 entries)
-- [[mclaren]] (2008–2009, 35 entries)
-- [[renault]] (2007, 17 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[2008-11]] (2008 Hungarian Grand Prix) with [[mclaren]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[kovalainen]] (`vault/tier1/drivers/kovalainen.md`)

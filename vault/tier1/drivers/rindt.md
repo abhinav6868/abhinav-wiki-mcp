@@ -1,36 +1,37 @@
+| driver_ref | rindt |
+| :--- | :--- |
+| **full_name** | Jochen Rindt |
+| **nationality** | Austrian |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1942-04-18 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Jochen Rindt
 
-**Nationality:** Austrian | **Born:** 1942-04-18 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Austrian). Career active span: 1964–1970.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **62**
+- **Race Victories:** **6** (9.7% win rate)
+- **Podium Finishes:** **13** (21.0% podium rate)
+- **Pole Positions:** **10**
+- **Total Career Points:** **109.0**
 
-## 🏆 Career Summary
-- **World Championships:** **1** (1970)
-- **Total Grand Prix Entries:** 62
-- **Victories:** 6 (9.7%)
-- **Podiums:** 13
-- **Pole Positions:** 10
-- **Career Points:** 109.0
+**Constructors & Teams Driven For:**
+- **[[brabham-brm]]:** Active 1964 (1 Grand Prix starts)
+- **[[brabham-repco]]:** Active 1968 (12 Grand Prix starts)
+- **[[cooper-climax]]:** Active 1965 (10 Grand Prix starts)
+- **[[cooper-maserati]]:** Active 1966–1967 (19 Grand Prix starts)
+- **[[lotus-ford]]:** Active 1969 (10 Grand Prix starts)
+- **[[team_lotus]]:** Active 1970 (10 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[1969-10]]:** 1969 United States Grand Prix with [[lotus-ford]]
+- **[[1970-03]]:** 1970 Monaco Grand Prix with [[team_lotus]]
+- **[[1970-05]]:** 1970 Dutch Grand Prix with [[team_lotus]]
+- **[[1970-06]]:** 1970 French Grand Prix with [[team_lotus]]
+- **[[1970-07]]:** 1970 British Grand Prix with [[team_lotus]]
+- **[[1970-08]]:** 1970 German Grand Prix with [[team_lotus]]
 
-## 🏎️ Constructors & Teams
-- [[brabham-brm]] (1964, 1 entries)
-- [[brabham-repco]] (1968, 12 entries)
-- [[cooper-climax]] (1965, 10 entries)
-- [[cooper-maserati]] (1966–1967, 19 entries)
-- [[lotus-ford]] (1969, 10 entries)
-- [[team_lotus]] (1970, 10 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[1969-10]] (1969 United States Grand Prix) with [[lotus-ford]]
-- [[1970-03]] (1970 Monaco Grand Prix) with [[team_lotus]]
-- [[1970-05]] (1970 Dutch Grand Prix) with [[team_lotus]]
-- [[1970-06]] (1970 French Grand Prix) with [[team_lotus]]
-- [[1970-07]] (1970 British Grand Prix) with [[team_lotus]]
-- [[1970-08]] (1970 German Grand Prix) with [[team_lotus]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[rindt]] (`vault/tier1/drivers/rindt.md`)

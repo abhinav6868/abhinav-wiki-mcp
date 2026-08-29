@@ -1,17 +1,34 @@
+---
+type: circuit
+tier: tier1
+name: "Circuito de Jerez"
+location: "Jerez de la Frontera"
+country: "Spain"
+coordinates: "36.7083, -6.03417"
+total_gps: 7
+first_gp: 1986
+latest_gp: 1997
+tags:
+  - f1/circuit
+  - f1/tier1
+---
+
 # Circuito de Jerez
 
-**Location:** Jerez de la Frontera, Spain | **Coordinates:** `36.7083, -6.03417` | **Altitude:** `37m`
+> [!example] Circuit Dossier
+> **Location:** Jerez de la Frontera, Spain | **Coordinates:** `36.7083, -6.03417` | **Altitude:** `37m`
+> **Total Championship Grands Prix Hosted:** **7**
 
 ---
 
-## 📊 Circuit Details
-- **Total Grands Prix Hosted:** 7
+## 📊 Venue Specifications
 - **First Championship Race:** 1986
 - **Most Recent Grand Prix:** 1997
+- **Track Status:** Historic Formula 1 Circuit
 
 ---
 
-## 🏁 Recent & Notable Grands Prix
+## 🏁 Recent & Landmark Grands Prix Hosted
 - [[1986-02]]: 1986 Spanish Grand Prix
 - [[1987-13]]: 1987 Spanish Grand Prix
 - [[1988-14]]: 1988 Spanish Grand Prix

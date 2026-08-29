@@ -1,29 +1,30 @@
+| driver_ref | foitek |
+| :--- | :--- |
+| **full_name** | Gregor Foitek |
+| **nationality** | Swiss |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1965-03-27 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Gregor Foitek
 
-**Nationality:** Swiss | **Born:** 1965-03-27 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Swiss). Career active span: 1989–1990.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **22**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 22
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[brabham]]:** Active 1990 (2 Grand Prix starts)
+- **[[eurobrun]]:** Active 1989 (11 Grand Prix starts)
+- **[[onyx]]:** Active 1990 (8 Grand Prix starts)
+- **[[rial]]:** Active 1989 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[brabham]] (1990, 2 entries)
-- [[eurobrun]] (1989, 11 entries)
-- [[onyx]] (1990, 8 entries)
-- [[rial]] (1989, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[foitek]] (`vault/tier1/drivers/foitek.md`)

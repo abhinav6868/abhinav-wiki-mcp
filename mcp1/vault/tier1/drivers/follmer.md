@@ -1,26 +1,27 @@
+| driver_ref | follmer |
+| :--- | :--- |
+| **full_name** | George Follmer |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1934-01-27 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # George Follmer
 
-**Nationality:** American | **Born:** 1934-01-27 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1973–1973.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **12**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **1** (8.3% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **5.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 12
-- **Victories:** 0 (0.0%)
-- **Podiums:** 1
-- **Pole Positions:** 0
-- **Career Points:** 5.0
+**Constructors & Teams Driven For:**
+- **[[shadow]]:** Active 1973 (12 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[shadow]] (1973, 12 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[follmer]] (`vault/tier1/drivers/follmer.md`)

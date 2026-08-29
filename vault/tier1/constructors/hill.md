@@ -1,26 +1,28 @@
+| constructor_ref | hill |
+| :--- | :--- |
+| **team_name** | Embassy Hill |
+| **nationality** | British |
+| **active_era** | 1975–1975 |
+| **total_starts** | 11 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Embassy Hill
 
-**Nationality:** British | **First Entry:** 1975 | **Latest Entry:** 1975
+**Role:** Formula 1 Constructor and Racing Team (British).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **11**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **3.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 11
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 3.0
+**Notable Drivers & Winners:**
+- **[[brise]]:** 9 starts, **0 wins**, 0 podiums
+- **[[jones]]:** 4 starts, **0 wins**, 0 podiums
+- **[[stommelen]]:** 3 starts, **0 wins**, 0 podiums
+- **[[hill]]:** 1 starts, **0 wins**, 0 podiums
+- **[[migault]]:** 1 starts, **0 wins**, 0 podiums
+- **[[schuppan]]:** 1 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[brise]]: 9 races, 0 wins, 0 podiums
-- [[jones]]: 4 races, 0 wins, 0 podiums
-- [[stommelen]]: 3 races, 0 wins, 0 podiums
-- [[hill]]: 1 races, 0 wins, 0 podiums
-- [[migault]]: 1 races, 0 wins, 0 podiums
-- [[schuppan]]: 1 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[hill]] (`vault/tier1/constructors/hill.md`)

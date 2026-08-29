@@ -1,27 +1,28 @@
+| driver_ref | taylor |
+| :--- | :--- |
+| **full_name** | John Taylor |
+| **nationality** | British |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1933-03-23 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # John Taylor
 
-**Nationality:** British | **Born:** 1933-03-23 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 1964–1966.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **5**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **1.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 5
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 1.0
+**Constructors & Teams Driven For:**
+- **[[brabham-brm]]:** Active 1966 (4 Grand Prix starts)
+- **[[cooper-climax]]:** Active 1964 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[brabham-brm]] (1966, 4 entries)
-- [[cooper-climax]] (1964, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[taylor]] (`vault/tier1/drivers/taylor.md`)

@@ -1,34 +1,35 @@
+| driver_ref | brooks |
+| :--- | :--- |
+| **full_name** | Tony Brooks |
+| **nationality** | British |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1932-02-25 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Tony Brooks
 
-**Nationality:** British | **Born:** 1932-02-25 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (British). Career active span: 1956–1961.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **41**
+- **Race Victories:** **6** (14.6% win rate)
+- **Podium Finishes:** **10** (24.4% podium rate)
+- **Pole Positions:** **4**
+- **Total Career Points:** **75.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 41
-- **Victories:** 6 (14.6%)
-- **Podiums:** 10
-- **Pole Positions:** 4
-- **Career Points:** 75.0
+**Constructors & Teams Driven For:**
+- **[[brm]]:** Active 1956–1961 (10 Grand Prix starts)
+- **[[cooper-climax]]:** Active 1960 (6 Grand Prix starts)
+- **[[ferrari]]:** Active 1959 (7 Grand Prix starts)
+- **[[vanwall]]:** Active 1957–1960 (18 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- **[[1957-05]]:** 1957 British Grand Prix with [[vanwall]]
+- **[[1958-05]]:** 1958 Belgian Grand Prix with [[vanwall]]
+- **[[1958-08]]:** 1958 German Grand Prix with [[vanwall]]
+- **[[1958-10]]:** 1958 Italian Grand Prix with [[vanwall]]
+- **[[1959-04]]:** 1959 French Grand Prix with [[ferrari]]
+- **[[1959-06]]:** 1959 German Grand Prix with [[ferrari]]
 
-## 🏎️ Constructors & Teams
-- [[brm]] (1956–1961, 10 entries)
-- [[cooper-climax]] (1960, 6 entries)
-- [[ferrari]] (1959, 7 entries)
-- [[vanwall]] (1957–1960, 18 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- [[1957-05]] (1957 British Grand Prix) with [[vanwall]]
-- [[1958-05]] (1958 Belgian Grand Prix) with [[vanwall]]
-- [[1958-08]] (1958 German Grand Prix) with [[vanwall]]
-- [[1958-10]] (1958 Italian Grand Prix) with [[vanwall]]
-- [[1959-04]] (1959 French Grand Prix) with [[ferrari]]
-- [[1959-06]] (1959 German Grand Prix) with [[ferrari]]
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[brooks]] (`vault/tier1/drivers/brooks.md`)

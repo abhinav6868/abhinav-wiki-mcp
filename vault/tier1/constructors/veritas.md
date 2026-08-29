@@ -1,28 +1,30 @@
+| constructor_ref | veritas |
+| :--- | :--- |
+| **team_name** | Veritas |
+| **nationality** | German |
+| **active_era** | 1951–1953 |
+| **total_starts** | 6 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Veritas
 
-**Nationality:** German | **First Entry:** 1951 | **Latest Entry:** 1953
+**Role:** Formula 1 Constructor and Racing Team (German).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **6**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **0.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 6
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 0.0
+**Notable Drivers & Winners:**
+- **[[helfrich]]:** 2 starts, **0 wins**, 0 podiums
+- **[[legat]]:** 2 starts, **0 wins**, 0 podiums
+- **[[ulmen]]:** 2 starts, **0 wins**, 0 podiums
+- **[[bauer]]:** 1 starts, **0 wins**, 0 podiums
+- **[[brudes]]:** 1 starts, **0 wins**, 0 podiums
+- **[[heeks]]:** 1 starts, **0 wins**, 0 podiums
+- **[[herrmann]]:** 1 starts, **0 wins**, 0 podiums
+- **[[hirt]]:** 1 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[helfrich]]: 2 races, 0 wins, 0 podiums
-- [[legat]]: 2 races, 0 wins, 0 podiums
-- [[ulmen]]: 2 races, 0 wins, 0 podiums
-- [[bauer]]: 1 races, 0 wins, 0 podiums
-- [[brudes]]: 1 races, 0 wins, 0 podiums
-- [[heeks]]: 1 races, 0 wins, 0 podiums
-- [[herrmann]]: 1 races, 0 wins, 0 podiums
-- [[hirt]]: 1 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[veritas]] (`vault/tier1/constructors/veritas.md`)

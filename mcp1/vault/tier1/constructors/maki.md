@@ -1,23 +1,25 @@
+| constructor_ref | maki |
+| :--- | :--- |
+| **team_name** | Maki |
+| **nationality** | Japanese |
+| **active_era** | 1974–1976 |
+| **total_starts** | 8 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Maki
 
-**Nationality:** Japanese | **First Entry:** 1974 | **Latest Entry:** 1976
+**Role:** Formula 1 Constructor and Racing Team (Japanese).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **8**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **0.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 8
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 0.0
+**Notable Drivers & Winners:**
+- **[[trimmer]]:** 4 starts, **0 wins**, 0 podiums
+- **[[fushida]]:** 2 starts, **0 wins**, 0 podiums
+- **[[ganley]]:** 2 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[trimmer]]: 4 races, 0 wins, 0 podiums
-- [[fushida]]: 2 races, 0 wins, 0 podiums
-- [[ganley]]: 2 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[maki]] (`vault/tier1/constructors/maki.md`)

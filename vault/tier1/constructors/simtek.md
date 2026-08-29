@@ -1,27 +1,29 @@
+| constructor_ref | simtek |
+| :--- | :--- |
+| **team_name** | Simtek |
+| **nationality** | British |
+| **active_era** | 1994–1995 |
+| **total_starts** | 21 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Simtek
 
-**Nationality:** British | **First Entry:** 1994 | **Latest Entry:** 1995
+**Role:** Formula 1 Constructor and Racing Team (British).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **21**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **0.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 21
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 0.0
+**Notable Drivers & Winners:**
+- **[[brabham]]:** 16 starts, **0 wins**, 0 podiums
+- **[[gounon]]:** 7 starts, **0 wins**, 0 podiums
+- **[[schiattarella]]:** 7 starts, **0 wins**, 0 podiums
+- **[[verstappen]]:** 5 starts, **0 wins**, 0 podiums
+- **[[ratzenberger]]:** 3 starts, **0 wins**, 0 podiums
+- **[[inoue]]:** 1 starts, **0 wins**, 0 podiums
+- **[[montermini]]:** 1 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[brabham]]: 16 races, 0 wins, 0 podiums
-- [[gounon]]: 7 races, 0 wins, 0 podiums
-- [[schiattarella]]: 7 races, 0 wins, 0 podiums
-- [[verstappen]]: 5 races, 0 wins, 0 podiums
-- [[ratzenberger]]: 3 races, 0 wins, 0 podiums
-- [[inoue]]: 1 races, 0 wins, 0 podiums
-- [[montermini]]: 1 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[simtek]] (`vault/tier1/constructors/simtek.md`)

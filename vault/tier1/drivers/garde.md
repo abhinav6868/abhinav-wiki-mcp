@@ -1,26 +1,27 @@
+| driver_ref | garde |
+| :--- | :--- |
+| **full_name** | Giedo van der Garde |
+| **nationality** | Dutch |
+| **driver_code** | VDG |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1985-04-25 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Giedo van der Garde
 
-**Nationality:** Dutch | **Born:** 1985-04-25 | **Driver Code:** `VDG` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Dutch). Career active span: 2013–2013.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **19**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 19
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[caterham]]:** Active 2013 (19 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[caterham]] (2013, 19 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[garde]] (`vault/tier1/drivers/garde.md`)

@@ -1,26 +1,28 @@
+| constructor_ref | brabham-alfa_romeo |
+| :--- | :--- |
+| **team_name** | Brabham-Alfa Romeo |
+| **nationality** | British |
+| **active_era** | 1976–1979 |
+| **total_starts** | 29 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Brabham-Alfa Romeo
 
-**Nationality:** British | **First Entry:** 1976 | **Latest Entry:** 1979
+**Role:** Formula 1 Constructor and Racing Team (British).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **29**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **18.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 29
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 18.0
+**Notable Drivers & Winners:**
+- **[[pace]]:** 16 starts, **0 wins**, 0 podiums
+- **[[lauda]]:** 13 starts, **0 wins**, 0 podiums
+- **[[piquet]]:** 13 starts, **0 wins**, 0 podiums
+- **[[reutemann]]:** 12 starts, **0 wins**, 0 podiums
+- **[[perkins]]:** 3 starts, **0 wins**, 0 podiums
+- **[[stommelen]]:** 2 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[pace]]: 16 races, 0 wins, 0 podiums
-- [[lauda]]: 13 races, 0 wins, 0 podiums
-- [[piquet]]: 13 races, 0 wins, 0 podiums
-- [[reutemann]]: 12 races, 0 wins, 0 podiums
-- [[perkins]]: 3 races, 0 wins, 0 podiums
-- [[stommelen]]: 2 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[brabham-alfa_romeo]] (`vault/tier1/constructors/brabham-alfa_romeo.md`)

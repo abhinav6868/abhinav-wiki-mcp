@@ -1,26 +1,27 @@
+| driver_ref | bucknum |
+| :--- | :--- |
+| **full_name** | Ronnie Bucknum |
+| **nationality** | American |
+| **driver_code** | N/A |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1936-04-05 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Ronnie Bucknum
 
-**Nationality:** American | **Born:** 1936-04-05 | **Driver Code:** `N/A` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (American). Career active span: 1964–1966.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **11**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **2.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 11
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 2.0
+**Constructors & Teams Driven For:**
+- **[[honda]]:** Active 1964–1966 (11 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[honda]] (1964–1966, 11 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[bucknum]] (`vault/tier1/drivers/bucknum.md`)

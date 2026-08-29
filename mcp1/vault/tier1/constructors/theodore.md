@@ -1,28 +1,30 @@
+| constructor_ref | theodore |
+| :--- | :--- |
+| **team_name** | Theodore |
+| **nationality** | Hong Kong |
+| **active_era** | 1978–1983 |
+| **total_starts** | 51 |
+| **tier_classification** | Tier 1 (Constructor Record) |
+
 # Theodore
 
-**Nationality:** Hong Kong | **First Entry:** 1978 | **Latest Entry:** 1983
+**Role:** Formula 1 Constructor and Racing Team (Hong Kong).
 
----
+**Historical Achievements & Record:**
+- **Total Grand Prix Starts:** **51**
+- **Grand Prix Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0**
+- **Pole Positions:** **0**
+- **All-Time Constructor Points:** **2.0**
 
-## 🏆 Team Achievements
-- **Constructors' Championships:** 0
-- **Total Grand Prix Starts:** 51
-- **Grand Prix Victories:** 0
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Total Points:** 2.0
+**Notable Drivers & Winners:**
+- **[[guerrero]]:** 14 starts, **0 wins**, 0 podiums
+- **[[cecotto]]:** 13 starts, **0 wins**, 0 podiums
+- **[[surer]]:** 8 starts, **0 wins**, 0 podiums
+- **[[tambay]]:** 7 starts, **0 wins**, 0 podiums
+- **[[lammers]]:** 6 starts, **0 wins**, 0 podiums
+- **[[byrne]]:** 5 starts, **0 wins**, 0 podiums
+- **[[keke_rosberg]]:** 5 starts, **0 wins**, 0 podiums
+- **[[daly]]:** 3 starts, **0 wins**, 0 podiums
 
----
-
-## 👥 Notable Drivers
-- [[guerrero]]: 14 races, 0 wins, 0 podiums
-- [[cecotto]]: 13 races, 0 wins, 0 podiums
-- [[surer]]: 8 races, 0 wins, 0 podiums
-- [[tambay]]: 7 races, 0 wins, 0 podiums
-- [[lammers]]: 6 races, 0 wins, 0 podiums
-- [[byrne]]: 5 races, 0 wins, 0 podiums
-- [[keke_rosberg]]: 5 races, 0 wins, 0 podiums
-- [[daly]]: 3 races, 0 wins, 0 podiums
-
----
-*Classification: Tier 1 (Constructor History & Standings)*
+**Source:** F1 Knowledge Vault [[theodore]] (`vault/tier1/constructors/theodore.md`)

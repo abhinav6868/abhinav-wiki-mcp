@@ -1,17 +1,36 @@
+---
+type: circuit
+tier: tier1
+name: "Hungaroring"
+location: "Budapest"
+country: "Hungary"
+coordinates: "47.5789, 19.2486"
+total_gps: 41
+first_gp: 1986
+latest_gp: 2026
+tags:
+  - f1/circuit
+  - f1/tier1
+---
+
 # Hungaroring
 
-**Location:** Budapest, Hungary | **Coordinates:** `47.5789, 19.2486` | **Altitude:** `264m`
+> [!example] Circuit Dossier
+> **Location:** Budapest, Hungary | **Coordinates:** `47.5789, 19.2486` | **Altitude:** `264m`
+> **Total Championship Grands Prix Hosted:** **41**
 
 ---
 
-## 📊 Circuit Details
-- **Total Grands Prix Hosted:** 41
+## 📊 Venue Specifications
 - **First Championship Race:** 1986
 - **Most Recent Grand Prix:** 2026
+- **Track Status:** Active Modern Grand Prix Circuit
 
 ---
 
-## 🏁 Recent & Notable Grands Prix
+## 🏁 Recent & Landmark Grands Prix Hosted
+- [[2017-11]]: 2017 Hungarian Grand Prix
+- [[2018-12]]: 2018 Hungarian Grand Prix
 - [[2019-12]]: 2019 Hungarian Grand Prix
 - [[2020-03]]: 2020 Hungarian Grand Prix
 - [[2021-11]]: 2021 Hungarian Grand Prix

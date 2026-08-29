@@ -1,27 +1,28 @@
+| driver_ref | chandhok |
+| :--- | :--- |
+| **full_name** | Karun Chandhok |
+| **nationality** | Indian |
+| **driver_code** | CHA |
+| **permanent_number** | N/A |
+| **date_of_birth** | 1984-01-19 |
+| **tier_classification** | Tier 1 (Public Career Bio) |
+
 # Karun Chandhok
 
-**Nationality:** Indian | **Born:** 1984-01-19 | **Driver Code:** `CHA` | **Permanent #:** `N/A`
+**Role:** Formula 1 World Championship Driver (Indian). Career active span: 2010–2011.
 
----
+**Career Performance Summary:**
+- **Total Grand Prix Starts:** **11**
+- **Race Victories:** **0** (0.0% win rate)
+- **Podium Finishes:** **0** (0.0% podium rate)
+- **Pole Positions:** **0**
+- **Total Career Points:** **0.0**
 
-## 🏆 Career Summary
-- **World Championships:** 0
-- **Total Grand Prix Entries:** 11
-- **Victories:** 0 (0.0%)
-- **Podiums:** 0
-- **Pole Positions:** 0
-- **Career Points:** 0.0
+**Constructors & Teams Driven For:**
+- **[[hrt]]:** Active 2010 (10 Grand Prix starts)
+- **[[lotus_racing]]:** Active 2011 (1 Grand Prix starts)
 
----
+**Landmark Victories & Key Races:**
+- No Grand Prix victories recorded
 
-## 🏎️ Constructors & Teams
-- [[hrt]] (2010, 10 entries)
-- [[lotus_racing]] (2011, 1 entries)
-
----
-
-## 🏁 Selected Victories & Milestones
-- No Grand Prix wins
-
----
-*Classification: Tier 1 (Public Career Statistics & Bio)*
+**Source:** F1 Knowledge Vault [[chandhok]] (`vault/tier1/drivers/chandhok.md`)
