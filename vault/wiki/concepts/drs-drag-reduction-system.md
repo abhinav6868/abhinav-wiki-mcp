@@ -1,9 +1,9 @@
-| concept_name | drs-drag-reduction-system |
-| :--- | :--- |
-| **category** | Aerodynamics & Sporting Regulations |
-| **type** | wiki-concept |
-| **tier** | Tier 3 (Regulations & Tech) |
-| **last_updated** | 2026-08-29 |
+| concept_name     | drs-drag-reduction-system           |
+| :--------------- | :---------------------------------- |
+| **category**     | Aerodynamics & Sporting Regulations |
+| **type**         | wiki-concept                        |
+| **tier**         | Tier 3 (Regulations & Tech)         |
+| **last_updated** | 2026-08-29                          |
 
 # Concept: DRS (Drag Reduction System)
 

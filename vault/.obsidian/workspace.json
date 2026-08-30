@@ -11,10 +11,14 @@
             "id": "03ba6c437ae38479",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -183,6 +187,14 @@
   },
   "active": "03ba6c437ae38479",
   "lastOpenFiles": [
+    "wiki/entities/key-people/ross-brawn.md",
+    "wiki/entities/key-people/enzo-ferrari.md",
+    "wiki/entities/key-people/colin-chapman.md",
+    "wiki/entities/key-people/christian-horner.md",
+    "wiki/entities/key-people/adrian-newey.md",
+    "wiki/concepts/tire-degradation-and-thermal-management.md",
+    "wiki/concepts/ground-effect-aerodynamics.md",
+    "wiki/concepts/drs-drag-reduction-system.md",
     "queries-index.md",
     "entities-index.md",
     "concepts-index.md",
@@ -190,17 +202,9 @@
     "raw/claude-chat-queries/ayan_2026-08-29_hamilton-verstappen-2021-deep-dive.md",
     "raw/claude-chat-queries",
     "wiki/entities/key-people/toto-wolff.md",
-    "wiki/entities/key-people/ross-brawn.md",
-    "wiki/entities/key-people/enzo-ferrari.md",
-    "wiki/entities/key-people/colin-chapman.md",
-    "wiki/entities/key-people/christian-horner.md",
-    "wiki/entities/key-people/adrian-newey.md",
     "wiki/entities/key-people",
     "wiki/concepts/v6-turbo-hybrid-powertrain.md",
     "wiki/concepts/undercut-vs-overcut.md",
-    "wiki/concepts/tire-degradation-and-thermal-management.md",
-    "wiki/concepts/drs-drag-reduction-system.md",
-    "wiki/concepts/ground-effect-aerodynamics.md",
     "wiki/entities",
     "wiki/concepts",
     "wiki",
