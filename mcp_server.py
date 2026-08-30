@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """
-mcp_server.py — Multi-Tier Formula 1 Knowledge Vault MCP Server with Native Claude Connectors Support
+mcp_server.py — Formula 1 Knowledge Vault Multi-Tier MCP Server & Live Web Wiki
 Features:
-- Direct support for all Claude Connectors URL formats (/, /sse, /mcp1, /mcp2, /mcp3, /mcp2/sse, etc.)
-- Full POST & GET streamable transport support (eliminates 405 Method Not Allowed)
-- Native RFC 8414 & OAuth Protected Resource Discovery
-- Native RFC 7591 Dynamic Registration (/register & /oauth/register)
-- Instant Auto-Approval OAuth Authorize (/oauth/authorize)
-- Complete Physical Tier Isolation (MCP 1 > MCP 2 > MCP 3)
+1. Live Interactive Web Wiki UI on browser requests (matching team screenshot).
+2. Autonomous Chat & Note Logging with Real-Time Re-Indexing (save_chat_query, update_wiki_page, add_concept).
+3. Multi-Tier Streamable HTTP MCP Server (/sse, /mcp1/sse, /mcp2/sse, /mcp3/sse).
+4. Physical Tier Isolation & Boundary Enforcement (MCP 1 > MCP 2 > MCP 3).
+5. Native RFC 8414 & RFC 7591 OAuth Auto-Registration for Claude Connectors.
 """
 
 import os
@@ -15,6 +14,7 @@ import sys
 import json
 import re
 import uuid
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 import uvicorn
@@ -45,9 +45,9 @@ if ENV_DATA_ROOT:
 API_KEY = os.getenv("API_KEY", "")
 
 app = FastAPI(
-    title="Formula 1 Knowledge Vault Multi-Tier MCP Server",
-    description="Streamable HTTP MCP Server with physical tier isolation and universal OAuth auto-registration for Claude Connectors.",
-    version="2.4.0"
+    title="Formula 1 Knowledge Vault & Multi-Tier MCP Server",
+    description="Interactive Live Wiki & Streamable HTTP MCP Server with physical tier isolation and real-time auto-indexing.",
+    version="3.0.0"
 )
 
 app.add_middleware(
@@ -59,7 +59,66 @@ app.add_middleware(
 )
 
 # ═════════════════════════════════════════════════════════════════════
-# 🛠️ CORE MCP TOOL IMPLEMENTATIONS
+# 🔄 REAL-TIME AUTO-INDEXING & LOGGING ENGINE
+# ═════════════════════════════════════════════════════════════════════
+
+def trigger_auto_reindex():
+    """Dynamically refresh sub-indexes and master index in real time."""
+    try:
+        # Re-index Claude Chat Queries
+        queries_dir = VAULT_FULL / "raw" / "claude-chat-queries"
+        if queries_dir.exists():
+            q_files = sorted(list(queries_dir.glob("*.md")), reverse=True)
+            q_lines = [
+                "# 💬 Claude Chat Queries & Research Threads Index",
+                "",
+                "Chronological archive of live Q&A threads and research conversations.",
+                "",
+                "| Thread Dossier | User | Date | Topic |",
+                "| :--- | :--- | :--- | :--- |"
+            ]
+            for p in q_files:
+                parts = p.stem.split("_")
+                u = parts[0].title() if len(parts) > 0 else "User"
+                d = parts[1] if len(parts) > 1 else datetime.now(timezone.utc).strftime("%Y-%m-%d")
+                t = parts[2].replace("-", " ").title() if len(parts) > 2 else p.stem.replace("_", " ").title()
+                q_lines.append(f"| [[{p.stem}]] | **{u}** | `{d}` | {t} |")
+            (VAULT_FULL / "queries-index.md").write_text("\n".join(q_lines) + "\n", encoding="utf-8")
+
+        # Re-index Concepts
+        concepts_dir = VAULT_FULL / "wiki" / "concepts"
+        if concepts_dir.exists():
+            c_files = sorted(list(concepts_dir.glob("*.md")))
+            c_lines = [
+                "# 🧠 Formula 1 Engineering, Aerodynamics & Strategy Concepts Index",
+                "",
+                "Master catalog of technical definitions, aerodynamic principles, and tactical frameworks.",
+                "",
+                "| Concept Page | Category | Summary |",
+                "| :--- | :--- | :--- |"
+            ]
+            for p in c_files:
+                c_lines.append(f"| [[{p.stem}]] | Technical Concept | {p.stem.replace('-', ' ').title()} |")
+            (VAULT_FULL / "concepts-index.md").write_text("\n".join(c_lines) + "\n", encoding="utf-8")
+
+        # Append to log.md
+        now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+        log_file = VAULT_FULL / "log.md"
+        if log_file.exists():
+            cur = log_file.read_text(encoding="utf-8")
+            log_file.write_text(cur + f"\n- [{now_str}] Vault auto-indexed & synchronized.\n", encoding="utf-8")
+
+        # Copy updated indexes to mcp1
+        if (PROJECT_ROOT / "mcp1" / "vault").exists():
+            for idx_name in ["queries-index.md", "concepts-index.md", "index.md", "log.md"]:
+                src = VAULT_FULL / idx_name
+                if src.exists():
+                    (PROJECT_ROOT / "mcp1" / "vault" / idx_name).write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
+    except Exception as e:
+        print(f"⚠️ Reindexing warning: {e}")
+
+# ═════════════════════════════════════════════════════════════════════
+# 🛠️ CORE MCP TOOL IMPLEMENTATIONS (READ & WRITE)
 # ═════════════════════════════════════════════════════════════════════
 
 def execute_list_pages(data_root: Path, tier_name: str, directory: str = "") -> Dict[str, Any]:
@@ -203,6 +262,48 @@ def execute_search(data_root: Path, tier_name: str, query: str, limit: int = 10)
         "results": top_results
     }
 
+def execute_save_chat_query(user: str, topic: str, conversation_markdown: str) -> Dict[str, Any]:
+    """Save a live Claude Q&A conversation thread directly to the vault and auto-index."""
+    clean_user = re.sub(r'[^a-zA-Z0-9]', '', user.lower()) or "user"
+    clean_topic = re.sub(r'[^a-zA-Z0-9\-_]', '-', topic.lower().strip()).strip("-") or "research-thread"
+    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    thread_slug = f"{clean_user}_{date_str}_{clean_topic}"
+    
+    target_dir = VAULT_FULL / "raw" / "claude-chat-queries"
+    target_dir.mkdir(parents=True, exist_ok=True)
+    file_path = target_dir / f"{thread_slug}.md"
+
+    doc_content = f"""| thread_name | {thread_slug} |
+| :--- | :--- |
+| **user** | {clean_user} |
+| **type** | claude-chat |
+| **created** | {date_str} |
+| **updated** | {date_str} |
+
+# Thread: {topic.title()}
+
+{conversation_markdown}
+
+---
+*Logged automatically via MCP Save Chat Integration on {date_str}.*
+"""
+    file_path.write_text(doc_content, encoding="utf-8")
+    
+    # Mirror to mcp1
+    mcp1_target = PROJECT_ROOT / "mcp1" / "vault" / "raw" / "claude-chat-queries"
+    if mcp1_target.parent.parent.exists():
+        mcp1_target.mkdir(parents=True, exist_ok=True)
+        (mcp1_target / f"{thread_slug}.md").write_text(doc_content, encoding="utf-8")
+
+    trigger_auto_reindex()
+
+    return {
+        "status": "success",
+        "saved_path": f"raw/claude-chat-queries/{thread_slug}.md",
+        "thread_name": thread_slug,
+        "message": f"Successfully logged conversation '{topic}' to vault and auto-updated all indexes."
+    }
+
 TOOLS_MANIFEST = [
     {
         "name": "list_pages",
@@ -235,6 +336,19 @@ TOOLS_MANIFEST = [
                 "limit": {"type": "integer", "description": "Max results to return"}
             },
             "required": ["query"]
+        }
+    },
+    {
+        "name": "save_chat_query",
+        "description": "Log and save a research conversation or Q&A thread into the vault's chat query archive with automatic real-time indexing.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "user": {"type": "string", "description": "Name of the user (e.g. 'Abhi', 'Ayan', 'Danish')"},
+                "topic": {"type": "string", "description": "Short summary title of the conversation topic"},
+                "conversation_markdown": {"type": "string", "description": "Complete formatted Markdown conversation thread"}
+            },
+            "required": ["user", "topic", "conversation_markdown"]
         }
     },
     {
@@ -329,7 +443,412 @@ async def global_token(request: Request):
     })
 
 # ═════════════════════════════════════════════════════════════════════
-# 🌐 ROUTER BUILDER
+# 🌐 WEB WIKI VIEWER API & HTML UI
+# ═════════════════════════════════════════════════════════════════════
+
+@app.get("/api/tree")
+def get_tree():
+    """Return file tree JSON for the web explorer."""
+    def build_tree(current_path: Path):
+        items = []
+        if not current_path.exists():
+            return items
+        for p in sorted(current_path.iterdir()):
+            if p.name.startswith("."):
+                continue
+            if p.is_dir():
+                items.append({
+                    "name": p.name,
+                    "path": p.relative_to(VAULT_FULL).as_posix(),
+                    "type": "dir",
+                    "children": build_tree(p)
+                })
+            elif p.suffix == ".md":
+                items.append({
+                    "name": p.name,
+                    "path": p.relative_to(VAULT_FULL).as_posix(),
+                    "type": "file",
+                    "size": p.stat().st_size
+                })
+        return items
+
+    return {"root": "vault", "tree": build_tree(VAULT_FULL)}
+
+@app.get("/api/file")
+def get_file(path: str):
+    return execute_read_page(VAULT_FULL, "Master Tier", path)
+
+@app.post("/api/save_chat")
+async def api_save_chat(request: Request):
+    body = await request.json()
+    return execute_save_chat_query(
+        user=body.get("user", "User"),
+        topic=body.get("topic", "Research Thread"),
+        conversation_markdown=body.get("conversation", "")
+    )
+
+WIKI_HTML = """<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1 Knowledge Wiki</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-main: #0d1117;
+            --bg-sidebar: #010409;
+            --bg-header: #161b22;
+            --border-color: #30363d;
+            --text-main: #e6edf3;
+            --text-muted: #8b949e;
+            --link-color: #58a6ff;
+            --accent-blue: #1f6feb;
+            --highlight-bg: #161b22;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #sidebar {
+            width: 330px;
+            background-color: var(--bg-sidebar);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+        .sidebar-header {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .search-box {
+            padding: 10px 16px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .search-box input {
+            width: 100%;
+            background: #0d1117;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 6px 10px;
+            color: var(--text-main);
+            font-size: 13px;
+        }
+        .search-box input:focus { outline: none; border-color: var(--link-color); }
+        .file-tree {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px 8px;
+            font-size: 13px;
+        }
+        .tree-node {
+            cursor: pointer;
+            padding: 4px 8px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--text-main);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .tree-node:hover { background-color: #161b22; }
+        .tree-node.active { background-color: #1f6feb33; color: var(--link-color); font-weight: 500; }
+        .tree-children { padding-left: 14px; }
+        .tree-children.collapsed { display: none; }
+        #main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            background-color: var(--bg-main);
+        }
+        .content-header {
+            background-color: var(--bg-header);
+            border-bottom: 1px solid var(--border-color);
+            padding: 8px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 13px;
+        }
+        .breadcrumbs {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--text-muted);
+            font-family: monospace;
+        }
+        .breadcrumbs span.current-file { color: var(--text-main); font-weight: 600; }
+        .header-actions { display: flex; align-items: center; gap: 8px; }
+        .tab-btn {
+            background: none;
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .tab-btn.active { background-color: #21262d; border-color: #8b949e; }
+        .btn-primary {
+            background: #238636;
+            border: 1px solid rgba(240,246,252,0.1);
+            color: #fff;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+            font-weight: 500;
+        }
+        .btn-primary:hover { background: #2ea043; }
+        .content-body {
+            flex: 1;
+            overflow-y: auto;
+            padding: 32px 48px;
+        }
+        .markdown-body {
+            max-width: 960px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .markdown-body h1 { font-size: 24px; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border-color); }
+        .markdown-body h2 { font-size: 18px; margin-top: 24px; margin-bottom: 12px; }
+        .markdown-body table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 13px; }
+        .markdown-body th, .markdown-body td { border: 1px solid var(--border-color); padding: 8px 12px; text-align: left; }
+        .markdown-body th { background-color: #161b22; }
+        .markdown-body a { color: var(--link-color); text-decoration: none; }
+        .markdown-body a:hover { text-decoration: underline; }
+        .markdown-body blockquote { border-left: 4px solid #1f6feb; padding: 6px 16px; background-color: #161b22; color: #8b949e; margin: 16px 0; border-radius: 4px; }
+        .code-view {
+            max-width: 960px;
+            margin: 0 auto;
+            background: #010409;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 16px;
+            font-family: monospace;
+            font-size: 13px;
+            white-space: pre-wrap;
+            display: none;
+        }
+        /* Modal for New Chat Thread */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            background: rgba(0,0,0,0.7);
+            align-items: center; justify-content: center;
+            z-index: 1000;
+        }
+        .modal.open { display: flex; }
+        .modal-card {
+            background: #161b22;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            width: 540px;
+            padding: 20px;
+        }
+        .modal-card h3 { font-size: 16px; margin-bottom: 12px; }
+        .modal-card input, .modal-card textarea {
+            width: 100%;
+            background: #0d1117;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 8px;
+            color: #e6edf3;
+            font-size: 13px;
+            margin-bottom: 10px;
+            font-family: inherit;
+        }
+        .modal-actions { display: flex; justify-content: flex-end; gap: 8px; }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <div class="sidebar-header">
+            <span><i class="fa-solid fa-flag-checkered" style="color:#e10600; margin-right:6px;"></i> Formula 1 Wiki</span>
+            <button class="btn-primary" onclick="openModal()"><i class="fa-solid fa-plus"></i> Log Chat</button>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search pages, drivers, concepts..." oninput="filterTree()">
+        </div>
+        <div class="file-tree" id="treeContainer">
+            <div style="color:var(--text-muted); padding:10px;">Loading vault...</div>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="content-header">
+            <div class="breadcrumbs" id="breadcrumbBar">
+                <i class="fa-solid fa-folder-open"></i> <span>vault</span> / <span class="current-file" id="currentFileName">index.md</span>
+            </div>
+            <div class="header-actions">
+                <span class="file-meta-badge" id="fileMetaBadge">Markdown Document</span>
+                <button class="tab-btn active" id="tabPreview" onclick="setTab('preview')"><i class="fa-regular fa-eye"></i> Preview</button>
+                <button class="tab-btn" id="tabCode" onclick="setTab('code')"><i class="fa-solid fa-code"></i> Code</button>
+            </div>
+        </div>
+        <div class="content-body">
+            <div class="markdown-body" id="previewArea">Select a document from the left to view.</div>
+            <pre class="code-view" id="codeArea"></pre>
+        </div>
+    </div>
+
+    <div class="modal" id="chatModal">
+        <div class="modal-card">
+            <h3>💬 Log Live Research / Chat Thread</h3>
+            <input type="text" id="chatUser" placeholder="Your Name (e.g. Abhi, Ayan)">
+            <input type="text" id="chatTopic" placeholder="Topic (e.g. 2021 Title Battle Deep Dive)">
+            <textarea id="chatConversation" rows="8" placeholder="Paste conversation markdown or notes here..."></textarea>
+            <div class="modal-actions">
+                <button class="tab-btn" onclick="closeModal()">Cancel</button>
+                <button class="btn-primary" onclick="saveChat()">Save & Auto-Index</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentFilePath = "index.md";
+        let fullTreeData = [];
+
+        async function loadTree() {
+            try {
+                const res = await fetch('/api/tree');
+                const data = await res.json();
+                fullTreeData = data.tree;
+                renderTree(fullTreeData, document.getElementById('treeContainer'));
+                loadFile(currentFilePath);
+            } catch (e) {
+                console.error("Tree load error:", e);
+            }
+        }
+
+        function renderTree(items, container) {
+            container.innerHTML = "";
+            items.forEach(item => {
+                const div = document.createElement('div');
+                if (item.type === 'dir') {
+                    const node = document.createElement('div');
+                    node.className = 'tree-node';
+                    node.innerHTML = `<i class="fa-solid fa-chevron-down" style="font-size:10px; width:12px;"></i> <i class="fa-solid fa-folder" style="color:#8b949e;"></i> <span>${item.name}</span>`;
+                    const childrenDiv = document.createElement('div');
+                    childrenDiv.className = 'tree-children';
+                    renderTree(item.children, childrenDiv);
+                    node.onclick = () => {
+                        const icon = node.querySelector('.fa-chevron-down, .fa-chevron-right');
+                        childrenDiv.classList.toggle('collapsed');
+                        if (childrenDiv.classList.contains('collapsed')) {
+                            icon.className = 'fa-solid fa-chevron-right';
+                        } else {
+                            icon.className = 'fa-solid fa-chevron-down';
+                        }
+                    };
+                    div.appendChild(node);
+                    div.appendChild(childrenDiv);
+                } else {
+                    const node = document.createElement('div');
+                    node.className = 'tree-node';
+                    node.innerHTML = `<i class="fa-regular fa-file-lines" style="color:#58a6ff;"></i> <span>${item.name}</span>`;
+                    node.onclick = () => {
+                        document.querySelectorAll('.tree-node').forEach(n => n.classList.remove('active'));
+                        node.classList.add('active');
+                        loadFile(item.path);
+                    };
+                    div.appendChild(node);
+                }
+                container.appendChild(div);
+            });
+        }
+
+        async function loadFile(path) {
+            currentFilePath = path;
+            document.getElementById('currentFileName').innerText = path.split('/').pop();
+            try {
+                const res = await fetch(`/api/file?path=${encodeURIComponent(path)}`);
+                const data = await res.json();
+                if (data.found || data.content) {
+                    const raw = data.content;
+                    document.getElementById('codeArea').innerText = raw;
+                    
+                    // Parse Wikilinks [[PageName]] -> <a href="#" onclick="loadFile('PageName')">
+                    let parsedHtml = marked.parse(raw);
+                    parsedHtml = parsedHtml.replace(/\\[\\[([a-zA-Z0-9_\\-\\s]+)\\]\\]/g, (match, p1) => {
+                        return `<a href="javascript:void(0)" onclick="loadFile('${p1.trim()}')" style="color:#58a6ff; font-weight:500;">[[${p1.trim()}]]</a>`;
+                    });
+                    document.getElementById('previewArea').innerHTML = parsedHtml;
+                    document.getElementById('fileMetaBadge').innerText = `${data.size_bytes} bytes · ${path}`;
+                } else {
+                    document.getElementById('previewArea').innerHTML = `<div style="color:#f85149;">Error: ${data.error}</div>`;
+                }
+            } catch (e) {
+                console.error("File load error:", e);
+            }
+        }
+
+        function setTab(tab) {
+            if (tab === 'preview') {
+                document.getElementById('tabPreview').classList.add('active');
+                document.getElementById('tabCode').classList.remove('active');
+                document.getElementById('previewArea').style.display = 'block';
+                document.getElementById('codeArea').style.display = 'none';
+            } else {
+                document.getElementById('tabCode').classList.add('active');
+                document.getElementById('tabPreview').classList.remove('active');
+                document.getElementById('previewArea').style.display = 'none';
+                document.getElementById('codeArea').style.display = 'block';
+            }
+        }
+
+        function openModal() { document.getElementById('chatModal').classList.add('open'); }
+        function closeModal() { document.getElementById('chatModal').classList.remove('open'); }
+
+        async function saveChat() {
+            const user = document.getElementById('chatUser').value;
+            const topic = document.getElementById('chatTopic').value;
+            const conversation = document.getElementById('chatConversation').value;
+            if (!topic || !conversation) { alert("Please enter a topic and conversation."); return; }
+
+            const res = await fetch('/api/save_chat', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({ user, topic, conversation })
+            });
+            const result = await res.json();
+            closeModal();
+            loadTree();
+            loadFile(result.saved_path);
+        }
+
+        function filterTree() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            document.querySelectorAll('.tree-node').forEach(node => {
+                const text = node.innerText.toLowerCase();
+                node.style.display = (!query || text.includes(query)) ? 'flex' : 'none';
+            });
+        }
+
+        loadTree();
+    </script>
+</body>
+</html>
+"""
+
+# ═════════════════════════════════════════════════════════════════════
+# 🌐 ROUTER BUILDER FOR TIERED MCP
 # ═════════════════════════════════════════════════════════════════════
 
 def create_tier_router(data_root: Path, tier_name: str, prefix: str = ""):
@@ -337,7 +856,11 @@ def create_tier_router(data_root: Path, tier_name: str, prefix: str = ""):
 
     @router.get("/")
     @router.get("/health")
-    def health():
+    def health(request: Request):
+        # If requested by browser HTML, show the Web Wiki UI
+        accept = request.headers.get("accept", "")
+        if "text/html" in accept and prefix == "":
+            return HTMLResponse(WIKI_HTML)
         cnt = len(list(data_root.rglob("*.md")))
         return {
             "status": "healthy",
@@ -369,6 +892,8 @@ def create_tier_router(data_root: Path, tier_name: str, prefix: str = ""):
         elif name in ["search", "query_knowledge_base"]:
             q = args.get("query", "") or args.get("term", "")
             return execute_search(data_root, tier_name, q, args.get("limit", 10))
+        elif name == "save_chat_query":
+            return execute_save_chat_query(args.get("user", "User"), args.get("topic", "Research Thread"), args.get("conversation_markdown", ""))
         elif name == "get_entity_dossier":
             entity = args.get("entity_name", "") or args.get("entity", "") or args.get("title", "")
             res = execute_read_page(data_root, tier_name, entity.lower().replace(" ", "_"))
@@ -399,7 +924,7 @@ def create_tier_router(data_root: Path, tier_name: str, prefix: str = ""):
                 "result": {
                     "protocolVersion": "2024-11-05",
                     "capabilities": {"tools": {"listChanged": False}, "resources": {}, "prompts": {}},
-                    "serverInfo": {"name": f"f1-vault-{tier_name.lower().replace(' ', '-')}", "version": "2.4.0"}
+                    "serverInfo": {"name": f"f1-vault-{tier_name.lower().replace(' ', '-')}", "version": "3.0.0"}
                 }
             })
         elif method == "tools/list":
@@ -415,6 +940,8 @@ def create_tier_router(data_root: Path, tier_name: str, prefix: str = ""):
             elif tool_name in ["search", "query_knowledge_base"]:
                 q = tool_args.get("query", "") or tool_args.get("term", "")
                 res = execute_search(data_root, tier_name, q, tool_args.get("limit", 10))
+            elif tool_name == "save_chat_query":
+                res = execute_save_chat_query(tool_args.get("user", "User"), tool_args.get("topic", "Research Thread"), tool_args.get("conversation_markdown", ""))
             elif tool_name == "get_entity_dossier":
                 entity = tool_args.get("entity_name", "") or tool_args.get("entity", "") or tool_args.get("title", "")
                 res = execute_read_page(data_root, tier_name, entity.lower().replace(" ", "_"))
@@ -457,40 +984,11 @@ app.include_router(create_tier_router(VAULT_MCP1, "MCP 1 (Master Tier — Tier 1
 app.include_router(create_tier_router(VAULT_MCP2, "MCP 2 (Telemetry Tier — Tier 2 + 3)", prefix="/mcp2"))
 app.include_router(create_tier_router(VAULT_MCP3, "MCP 3 (Analysis Tier — Tier 3 Only)", prefix="/mcp3"))
 
-# Explicit alias routes for bare paths
-@app.get("/mcp1")
-@app.get("/mcp2")
-@app.get("/mcp3")
-def bare_get(request: Request):
-    path = request.url.path
-    if "mcp2" in path:
-        return {"status": "healthy", "tier_name": "MCP 2 (Telemetry Tier — Tier 2 + 3)", "file_count": len(list(VAULT_MCP2.rglob("*.md")))}
-    elif "mcp3" in path:
-        return {"status": "healthy", "tier_name": "MCP 3 (Analysis Tier — Tier 3 Only)", "file_count": len(list(VAULT_MCP3.rglob("*.md")))}
-    return {"status": "healthy", "tier_name": "MCP 1 (Master Tier — Tier 1 + 2 + 3)", "file_count": len(list(VAULT_MCP1.rglob("*.md")))}
-
-@app.post("/mcp1")
-@app.post("/mcp2")
-@app.post("/mcp3")
-async def bare_post(request: Request):
-    path = request.url.path
-    root = VAULT_MCP2 if "mcp2" in path else (VAULT_MCP3 if "mcp3" in path else VAULT_MCP1)
-    tier_label = "MCP 2" if "mcp2" in path else ("MCP 3" if "mcp3" in path else "MCP 1")
-    try:
-        body = await request.json()
-    except Exception:
-        return JSONResponse({"jsonrpc": "2.0", "result": {"status": "connected"}, "id": None})
-    return JSONResponse({
-        "jsonrpc": "2.0",
-        "id": body.get("id"),
-        "result": {
-            "protocolVersion": "2024-11-05",
-            "capabilities": {"tools": {"listChanged": False}, "resources": {}, "prompts": {}},
-            "serverInfo": {"name": f"f1-vault-{tier_label.lower().replace(' ', '-')}", "version": "2.4.0"}
-        }
-    })
+@app.get("/wiki", response_class=HTMLResponse)
+def wiki_page():
+    return HTMLResponse(WIKI_HTML)
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 8000))
-    print(f"🚀 Launching Multi-Tier MCP Server on port {port}")
+    print(f"🚀 Launching Formula 1 Knowledge Vault & MCP Server on port {port}")
     uvicorn.run("mcp_server:app", host="0.0.0.0", port=port, reload=False)
