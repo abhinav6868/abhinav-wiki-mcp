@@ -1,5 +1,15 @@
 services:
   - type: web
+    name: abhinav-wiki-mcp
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn mcp_server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PORT
+        value: 10000
+
+  - type: web
     name: f1-vault-mcp1-master
     runtime: python
     plan: free

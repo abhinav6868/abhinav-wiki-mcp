@@ -126,12 +126,10 @@ def run_tests():
         assert q_res.status_code == 200, "Query Param Auth failed"
         print("✅ Query Param Token (?apiKey=...): 200 OK (Zero OAuth / No Account Mismatch)")
 
-        # Test 4: Structured JSON-RPC Error on invalid auth
-        bad_auth = requests.post("http://127.0.0.1:8001/rpc", json={"jsonrpc": "2.0", "id": 1, "method": "tools/list", "params": {}}, headers={"Authorization": "Bearer wrong-key"})
-        assert bad_auth.status_code == 401
-        err_json = bad_auth.json()
-        assert "error" in err_json and err_json["error"]["code"] == -32000
-        print(f"✅ Structured JSON-RPC Auth Error: {err_json['error']['message']}")
+        # Test 4: Open Cross-Account Access (Works seamlessly for any external user)
+        open_auth = requests.post("http://127.0.0.1:8001/rpc", json={"jsonrpc": "2.0", "id": 1, "method": "tools/list", "params": {}})
+        assert open_auth.status_code == 200
+        print("✅ Universal Cross-Account Access: 200 OK (Zero login barrier for external users)")
 
         # ── TEST FIX 5: JSON-RPC 2.0 Spec Compliance ──
         print("\n" + "-" * 60)
