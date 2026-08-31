@@ -77,12 +77,15 @@ def build_bundle(target_dir: Path, include_tier1: bool, include_tier2: bool, tie
             index_lines.append(f"- [[{p.stem}]]: {p.stem}")
         index_lines.append("... (and earlier race telemetry files)\n")
 
-    if include_tier1 and (vault_target / "tier1").exists():
-        index_lines.append(f"## 🏎️ Tier 1: Public Results & Entities ({len(list((vault_target / 'tier1').rglob('*.md')))} Files)")
-        t1_drivers = list(sorted((vault_target / "tier1" / "drivers").glob("*.md")))[:25]
-        for p in t1_drivers:
-            index_lines.append(f"- [[{p.stem}]]: Driver Profile")
-        index_lines.append("... (and all other drivers, constructors, circuits, races)\n")
+    if not include_tier1:
+        index_lines.append("## 🔒 Tier 1: Public Entities & Bios (Physically Excluded from this Bundle)")
+        index_lines.append("- Contains 865 Driver dossiers (`tier1/drivers/`), 214 Constructor teams (`tier1/constructors/`), 78 Circuits, and Season hubs.")
+        index_lines.append("- *Access:* Requires connecting to **MCP 1 (Master Tier)**.\n")
+
+    if not include_tier2:
+        index_lines.append("## 🔒 Tier 2: Detailed Race Telemetry (Physically Excluded from this Bundle)")
+        index_lines.append("- Contains all 1,172 raw race telemetry, lap times, qualifying sectors, and pit stop duration files (`tier2/races/*-detail.md`).")
+        index_lines.append("- *Access:* Requires connecting to **MCP 2 (Telemetry Tier)** or **MCP 1 (Master Tier)**.\n")
 
     (vault_target / "index.md").write_text("\n".join(index_lines), encoding="utf-8")
 

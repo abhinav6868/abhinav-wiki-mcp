@@ -28,3 +28,7 @@
 - [[2026-22-detail]]: 2026-22-detail
 - [[2026-23-detail]]: 2026-23-detail
 ... (and earlier race telemetry files)
+
+## 🔒 Tier 1: Public Entities & Bios (Physically Excluded from this Bundle)
+- Contains 865 Driver dossiers (`tier1/drivers/`), 214 Constructor teams (`tier1/constructors/`), 78 Circuits, and Season hubs.
+- *Access:* Requires connecting to **MCP 1 (Master Tier)**.

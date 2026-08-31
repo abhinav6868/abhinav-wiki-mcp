@@ -174,11 +174,25 @@ def execute_read_page(data_root: Path, tier_name: str, path: str) -> Dict[str, A
     if not str(target_file).startswith(str(data_root)):
         return {"error": "Access denied: Path outside tier root.", "found": False}
     if not target_file.exists() or not target_file.is_file():
+        # Determine exact missing tier classification
+        clean_lower = clean_path.lower()
+        if "tier2" in clean_lower or "-detail" in clean_lower or "telemetry" in clean_lower or "pit" in clean_lower or "lap" in clean_lower:
+            missing_tier_name = "Tier 2 (Detailed Race Telemetry, Sector Gaps & Pit Stop Logs)"
+            required_mcp = "MCP 2 (Telemetry Tier) or MCP 1 (Master Tier)"
+        elif "tier1" in clean_lower or "driver" in clean_lower or "constructor" in clean_lower or "circuit" in clean_lower or "season" in clean_lower:
+            missing_tier_name = "Tier 1 (Public Driver Bios, Constructor Profiles & Season Hubs)"
+            required_mcp = "MCP 1 (Master Tier)"
+        else:
+            missing_tier_name = "Tier 1 / Tier 2"
+            required_mcp = "MCP 1 or MCP 2"
+
         return {
-            "error": f"Page '{path}' not found in this access tier ({tier_name}).",
+            "error": f"Page '{path}' belongs to {missing_tier_name}, which is physically excluded from this access tier ({tier_name}).",
             "found": False,
             "requested_path": path,
-            "tier_scope": tier_name
+            "requested_file_tier": missing_tier_name,
+            "current_active_tier": tier_name,
+            "how_to_access": f"To access {missing_tier_name}, connect to {required_mcp}."
         }
 
     try:
